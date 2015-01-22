@@ -2,6 +2,6 @@ About.txt
 chapter1.txt
 chapter2.txt
 chapter3.txt
+open-source-foundations/what-is-open-source.txt
 security-and-privacy/how-do-i-protect-my-apps-data.txt
 security-and-privacy/sqlcipher-encrypted-mobile-databases.txt
-what-is-open-source.txt
