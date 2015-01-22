@@ -5,9 +5,8 @@ chapter2.txt
 chapter3.txt
 open-source-foundations/what-is-open-source.txt
 open-source-foundations/beginners-guide-to-open-source.txt
+mobile-fundamentals/building-apps-for-a-complex-world.txt
 security-and-privacy/how-do-i-protect-my-apps-data.txt
 security-and-privacy/sqlcipher-encrypted-mobile-databases.txt
 security-and-privacy/iocipher-virtual-encrypted-disks.txt
 usability-and-design/android-design-principles.txt
-building-apps-for-a-complex-world.txt
-building-apps-for-a-complex-world-2.txt
