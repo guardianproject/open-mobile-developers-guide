@@ -1,5 +1,7 @@
 # IOCipher Virtual Encrypted Disks
 
+https://guardianproject.info/code/iocipher/
+
 IOCipher provides a virtual encrypted disk for Android apps without requiring the device to be rooted. It uses a clone of the standard java.io API for working with files, so developers already know how to use it. Only password handling, and opening the virtual disk are what stand between the developer and working encrypted file storage. It is based on and SQLCipher.
 
 IOCipher is a cousin to SQLCipher-for-Android since it is also based on SQLCipher and uses the same approach of repurposing an API that developers already know well. It is built on top of libsqlfs, a filesystem implemented in SQL that exposes a FUSE API.
