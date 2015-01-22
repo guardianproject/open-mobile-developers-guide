@@ -75,9 +75,4 @@ parts of java.io not currently supported: vectored I/O, memory-mapped files
 Reporting Bugs
 Please report any bugs or issues that you have with this library! We want to hear from you. Help us improve this software by filing bug reports about any problem that you encounter. Feature requests and patches are also welcome!
 
-report bug Report a Bug or Issue
-Known Issues
-files cannot currently be larger than 4GB (#3624)
-no users, groups, or permissions implemented
-crashes possible under extremely heavy, concurrent load (#522)
-View all open issues
+
