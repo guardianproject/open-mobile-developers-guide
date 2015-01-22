@@ -1,4 +1,5 @@
 About.txt
+welcome-to-the-developers-corner.txt
 chapter1.txt
 chapter2.txt
 chapter3.txt
@@ -6,4 +7,3 @@ open-source-foundations/what-is-open-source.txt
 open-source-foundations/beginners-guide-to-open-source.txt
 security-and-privacy/how-do-i-protect-my-apps-data.txt
 security-and-privacy/sqlcipher-encrypted-mobile-databases.txt
-welcome-to-the-developers-corner.txt
