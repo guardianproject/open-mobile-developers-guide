@@ -1,5 +1,6 @@
 # SQLCipher: Encrypted Mobile Databases
 
+## Introduction
 In an environment where mobile data privacy is increasingly in the headlines, this project will make it easier than ever for mobile developers to properly secure their local application data, and in turn better protect the privacy of their users. The data stored by Android apps protected by this type of encryption will be less vulnerable to access by malicious apps, protected in case of device loss or theft, and highly resistant to mobile data forensics tools that are increasingly used to mass copy a mobile device during routine traffic stops.
 
 SQLCipher is an SQLite extension that provides transparent 256-bit AES encryption of database files. To date, it has been open-sourced, sponsored and maintained by Zetetic LLC. In the mobile space, SQLCipher has enjoyed widespread use in Apple’s iOS, as well as Nokia / QT for quite some time. Given that Android by default provides integrated support for SQLite databases, our goal was to create an almost identical API for SQLCipher, so that developers of all skill level could use it, without a steep learning curve.
@@ -7,7 +8,7 @@ SQLCipher is an SQLite extension that provides transparent 256-bit AES encryptio
 LEARN MORE AND DOWNLOAD: http://sqlcipher.net/open-source/
 SOURCE CODE: https://github.com/sqlcipher/android-database-sqlcipher
 
-An Illustrative Terminal Listing
+## A Simple Example
 A typical SQLite database in unencrypted, and visually parseable even as encoded text. The following example shows the difference between hexdumps of a standard SQLite db and one implementing SQLCipher.
 
 $ hexdump -C sqlite.db
