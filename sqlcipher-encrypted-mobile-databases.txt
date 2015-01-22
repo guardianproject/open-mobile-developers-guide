@@ -10,7 +10,7 @@ SOURCE CODE: https://github.com/sqlcipher/android-database-sqlcipher
 An Illustrative Terminal Listing
 A typical SQLite database in unencrypted, and visually parseable even as encoded text. The following example shows the difference between hexdumps of a standard SQLite db and one implementing SQLCipher.
 
->$ hexdump -C sqlite.db
+$ hexdump -C sqlite.db
 00000000 53 51 4c 69 74 65 20 66 6f 72 6d 61 74 20 33 00 |SQLite format 3.|
 …
 000003c0 65 74 32 74 32 03 43 52 45 41 54 45 20 54 41 42 |et2t2.CREATE TAB|
