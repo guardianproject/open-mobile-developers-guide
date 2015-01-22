@@ -47,15 +47,7 @@ SQLiteDatabase.loadLibs(this); //first init the db libraries with the context
 SQLiteOpenHelper.getWritableDatabase(“thisismysecret”):
 *Note: we are working on some dialog builder helper methods for password and PIN input, password caching, and other features that we would like to standardize across all applications that use SQLCipher.
 
-Compatibility
-The Developer Preview implements SQLCipher v1, is compatible with Android 2.2 & 2.3, and works only within one process (you can’t pass a Cursor from a remote Service to an Activity).
+## Sample Projects
 
-Notepad + SQLCipher = Notepadbot
-Notepadbot is a sample application pulled from the standard Android samples code and updated to use SQLCipher. You can browse the source here and download the apk here.
-
-
-
-Final Notes
-It’s important to note that this project is not intended to be a distinct, long-term fork of SQLCipher. We’ve been working closely with the SQLCipher team at Zetetic and fully intent to closely maintain the project as SQLCipher evolves, re-integrating changes in upcoming releases such as SQLCipher v2.
-
+## More Information
 The Android support libraries are licensed under Apache 2.0, in line with the Android OS code on which they are based. The SQLCipher code itself is licensed under a BSD-style license from Zetetic LLC. Finally, the original SQLite code itself is in the public domain.
