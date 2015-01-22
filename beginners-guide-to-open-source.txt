@@ -11,7 +11,7 @@ To this day, I haven’t contributed any open source code to the Rails community
 
 Fast forward to the end of Mobile Makers, when I first learned iOS, and I made my very first open source contribution! Since then, I’ve made a few more, and I’m no longer scared of contributing to even more projects! Here is how I made the jump and what I learned in the process:
 
-IT’S NOT MAGIC
+## IT’S NOT MAGIC
 
 Getting out of the Rails community, one thing I learned quickly was that there is actually a sort of mistrust of open source libraries. While I wanted to use all the CocoaPods all the time (just like in Rails!), the senior iOS engineer on my team would always question using external libraries, preferring to build our own if possible.
 
