@@ -19,7 +19,7 @@ There are very few iOS libraries that are used consistently across iOS projects,
 
 Changing my mindset to realizing that these external libraries are not magic, has made a HUGE difference for me. Knowing that the person writing a library is a real person, who makes mistakes, might not write the best-optimized code, and who can’t see all the edge cases all the time makes it much easier to spot the small (or big) places where I can contribute.
 
-CARING IS SHARING
+## CARING IS SHARING
 
 While there are some people who advocate to actively look for open source projects to contribute to, I found that all the projects I contribute to are the ones I’m actually using in my own code.
 
@@ -27,23 +27,23 @@ The truth is, I don’t have time to actively scour GitHub for issues/libraries 
 
 Which brings me to my next point…
 
-IT’S SUCH A GOOD FEELING…
+## IT’S SUCH A GOOD FEELING…
 
 Contributing to open source is seriously addictive! Already, knowing how to code and bending the computer to your will is magical and makes you feel like a sorceress. But when you can take someone else’s “magical” code and make it better and they agree that you made it better (by merging it in), the feeling you get is indescribable. It’s like you just became a Level 10 magician instead of Level 1.
 
-START SMALL
+## START SMALL
 
 Again, I thought of open source contributors as magicians making sweeping changes and improving everything with their magic wand, but the truth is most changes are pretty small. They just add up and eventually change and improve the whole library for everyone in a very substantial way. So don’t underestimate the power of small changes!
 
 Here are some recent examples of contributions I made/am in the process of making:
 
-MODIFY A README
+## MODIFY A README
 
 I wanted to possibly add the Toast library to my iOS project, but they didn’t say on their README that there was a CocoaPod available. Since I just wanted to test out the library in my project, I wanted it to be easily removable.  So even though I’ve used this particular library before and knew it was good, I started searching CocoaPods for another Toast library.
 
 A few libraries down, I found that this particular Toast library was, in fact, a CocoaPod! To make sure other iOS developers know there is a CocoaPod available, I submitted a pull request with CocoaPod installation instructions to the README file of the library. Tiny change, but hopefully, it’ll help other developers!
 
-ADD ADDITIONAL SAME FUNCTIONALITY
+## ADD ADDITIONAL SAME FUNCTIONALITY
 
 When building an Android app for the CodePath final project, my team wanted to try out the current official Android font – Roboto. Turns out it’s pretty manual to incorporate external fonts into Android, so we used a library called RobotoViews to help us out. Basically, each view has to be configured to have the Roboto typeface available.
 
