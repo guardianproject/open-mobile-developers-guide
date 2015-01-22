@@ -4,3 +4,4 @@ chapter2.txt
 chapter3.txt
 security-and-privacy/how-do-i-protect-my-apps-data.txt
 security-and-privacy/sqlcipher-encrypted-mobile-databases.txt
+what-is-open-source.txt
