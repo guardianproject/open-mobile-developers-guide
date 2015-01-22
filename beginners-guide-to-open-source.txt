@@ -53,13 +53,13 @@ In other words, the creator of RobotoViews already did all the hard work to make
 
 Similarly, I contributed to a popular iOS Foursquare client library by just adding an additional function that wasn’t there originally, but was very easy to add based on the creator’s work to abstract this process!
 
-REFACTOR
+## REFACTOR
 
 I was adding a very small change to the ECSlidingViewController to make sure a keyboard is dismissed when a sliding menu slides out, when I noticed that three functions had the same exact code with a very slight variation. So I just refactored that code by creating a function those three functions can just call passing in the one different argument, so anyone who needs to make a change to this function in the future, only needs to make the change once.
 
 As you can see, all my open source contributions are very tiny and easy to make! As you keep using external libraries, you’ll see similar opportunities. So go ahead and make the tiny changes – they count!
 
-HOW TO CONTRIBUTE
+## HOW TO CONTRIBUTE
 
 Watch this great step-by-step RailsCast on how to contribute to open source (it’s a very similar process for non-rails projects). But basically, here are the steps:
 
