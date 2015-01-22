@@ -3,3 +3,4 @@ chapter1.txt
 chapter2.txt
 chapter3.txt
 security-and-privacy/how-do-i-protect-my-apps-data.txt
+sqlcipher-encrypted-mobile-databases.txt
