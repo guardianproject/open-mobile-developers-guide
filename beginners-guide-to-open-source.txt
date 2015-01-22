@@ -63,19 +63,17 @@ As you can see, all my open source contributions are very tiny and easy to make!
 
 Watch this great step-by-step RailsCast on how to contribute to open source (it’s a very similar process for non-rails projects). But basically, here are the steps:
 
-FORK
+### FORK
 
 Find the library you want to contribute to on Github, and simply click the Fork button!github-fork
 
-CLONE
+### CLONE
 
 Next, clone the library that you forked – it should now be under your name (e.g. NatashaTheRobot/ECSlidingViewController), not the original creator!git-clone
 
-BRANCH, CHANGE, PUSH
+### BRANCH, CHANGE, PUSH
 
 Once you’ve cloned the repository, change into the repository’s folder. Next, check out a new branch with a good name reflecting the change you will make. Make the change, and push the branch to GitHub.
 
 When you go to your GitHub profile main page, you’ll see a big green “Compare and Pull Request” button. Take a look at your files, make sure everything looks good. Then make sure you make a pull request to the original branch (not the one you forked). When you’ve done the pull request, is should look something like this! Again, make sure you’re doing a pull to the original creator’s master branch!git-pull-request
-
-TWEET
 
