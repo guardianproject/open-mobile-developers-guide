@@ -7,12 +7,14 @@ IOCipher provides a virtual encrypted disk for Android apps without requiring th
 IOCipher is a cousin to SQLCipher-for-Android since it is also based on SQLCipher and uses the same approach of repurposing an API that developers already know well. It is built on top of libsqlfs, a filesystem implemented in SQL that exposes a FUSE API.
 
 Features
-Secure transparent app-level virtual encrypted disk
-No root required
-Only three new methods to learn: VirtualFileSystem.get(), VirtualFileSystem.mount(dbFile, password), and VirtualFileSystem.unmount()
-Supports Android versions 2.1 and above
-Licensed under the LGPL v3+
-Adding IOCipher to your App
+- Secure transparent app-level virtual encrypted disk
+- No root required
+- Only three new methods to learn: VirtualFileSystem.get(), VirtualFileSystem.mount(dbFile, password), and VirtualFileSystem.unmount()
+- Supports Android versions 2.1 and above
+- Licensed under the LGPL v3+
+
+## Adding IOCipher to your App
+
 Here are the things you need to do in your code to make it use IOCipher encrypted storage for all of your app’s file storage:
 
 manage the password using Cacheword or whatever
