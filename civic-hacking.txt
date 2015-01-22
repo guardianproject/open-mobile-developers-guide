@@ -1,6 +1,7 @@
 # Civic Hacking
 
 What is civic hacking?
+http://opensource.com/government/14/2/how-get-started-civic-hacking
 
 Seventy people gathered together one sunny Oakland afternoon to volunteer and improve their city. There were no rakes or yard tools normally seen at volunteer-day events though. No paint brushes, no trash bags, no canned soup bins. These seventy people were laden with laptops and were volunteering to improve the city’s website.
 
