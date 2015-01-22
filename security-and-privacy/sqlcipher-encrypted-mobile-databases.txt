@@ -37,7 +37,7 @@ Error: file is encrypted or is not a database
 
 (example courtesy of SQLCipher)
 
-Details for Developers
+## Details for Developers
 We’ve packaged up a very simple SDK for any Android developer to add SQLCipher into their app with the following three steps:
 
 Add a single sqlcipher.jar and a few .so’s to the application libs directory
