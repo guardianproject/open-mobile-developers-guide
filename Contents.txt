@@ -8,4 +8,4 @@ open-source-foundations/beginners-guide-to-open-source.txt
 security-and-privacy/how-do-i-protect-my-apps-data.txt
 security-and-privacy/sqlcipher-encrypted-mobile-databases.txt
 security-and-privacy/iocipher-virtual-encrypted-disks.txt
-android-design-principles.txt
+usability-and-design/android-design-principles.txt
