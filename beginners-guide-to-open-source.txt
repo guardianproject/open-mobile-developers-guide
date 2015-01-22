@@ -77,3 +77,12 @@ Once you’ve cloned the repository, change into the repository’s folder. Next
 
 When you go to your GitHub profile main page, you’ll see a big green “Compare and Pull Request” button. Take a look at your files, make sure everything looks good. Then make sure you make a pull request to the original branch (not the one you forked). When you’ve done the pull request, is should look something like this! Again, make sure you’re doing a pull to the original creator’s master branch!git-pull-request
 
+### TWEET
+
+This step is of course optional, but I like to tweet at the creator to notify them of the change. It’s possible they don’t have GitHub notifications turned on, especially if it’s an older repository with less recent changes, so it’s nice to let them know and start a conversation.
+
+They might also be too busy to merge it in, so it’s nice when they reply and tell you they’ll take a look when they have a chance. You know that your pull request will not be in limbo forever!
+
+### ENJOY!
+
+Again, contributing to open source is really fun and a great way to learn from the best and improve your own skill. Hope this guide makes you feel less intimidated at contributing!
