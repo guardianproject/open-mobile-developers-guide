@@ -6,7 +6,7 @@ IOCipher provides a virtual encrypted disk for Android apps without requiring th
 
 IOCipher is a cousin to SQLCipher-for-Android since it is also based on SQLCipher and uses the same approach of repurposing an API that developers already know well. It is built on top of libsqlfs, a filesystem implemented in SQL that exposes a FUSE API.
 
-Features
+## Features
 - Secure transparent app-level virtual encrypted disk
 - No root required
 - Only three new methods to learn: VirtualFileSystem.get(), VirtualFileSystem.mount(dbFile, password), and VirtualFileSystem.unmount()
@@ -44,7 +44,7 @@ import java.nio.channels.ReadableByteChannel;
 
 For more detailed examples, see IOCipherExample, IOCipherThreadTest, and IOCipherTests. To start from scratch, follow the instructions on starting with SQLCipher-for-Android, then download IOCipher and add it to the libs/ folder of that new project.
 
-Downloads
+## Downloads
 Here you can get the complete IOCipher jar and native library files, ready to drop right into your project (for MIPS, you need to build from source):
 
 IOCipher-v0.2.zip
@@ -57,14 +57,16 @@ libsqlfs-1.3.tar.bz2
 detached GPG signature
 MD5: 867d60bcd1cb19f09b1fd3b7112767ac
 SHA1: 3d5fcd3eef9bf07093987ae98951ab7a4525393a
-Source Code Repositories
+
+## Source Code Repositories
 all you need for your project: https://github.com/guardianproject/IOCipher
 optional:
 the test suite: https://github.com/guardianproject/IOCipherTests
 a simple example file manager app: https://github.com/guardianproject/IOCipherExample
 a very simple test app: https://github.com/guardianproject/IOCipherThreadTest
 the core: https://github.com/guardianproject/libsqlfs
-Usage notes
+
+## Usage notes
 only one active mount per-app is supported
 single thread/sequential access is the preferred way of using IOCipher
 multi-threaded access possible (potentially unstable under extremely high write load)
