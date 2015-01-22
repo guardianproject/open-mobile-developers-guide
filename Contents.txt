@@ -1,7 +1,5 @@
-> These files will be included in your book:
-
 About.txt
 chapter1.txt
 chapter2.txt
 chapter3.txt
-how-do-i-protect-my-apps-data.txt
+security-and-privacy/how-do-i-protect-my-apps-data.txt
