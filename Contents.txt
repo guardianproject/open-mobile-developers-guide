@@ -5,3 +5,4 @@ chapter3.txt
 open-source-foundations/what-is-open-source.txt
 security-and-privacy/how-do-i-protect-my-apps-data.txt
 security-and-privacy/sqlcipher-encrypted-mobile-databases.txt
+beginners-guide-to-open-source.txt
