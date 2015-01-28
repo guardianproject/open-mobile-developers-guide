@@ -13,3 +13,4 @@ security-and-privacy/encrypt-all-the-bits-introduction-to-mobile-security.txt
 usability-and-design/android-design-principles.txt
 usability-and-design/making-security-boring.txt
 team-management/team-leadership.txt
+taking-smart-photos.txt
