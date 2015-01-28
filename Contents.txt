@@ -1,4 +1,3 @@
-About.txt
 welcome-to-the-developers-corner.txt
 open-source-foundations/what-is-open-source.txt
 open-source-foundations/beginners-guide-to-open-source.txt
