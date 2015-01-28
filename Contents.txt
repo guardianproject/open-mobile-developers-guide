@@ -1,6 +1,7 @@
 welcome-to-the-developers-corner.txt
 open-source-foundations/what-is-open-source.txt
 open-source-foundations/beginners-guide-to-open-source.txt
+open-source-foundations/how-to-get-started-in-open-source.txt
 open-source-foundations/civic-hacking.txt
 open-source-foundations/top-5-open-source-project-management-tools.txt
 mobile-fundamentals/building-apps-for-a-complex-world.txt
@@ -15,4 +16,3 @@ usability-and-design/android-design-principles.txt
 usability-and-design/making-security-boring.txt
 team-management/team-leadership.txt
 team-management/building-an-open-source-community.txt
-how-to-get-started-in-open-source.txt
