@@ -10,3 +10,4 @@ security-and-privacy/iocipher-virtual-encrypted-disks.txt
 usability-and-design/android-design-principles.txt
 usability-and-design/making-security-boring.txt
 team-management/team-leadership.txt
+encrypt-all-the-bits-introduction-to-mobile-security.txt
