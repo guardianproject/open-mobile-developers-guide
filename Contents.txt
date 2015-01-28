@@ -4,6 +4,7 @@ open-source-foundations/how-to-get-started-in-open-source.txt
 open-source-foundations/beginners-guide-to-open-source.txt
 open-source-foundations/civic-hacking.txt
 open-source-foundations/top-5-open-source-project-management-tools.txt
+open-source-foundations/key-books-to-read.txt
 mobile-fundamentals/building-apps-for-a-complex-world.txt
 mobile-fundamentals/how-do-i-secure-my-internet-traffic.txt
 mobile-fundamentals/getting-started-in-android-development.txt
@@ -16,4 +17,3 @@ usability-and-design/android-design-principles.txt
 usability-and-design/making-security-boring.txt
 team-management/team-leadership.txt
 team-management/building-an-open-source-community.txt
-key-books-to-read.txt
