@@ -1,7 +1,7 @@
 welcome-to-the-developers-corner.txt
 open-source-foundations/what-is-open-source.txt
-open-source-foundations/beginners-guide-to-open-source.txt
 open-source-foundations/how-to-get-started-in-open-source.txt
+open-source-foundations/beginners-guide-to-open-source.txt
 open-source-foundations/civic-hacking.txt
 open-source-foundations/top-5-open-source-project-management-tools.txt
 mobile-fundamentals/building-apps-for-a-complex-world.txt
