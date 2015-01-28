@@ -7,7 +7,7 @@ mobile-fundamentals/building-apps-for-a-complex-world.txt
 security-and-privacy/how-do-i-protect-my-apps-data.txt
 security-and-privacy/sqlcipher-encrypted-mobile-databases.txt
 security-and-privacy/iocipher-virtual-encrypted-disks.txt
+security-and-privacy/encrypt-all-the-bits-introduction-to-mobile-security.txt
 usability-and-design/android-design-principles.txt
 usability-and-design/making-security-boring.txt
 team-management/team-leadership.txt
-encrypt-all-the-bits-introduction-to-mobile-security.txt
