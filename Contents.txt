@@ -2,6 +2,7 @@ welcome-to-the-developers-corner.txt
 open-source-foundations/what-is-open-source.txt
 open-source-foundations/beginners-guide-to-open-source.txt
 open-source-foundations/civic-hacking.txt
+open-source-foundations/top-5-open-source-project-management-tools.txt
 mobile-fundamentals/building-apps-for-a-complex-world.txt
 security-and-privacy/how-do-i-protect-my-apps-data.txt
 security-and-privacy/sqlcipher-encrypted-mobile-databases.txt
@@ -9,4 +10,3 @@ security-and-privacy/iocipher-virtual-encrypted-disks.txt
 usability-and-design/android-design-principles.txt
 usability-and-design/making-security-boring.txt
 team-leadership.txt
-top-5-open-source-project-management-tools.txt
