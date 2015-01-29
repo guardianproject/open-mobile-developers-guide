@@ -16,7 +16,6 @@ security-and-privacy/encrypt-all-the-bits-introduction-to-mobile-security.txt
 security-and-privacy/taking-smart-photos.txt
 usability-and-design/android-design-principles.txt
 usability-and-design/making-security-boring.txt
-team-management/team-leadership.txt
 team-management/building-an-open-source-community.txt
+team-management/how-to-use-irc-internet-relay-chat.txt
 how-do-i-secure-my-internet-traffic.txt
-how-to-use-irc-internet-relay-chat.txt
