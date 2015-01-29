@@ -3,7 +3,6 @@ open-source-foundations/what-is-open-source.txt
 open-source-foundations/how-to-get-started-in-open-source.txt
 open-source-foundations/beginners-guide-to-open-source.txt
 open-source-foundations/civic-hacking.txt
-open-source-foundations/top-5-open-source-project-management-tools.txt
 open-source-foundations/key-books-to-read.txt
 open-source-foundations/getting-started-with-github.txt
 mobile-fundamentals/building-apps-for-a-complex-world.txt
@@ -17,6 +16,7 @@ security-and-privacy/encrypt-all-the-bits-introduction-to-mobile-security.txt
 security-and-privacy/taking-smart-photos.txt
 usability-and-design/android-design-principles.txt
 usability-and-design/making-security-boring.txt
+usability-and-design/top-5-open-source-project-management-tools.txt
 team-management/building-an-open-source-community.txt
 team-management/how-to-use-irc-internet-relay-chat.txt
 team-management/the-story-of-self-and-motivating-a-movement.txt
