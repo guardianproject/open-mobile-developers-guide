@@ -91,13 +91,18 @@ Man-in-the-Middle: http://thehackernews.com/2013/03/t-mobile-wi-fi-calling-app-v
 | ---- | ---- | ---- |
 | 1 | Owner of the mobile phone | The primary operator of the mobile device. Assumed to have full access to the device, potentially secured with a PIN/password screen. |
 | 2 | Detainer / criminal / bad actor | An authority figure or criminal who has or will be detaining the Owner[1]; has access to mobile phone. may have only manual/brute force access, or could have more sophisticated forensic extraction tools. | 
+| 3 | Operator of the mobile network | Access to call and message logs (sender/receiver/message content) and cell tower association data (rough location) |
+| 4 | Employer, family or support organization; | May know the Owner[1]'s PIN/password, but otherwise has no access to data or network information; On the receiving end of an emergency message |
+| 5 | Malicious App / Backdoor / Malware / Forensics App | Access to some or all of the the Owner[1]'s data depending upon app data permissions and encryption, as well as how full the backdoor is. Authorization is often required by the user to allow apps to access data. |
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+## Assets
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| ID | Name | Description | Trust Level |
+| ---- | ---- | ---- | --- |
+| 1 | Personal Data | Names, emails, phone numbers, calendar events, mostly stored on internal device memory | [1] Owner
+[5] Malicious App (as authorized) |
+| 2 | Communication Data | Text messages, emails, call logs, mostly stored on internal device memory | [1] Owner, [3] Operator, [5] Malicious App (as authorized) |
+| 3 | Application data | Custom data stored by browsers, chat, social networking apps, on both internal and memory card; | [1] Owner
+[3] Operator (if not HTTP/S or SSL)
+[5] Malicious App (as authorized) |
+| 4 | 
