@@ -10,7 +10,7 @@ This content is pulled from many different locations. Also, some of this content
 We have broken down content into something easily understandable for anyone new to open source, civic hacking, and mobile development. 
 
 * Open Source Foundations
---What is Open Source
+  - What is Open Source
 - Beginners Guide to Open Source
 - Intro to Civic Hacking
 - How to get started in Open Source
