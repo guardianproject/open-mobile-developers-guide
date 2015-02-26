@@ -99,10 +99,16 @@ Man-in-the-Middle: http://thehackernews.com/2013/03/t-mobile-wi-fi-calling-app-v
 
 | ID | Name | Description | Trust Level |
 | ---- | ---- | ---- | --- |
-| 1 | Personal Data | Names, emails, phone numbers, calendar events, mostly stored on internal device memory | [1] Owner
-[5] Malicious App (as authorized) |
+| 1 | Personal Data | Names, emails, phone numbers, calendar events, mostly stored on internal device memory | [1] Owner, [5] Malicious App (as authorized) |
 | 2 | Communication Data | Text messages, emails, call logs, mostly stored on internal device memory | [1] Owner, [3] Operator, [5] Malicious App (as authorized) |
-| 3 | Application data | Custom data stored by browsers, chat, social networking apps, on both internal and memory card; | [1] Owner
-[3] Operator (if not HTTP/S or SSL)
-[5] Malicious App (as authorized) |
-| 4 | 
+| 3 | Application data | Custom data stored by browsers, chat, social networking apps, on both internal and memory card; | [1] Owner, [3] Operator (if not HTTP/S or SSL), [5] Malicious App (as authorized) |
+| 4 | Media files | User generated and download photos, videos and music, primarily stored on memory card | [1] Owner, [5] Malicious App |
+
+## STRIDE Threat List
+| Type | Examples|
+| ---- | ---- |
+| Spoofing | - Detainer[2] or Malicious App[5] may gain control of mobile phone and pretend to be Owner[1] |
+| Tampering | - Malicious App[5] changes configuration data on the device | 
+| Repudiation | - Malicious App[5] or other system backdoor may disable or block app
+- Operator[3] may passively monitor messages and pass the information along to the Detainer[2] |
+
