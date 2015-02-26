@@ -11,7 +11,6 @@ We have broken down content into something easily understandable for anyone new 
 
 * Open Source Foundations
   - What is Open Source
-<<<<<<< HEAD
   - Beginners Guide to Open Source
   - Intro to Civic Hacking
   - How to get started in Open Source
@@ -40,32 +39,6 @@ We have broken down content into something easily understandable for anyone new 
   - Intro to Android design principles
   - Making security boring
 
-=======
-- Beginners Guide to Open Source
-- Intro to Civic Hacking
-- How to get started in Open Source
-- Three key elements that define every open source project
-- Getting started with GitHub
-- Getting started with Discourse
-- Going open source on Android with F-Droid
-- Key Books to Read and Open Source Organizations
-* Application Fundamentals
-- Building apps for a complex world
-- Getting started in android development
-- How to I secure my internet traffic
-- Fundamentals of a web app
-- Fundamentals of a mobile apps
-* Security and Privacy
-- Making Security boring
-- Encrypt all the bits introduction to mobile security
-- How to I protect my apps and data
-- Intro to ioCipher virtual encrypted disease
-- Intro to sqlCipher encrypted mobile databases
-- Taking smart photos
-* Usability and Design
-- Intro to Android design principles
-- Making security boring
->>>>>>> origin/master
 * Team and Project Management
   - Building an open source community
   - How to use IRC (Internet Relay Chat)
