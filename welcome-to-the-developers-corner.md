@@ -19,14 +19,12 @@ We have broken down content into something easily understandable for anyone new 
 - Getting started with Discourse
 - Going open source on Android with F-Droid
 - Key Books to Read and Open Source Organizations
-
 * Application Fundamentals
 - Building apps for a complex world
 - Getting started in android development
 - How to I secure my internet traffic
 - Fundamentals of a web app
 - Fundamentals of a mobile apps
-
 * Security and Privacy
 - Making Security boring
 - Encrypt all the bits introduction to mobile security
@@ -34,12 +32,9 @@ We have broken down content into something easily understandable for anyone new 
 - Intro to ioCipher virtual encrypted disease
 - Intro to sqlCipher encrypted mobile databases
 - Taking smart photos
-
 * Usability and Design
 - Intro to Android design principles
 - Making security boring
-
-
 * Team and Project Management
 - Building an open source community
 - How to use IRC (Internet Relay Chat)
