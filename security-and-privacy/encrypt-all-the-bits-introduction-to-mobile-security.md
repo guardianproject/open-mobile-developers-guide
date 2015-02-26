@@ -266,23 +266,117 @@ IOCipher is a cousin to SQLCipher-for-Android since it is also based on SQLCiphe
  - import java.nio.channels.Channels;
  - import java.nio.channels.ReadableByteChannel;
 
+### IOCipher Example
+https://github.com/guardianproject/IOCipherExample
+
+```
+import info.guardianproject.iocipher.File;
+import info.guardianproject.iocipher.FileOutputStream;
+import info.guardianproject.iocipher.VirtualFileSystem;
+
+File dbFile = getDir("vfs", MODE_PRIVATE).getAbsolutePath() + "/myfiles.db";
+
+vfs = new VirtualFileSystem(dbFile);
 
 
+// TODO don't use a hard-coded password! prompt for the password
+vfs.mount("my fake password");
+
+File file = new File(dirPath);
+File[] files = file.listFiles();
+```
+
+## CacheWord
+Secure Passphrase Management
+
+CacheWord is an Android library project for passphrase caching and management. It helps app developers securely generate, store, and access secrets derived from a user's passphrase.
+1. Secrets Management: how the secret key material for your app is generated, stored, and accessed
+1. Passphrase Caching: store the passphrase in memory to avoid constantly prompting the user
+
+### CipherKit “Platform”
+[Image]
 
 
+### CacheWord Features
+CacheWord manages key derivation, verification, persistence, passphrase resetting, and caching secret key material in memory.
+- Strong key derivation (PBKDF2)
+- Secure secret storage (AES-256 GCM)
+- Persistent notification: informs the user the app data is unlocked
+- Configurable timeout: after a specified time of inactivity the app locks itself
+- Manual clearing: the user can forcibly lock the application
+- Uses Android's Keystore on 4.x if available - Not Yet Implemented
+
+### Problem with Android...
+[IMG]
+
+### CacheWord Solution
+[IMG]
+
+### CacheWord Code Example
+https://github.com/guardianproject/cacheword/tree/master/sample
 
 
+```
+public class CacheWordSampleActivity extends Activity implements      ICacheWordSubscriber {
+…
+        mCacheWord = new CacheWordActivityHandler(this);
 
+@Override
+    public void onCacheWordLocked() {}
 
+    @Override
+    public void onCacheWordOpened() {
+               // fetch the encryption key from CacheWordService
+        SecretKey key = ((PassphraseSecrets) mCacheWord.getCachedSecrets()).getSecretKey();
+    }
 
+    @Override
+ 	public void onCacheWordUninitialized() {   
+                mCacheWord.setCachedSecrets(PassphraseSecrets.initializeSecrets(
+                        CacheWordSampleActivity.this, “my secret passphrase”));
+            }
+```
 
+## NetCipher
+Secured Networking
 
+### CipherKit “Platform”
+[image]
 
+### NetCipher: 3 reasons
+1. *Stronger Sockets*: Through support for the right cipher suites, pinning and more, we ensure your encrypted connections are as strong as possible.
+1. *Proxied Connection Support*: HTTP and SOCKS proxy connection support for HTTP and HTTP/S traffic through specific configuration of the Apache HTTPClient library
+1. *OrbotHelper*: a utility class to support application integration with Orbot: Tor for Android. Check if its installed, running, etc.
 
+### Network Threats
+Tor Proxying
+[image]
 
+### NetCipher Code Example
+https://github.com/guardianproject/NetCipher
 
+```
+  OrbotHelper oc = new OrbotHelper(this);
+        if (!oc.isOrbotInstalled())       
+            oc.promptToInstall(this);        
+        else if (!oc.isOrbotRunning())
+             oc.requestOrbotStart(this);
+        
+  StrongHttpsClient httpclient = new StrongHttpsClient(getApplicationContext());
 
+        if (pType == null)
+            httpclient.useProxy(false, null, null, -1);
+        else if (pType == Proxy.Type.SOCKS)
+            httpclient.useProxy(true, "SOCKS", proxyHost, proxyPort);     
+        else if (pType == Proxy.Type.HTTP)
+            httpclient.useProxy(true, ConnRoutePNames.DEFAULT_PROXY, proxyHost, proxyPort);
+```
 
+## From here
+https://guardianproject.info/contact
 
+Guardian-Dev and SQLCipher mailing lists
+IRC (freenode): #guardianproject
+Project Trackers: https://dev.guardianproject.info
 
-
+support@guardianproject.info
