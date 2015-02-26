@@ -109,6 +109,180 @@ Man-in-the-Middle: http://thehackernews.com/2013/03/t-mobile-wi-fi-calling-app-v
 | ---- | ---- |
 | Spoofing | - Detainer[2] or Malicious App[5] may gain control of mobile phone and pretend to be Owner[1] |
 | Tampering | - Malicious App[5] changes configuration data on the device | 
-| Repudiation | - Malicious App[5] or other system backdoor may disable or block app
-- Operator[3] may passively monitor messages and pass the information along to the Detainer[2] |
+| Repudiation | - Malicious App[5] or other system backdoor may disable or block app; - Operator[3] may passively monitor messages and pass the information along to the Detainer[2] |
+| Information Disclosure | Detainer[2] could have full access to Assets stored on the mobile device; - Detainer[2] may have physical and logical forensic data extraction tools that can override password controls on device and read from "wiped" storage; - Operator[3] may learn identity of Support Org[4] |
+| Denial of Service | - Communications may be blocked from being sent or received by Operator [3]; - Mobile phone may be disabled by Operator[3] or Malicious App[5] from running remote wipe | 
+| Elevation of Privilege | - Malicious App [5] launches insecured intents or exploits known bug; - Detainer[2] or Operator[3] may be able to impersonate the Owner[1] |
+
+## Security Controls / Mitigation
+| Type | Tactics |
+| ---- | ---- | 
+| Authentication (vs. Spoofing) | - Create a a non obvious passphrase for use in app - Lock screen of your mobile phone using passphrase or PIN |
+| Authorization & Auditing (vs Tampering, Repudiation, Elevation of Priv) | - Do not install any unnecessary, third-party mobile apps with network access; - Scan your mobile device using available malware tools; - Install a firewall or network connection monitoring utility; - Use a non-real name registered SIM card and mobile phone |
+| Cryptography and Identity Protection (vs Information Disclosure) | - For extra sensitive data, use an app that supports an and password authentication and encrypted database; - Use a mobile OS with disk and memory card encryption; - Use only browser-based HTTPS services that do not store data locally;- Do not store or save web service passwords on your mobile phone |
+| Alternate Communications (vs Denial of Service) | - Use VPNs or Tor proxying software to hide source IP and traffic; - Use apps/services that work in WIFI only mode if data service disabled; - Use apps that allow device-to-device data sharing | 
+
+## SQLCipher 
+Encrypted Database
+
+SQLCipher is an SQLite extension that provides transparent 256-bit AES encryption of database files. It mirrors the standard android.database API. Pages are encrypted before being written to disk and are decrypted when read back.
+
+- SQLCipher has a small footprint and great performance so it’s ideal for protecting embedded application databases and is well suited for mobile development.
+- Blazing fast performance with as little as 5-15% overhead for encryption
+- 100% of data in the database file is encrypted
+- Uses good security practices (CBC mode, key derivation)
+- Zero-configuration and application level cryptography
+- Algorithms provided by the peer reviewed OpenSSL crypto library.
+
+### CipherKit “Platform”
+IMAGE
+
+### Defense in Depth
+Make attacks difficult with multiple layers of security
+
+### Principle of Least Privilege
+Access to device should not allow access to all apps and data
+
+### Data Security
+Minimize impact of unauthorized access, on and off device
+
+### Strategies
+1. Authentication
+1. Encryption
+1. Authenticity
+
+## SQLite vs. SQLCipher
+
+```
+~ sjlombardo$ hex dump -C sqlite.db
+00000000 53 51 4c 69 74 65 20 66 6f 72 6d 61 74 20 33 00 |SQLite format 3.|
+…
+000003c0 65 74 32 74 32 03 43 52 45 41 54 45 20 54 41 42 |et2t2.CREATE TAB|
+000003d0 4c 45 20 74 32 28 61 2c 62 29 24 01 06 17 11 11 |LE t2(a,b)$…..|
+…
+000007e0 20 74 68 65 20 73 68 6f 77 15 01 03 01 2f 01 6f | the show…./.o|
+000007f0 6e 65 20 66 6f 72 20 74 68 65 20 6d 6f 6e 65 79 |ne for the money|
+
+~ $ sqlite3 sqlcipher.db
+sqlite> PRAGMA KEY=’test123′;
+sqlite> CREATE TABLE t1(a,b);
+sqlite> INSERT INTO t1(a,b) VALUES (‘one for the money’, ‘two for the show’);
+sqlite> .quit
+
+~ $ hex dump -C sqlite.db
+00000000 84 d1 36 18 eb b5 82 90 c4 70 0d ee 43 cb 61 87 |.?6.?..?p.?C?a.|
+00000010 91 42 3c cd 55 24 ab c6 c4 1d c6 67 b4 e3 96 bb |.B?..?|
+00000bf0 8e 99 ee 28 23 43 ab a4 97 cd 63 42 8a 8e 7c c6 |..?(#C??.?cB..|?|
+
+~ $ sqlite3 sqlcipher.db
+sqlite> SELECT * FROM t1;
+Error: file is encrypted or is not a database
+```
+
+https://github.com/sqlcipher/android-database-sqlcipher
+
+```
+import net.sqlcipher.database.SQLiteDatabase;
+
+SQLiteDatabase.loadLibs(this);
+
+SQLiteDatabase db = eventsData.getWritableDatabase(“my password”);
+```
+
+### Simple Steps
+We’ve packaged up a very simple SDK for any Android developer to add SQLCipher into their app with the following three steps:
+
+* Add a single sqlcipher.jar and a few .so’s to the application libs directory
+* Update the import path from android.database.sqlite.* to info.guardianproject.database.sqlite.* in any source files that reference it. The original android.database.Cursor can still be used unchanged.
+* Init the database in onCreate() and pass a variable argument to the open database method with a password*:
+  - SQLiteDatabase.loadLibs(this); //first init the db libraries with the context
+  - SQLiteOpenHelper.getWritableDatabase(“thisismysecret”):
+
+### SQLCipher Features
+- AES 256 CBC
+- Random IVs
+- Random salt
+- Key Derivation
+- MAC
+- OpenSSL
+- Fast startup
+- No size limit
+
+### How it Works
+- Pager Codec
+- Key Derivation
+- Encryption
+- MAC
+
+### Advanced
+- PRAGMA rekey
+- PRAGMA cipher
+- PRAGMA kdf_iter
+- PRAGMA cipher_page_size
+- PRAGMA cipher_use_hmac
+- ATTACH
+- sqlcipher_export()
+
+## IOCipher 
+Encrypted Virtual File System
+
+IOCipher provides a virtual encrypted disk for Android apps without requiring the device to be rooted. It uses a clone of the standard java.io API for working with files, so developers already know how to use it. Only password handling, and opening the virtual disk are what stand between the developer and working encrypted file storage. It is based on and SQLCipher.
+
+IOCipher is a cousin to SQLCipher-for-Android since it is also based on SQLCipher and uses the same approach of repurposing an API that developers already know well. It is built on top of libsqlfs, a filesystem implemented in SQL that exposes a FUSE API.
+
+### CipherKit “Platform”
+*image* 
+
+### IOCipher: Core Features
+* Secure transparent app-level virtual encrypted disk
+* No root required
+* Only three new methods to learn: new VirtualFileSystem(dbFile), VirtualFileSystem.mount(password), and VirtualFileSystem.unmount()
+* Supports Android versions 2.1 and above
+* Licensed under the LGPL v3+
+
+### IOCipher: The Stack
+* info.guardianproject.iocipher
+   - Java/JNI wrapper API
+* LibSQLFS / FUSE
+   - Virtual Filesystem that maps to SQL schema / structured database
+* SQLCipher
+   - Encryption layer for SQLite
+* SQLite
+   - Base storage mechanism
+
+### Adding IOCipher to App
+- manage the password
+- connect to your encrypted disk’s file using new VirtualFileSystem(dbFile)
+- mount it with a password using VirtualFileSystem.mount(password)
+- replace the relevant java.io import statements withinfo.guardianproject.iocipher, e.g.:
+- import info.guardianproject.iocipher.File;
+ - import info.guardianproject.iocipher.FileOutputStream;
+ - import info.guardianproject.iocipher.FileReader;
+ - import info.guardianproject.iocipher.IOCipherFileChannel;
+ - import info.guardianproject.iocipher.VirtualFileSystem;
+ - import java.io.FileNotFoundException;
+ - import java.io.IOException;
+ - import java.io.InputStream;
+ - import java.nio.channels.Channels;
+ - import java.nio.channels.ReadableByteChannel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
