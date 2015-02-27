@@ -1,4 +1,4 @@
-# how do I secure my internet traffic
+# how do I secure my internet traffic (NetCipher) 
 
 Article originally from [Guardian Project blog post](https://guardianproject.info/code/netcipher/).
 
