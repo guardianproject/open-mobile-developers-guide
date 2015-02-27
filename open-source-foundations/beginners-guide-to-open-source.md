@@ -1,9 +1,10 @@
 # A BEGINNER’S GUIDE TO CONTRIBUTING TO OPEN SOURCE
 
 By Natasha Murashev
-https://blog.generalassemb.ly/beginners-guide-contributing-open-source/
 
-_Natasha is a iOS Engineer at Capital One Labs and instructor at GA in San Francisco. This post originally appeared on her blog, Natasha The Robot._
+Source [General Assembly Blog](https://blog.generalassemb.ly/beginners-guide-contributing-open-source/)
+
+_Natasha is a iOS Engineer at [Capital One Labs](https://www.capitalonelabs.com/) and [instructor at GA in San Francisco](https://generalassemb.ly/instructors/natasha-murashev/1871?utm_campaign=social_guest&utm_content=2014-03-24+natasha-open-source&utm_medium=ga_blog&utm_source=blog_post). This post originally appeared on her blog, [Natasha The Robot.](http://natashatherobot.com/beginners-contributing-to-open-source/)_
 
 When I first started as a Rails developer, I thought of all the Rails gems as magic. Some smart people were making all these cool libraries for me to use! I had no idea how any of these libraries worked, and I was ok with that. They worked and did what I needed them to do. They seemed so comprehensive and thought out, that I didn’t even know what I would contribute to them even if I wanted to!
 
@@ -39,43 +40,43 @@ Here are some recent examples of contributions I made/am in the process of makin
 
 ## MODIFY A README
 
-I wanted to possibly add the Toast library to my iOS project, but they didn’t say on their README that there was a CocoaPod available. Since I just wanted to test out the library in my project, I wanted it to be easily removable.  So even though I’ve used this particular library before and knew it was good, I started searching CocoaPods for another Toast library.
+I wanted to possibly add the [Toast library](https://github.com/scalessec/Toast) to my iOS project, but they didn’t say on their README that there was a CocoaPod available. Since I just wanted to test out the library in my project, I wanted it to be easily removable.  So even though I’ve used this particular library before and knew it was good, I started searching [CocoaPods](http://cocoapods.org/) for another Toast library.
 
 A few libraries down, I found that this particular Toast library was, in fact, a CocoaPod! To make sure other iOS developers know there is a CocoaPod available, I submitted a pull request with CocoaPod installation instructions to the README file of the library. Tiny change, but hopefully, it’ll help other developers!
 
 ## ADD ADDITIONAL SAME FUNCTIONALITY
 
-When building an Android app for the CodePath final project, my team wanted to try out the current official Android font – Roboto. Turns out it’s pretty manual to incorporate external fonts into Android, so we used a library called RobotoViews to help us out. Basically, each view has to be configured to have the Roboto typeface available.
+When building an Android app for the [CodePath](http://thecodepath.com/) final project, my team wanted to try out the current official Android font – [Roboto](http://developer.android.com/design/style/typography.html). Turns out it’s pretty manual to incorporate external fonts into Android, so we used a library called [RobotoViews](https://github.com/eeVoskos/RobotoViews) to help us out. Basically, each view has to be configured to have the Roboto typeface available.
 
 However, there was one view that the RobotoViews library did not include that we needed – the newer Switch view. Adding the Switch view was just a lot of copy/paste following the convention of the other views, so it wasn’t hard to add, but now another view is available as a RobotoView!
 
 In other words, the creator of RobotoViews already did all the hard work to make it easy to modify only a few things to add a new view.
 
-Similarly, I contributed to a popular iOS Foursquare client library by just adding an additional function that wasn’t there originally, but was very easy to add based on the creator’s work to abstract this process!
+Similarly, I contributed to a popular [iOS Foursquare client library](https://github.com/Constantine-Fry/Foursquare-API-v2) by just adding an additional function that wasn’t there originally, but was very easy to add based on the creator’s work to abstract this process!
 
 ## REFACTOR
 
-I was adding a very small change to the ECSlidingViewController to make sure a keyboard is dismissed when a sliding menu slides out, when I noticed that three functions had the same exact code with a very slight variation. So I just refactored that code by creating a function those three functions can just call passing in the one different argument, so anyone who needs to make a change to this function in the future, only needs to make the change once.
+I was adding a very small change to the [ECSlidingViewController](https://github.com/ECSlidingViewController/ECSlidingViewController) to make sure a keyboard is dismissed when a sliding menu slides out, when I noticed that three functions had the same exact code with a very slight variation. So I just refactored that code by creating a function those three functions can just call passing in the one different argument, so anyone who needs to make a change to this function in the future, only needs to make the change once.
 
 As you can see, all my open source contributions are very tiny and easy to make! As you keep using external libraries, you’ll see similar opportunities. So go ahead and make the tiny changes – they count!
 
 ## HOW TO CONTRIBUTE
 
-Watch this great step-by-step RailsCast on how to contribute to open source (it’s a very similar process for non-rails projects). But basically, here are the steps:
+Watch this great [step-by-step RailsCast on how to contribute to open source](http://railscasts.com/episodes/300-contributing-to-open-source) (it’s a very similar process for non-rails projects). But basically, here are the steps:
 
 ### FORK
 
-Find the library you want to contribute to on Github, and simply click the Fork button!github-fork
+Find the library you want to contribute to on Github, and simply click the Fork button! github-fork
 
 ### CLONE
 
-Next, clone the library that you forked – it should now be under your name (e.g. NatashaTheRobot/ECSlidingViewController), not the original creator!git-clone
+Next, clone the library that you forked – it should now be under your name (e.g. NatashaTheRobot/ECSlidingViewController), not the original creator! git-clone
 
 ### BRANCH, CHANGE, PUSH
 
 Once you’ve cloned the repository, change into the repository’s folder. Next, check out a new branch with a good name reflecting the change you will make. Make the change, and push the branch to GitHub.
 
-When you go to your GitHub profile main page, you’ll see a big green “Compare and Pull Request” button. Take a look at your files, make sure everything looks good. Then make sure you make a pull request to the original branch (not the one you forked). When you’ve done the pull request, is should look something like this! Again, make sure you’re doing a pull to the original creator’s master branch!git-pull-request
+When you go to your GitHub profile main page, you’ll see a big green “Compare and Pull Request” button. Take a look at your files, make sure everything looks good. Then make sure you make a pull request to the original branch (not the one you forked). When you’ve done the pull request, is should look something like this! Again, make sure you’re doing a pull to the original creator’s master branch! git-pull-request
 
 ### TWEET
 

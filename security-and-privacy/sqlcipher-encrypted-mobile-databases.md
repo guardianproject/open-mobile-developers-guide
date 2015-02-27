@@ -1,4 +1,4 @@
-# SQLCipher: Encrypted Mobile Databases
+# How do I protect my app's data (SQLCipher: Encrypted Mobile Databases)
 Source URL: [SQLCipher: Encrypted Database](https://guardianproject.info/code/sqlcipher)
 
 ## Introduction
