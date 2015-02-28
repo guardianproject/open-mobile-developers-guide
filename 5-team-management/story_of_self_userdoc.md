@@ -50,8 +50,8 @@ We don’t think our values; we feel our values. Often we don’t realize what w
 
 Each photo below reveals a human story connected to an injustice. Review the photos below to further explore your own values and the process in which you come to realize what you value. Pay attention to your feelings--what specific emotions do you feel? Did you realize you value something that you may not have articulated before? Do you feel inspired to take action?
 
-| ---- | ---- | ---- | 
-| | **What feelings or emotions does this photo evoke?** | **What value does this reveal that you hold?** | 
+ | | **What feelings or emotions does this photo evoke?** | **What value does this reveal that you hold?** | 
+| ---- | ---- | ---- |
 | **HURRICANE KATRINA** | | |
 | **ICE RAIDS** | | |
 | **OIL SPILL** | | |
@@ -142,12 +142,12 @@ GROUP PRACTICE WORK
 - Practice telling your Story of Self and get constructive feedback
 - Learn to draw out and coach the stories of others  
 
-#### _AGENDA_
+#### AGENDA
 Total time: 65 min
 
-| ---- | ---- | ---- |
-| 1. | Gather in your team. Choose a **timekeeper.**  Do **quick introductions** (name and hometown).  **Articulate group agreements** for how you’ll work together as during this training. **Have your facilitator tell their 2-minute story of self** as an example. 	| 10 min. |
 
+| 1. | Gather in your team. Choose a **timekeeper.**  Do **quick introductions** (name and hometown).  **Articulate group agreements** for how you’ll work together as during this training. **Have your facilitator tell their 2-minute story of self** as an example. 	| 10 min. |
+| ---- | ---- | ---- |
 1. 
 Take some time as individuals to **silently develop your “Story of Self**.”
 
