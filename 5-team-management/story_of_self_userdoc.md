@@ -2,15 +2,13 @@
 
 Source: [NOI's Story of Self](http://neworganizing.com/toolbox/training/story-of-self/materials)
 
-“Why am I called to lead?”
+**“Why am I called to lead?”**
 
-
-
-ACKNOWLEDGEMENTS
+## ACKNOWLEDGEMENTS
 
 We welcome your suggestions for improving this guide further for future trainings. We also welcome you to use it and adapt it for your own trainings, subject to the restrictions below.This workshop guide has been developed over the course of man trainings by Liz Pallatto, Joy Cushman, Jake Waxman, Devon Anderson, Rachel Anderson, Adam Yalowitz, Kate Hilton, Lenore Palladino, New Organizing Institute staff, MoveOn Organizers, Center for Community Change staff, Jose Luis Morantes, Carlos Saavedra, Sean Thomas-Breitfeld, ShuyaOhno, Petra Falcon, Michele Rudy, Hope Wood, Kristen Dore and many others.
 
-RESTRICTIONS OF USE
+## RESTRICTIONS OF USE
 
 The following work [this workshop guide] is provided to you pursuant to the following terms and conditions. Your acceptance of the work constitutes your acceptance of these terms:
 
@@ -22,9 +20,13 @@ The following work [this workshop guide] is provided to you pursuant to the foll
 
 If you have any questions about these terms, please contact [marshall_ganz@harvard.edu](mailto:marshall_ganz@harvard.edu) or Marshall Ganz, Hauser Center, Harvard Kennedy School, 79 JFK Street, Cambridge, MA 02138.
 
-public narrative: story of self
+## public narrative: story of self
 
+**OBJECTIVES:** By the end of this training, you  will…
 
+- Learn the basics of how public narrative works: values, emotion & story structure
+- Learn criteria for an effective story of self and coach others on improving their storytelling
+- Practice and get feedback on your own story of self
 
 ### EACH OF US HAS A COMPELLING STORY TO TELL    
 
@@ -40,33 +42,28 @@ What does public narrative have to do with this definition of leadership? You ca
 
 There are two ways we understand the world: through our head (strategy &analysis) and through our heart (story & motivation). To enable others to achieve shared purpose, public leaders must employ BOTH the head and the heart of their constituency in order to mobilize others to act on behalf of shared values. In other words, they engage people in interpreting _why_ they should change their world (their motivation) and _how_they can act to change it (their strategy). Public narrative is the “why”—the art of translating values into action through stories.
 
-**VALUES INSPIRE ACTION THROUGH EMOTION**
+### VALUES INSPIRE ACTION THROUGH EMOTION
 
 We don’t think our values; we feel our values. Often we don’t realize what we value in the world until we hear a story or witness an injustice that stirs emotions within us. Emotions inform us of what we value in ourselves, in others, and in the world, and they enable us to express the motivational content of our values to others. Because stories allow us to express our values not as abstract principles, but as lived experience, they have the power to move others to action.
 
-Exploring our values:
+#### Exploring our values:
 
-**Each photo below reveals a human story connected to an injustice. Review the photos below to further explore your own values and the process in which you come to realize what you value. Pay attention to your feelings--what specific emotions do you feel?** **Did you realize you value something that you may not have articulated before?** **Do you** **feel inspired** **to take action?**	
+Each photo below reveals a human story connected to an injustice. Review the photos below to further explore your own values and the process in which you come to realize what you value. Pay attention to your feelings--what specific emotions do you feel? Did you realize you value something that you may not have articulated before? Do you feel inspired to take action?
 
-**What feelings or emotions does this photo evoke?**
+| ---- | ---- | ---- | 
+| | **What feelings or emotions does this photo evoke?** | **What value does this reveal that you hold?** | 
+| **HURRICANE KATRINA** | | |
+| **ICE RAIDS** | | |
+| **OIL SPILL** | | |
+| **THE ECONOMY** | | |
 
-**What value does this reveal that you hold?**
-
-**HURRICANE KATRINA**
-
-ICE RAIDS
-
-**OIL SPILL**
-
-**THE ECONOMY**
-
-SOME EMOTIONS INHIBIT ACTION, OTHERS MOTIVATE ACTION 
+### SOME EMOTIONS INHIBIT ACTION, OTHERS MOTIVATE ACTION 
 
 Public leaders often encounter individuals or groups where mindful action is inhibited by inertia, fear, self-doubt, isolation, and apathy. The job of a leader is not to tell people to stop feeling this way but rather use storytelling to move people from feelings of stagnation to feelings of motivation - urgency, hope, YCMAD (you can make a difference), solidarity, and anger. The language of emotion is the language of movement—they actually share the same root word. Stories mobilize emotions of action to overcome emotions that inhibit us from mindful action.
 
 ### PUBLIC NARRATIVE COMBINES A STORY OF SELF, US AND NOW
 
-**STORY OF SELF**
+#### STORY OF SELF 
 
 By telling a “story of self” you can communicate the values that move you to lead. Public leaders face the challenge of enabling others to “get” the values that move them to lead. Effective communication of motivating values can establish grounds for trust, empathy, and understanding. In its absence, people will infer our motivations, often in ways that can be very counterproductive. Telling our story of self can help establish firm ground for leadership, collaboration and discovering common purpose.
 
@@ -74,13 +71,13 @@ Every one of us has a compelling story of self to tell. We all have people in ou
 
 The key focus is on our choices, those moments in our lives when our values moved us to act in the face of challenge. When did you first care about being heard? When did you feel you had to act? Why did you feel you could act? What were the circumstances, the place, the colors, sounds? What did it look like? The power in your story of self is to reveal something of those moments that were deeply meaningful to you in shaping your life—not your deepest private secrets, but the events that shaped your public life. Learning to tell a good story of self demands the_courage of introspection_, and of sharing some of what you find. 
 
-**STORY OF US**
+#### STORY OF US
 
 By telling a “story of us” you can communicate values that can inspire others to act together by identifying with each other, not only with you. 
 
 Just as with a story of self, key choice points in the life of a community—its founding, crises it has faced, or other events that everyone remembers—are moments that express the values shared. Consider stories that members of your group have shared, especially those that held similar meaning for all of you. The key is to focus on telling a specific story about specific people at a specific time that can remind everyone – or call to everyone’s attention – values that you share. Telling a good story of us requires the_courage of empathy_ – to consider the experience of others deeply enough to take a chance at articulating that experience. 
 
-**STORY OF NOW**
+#### STORY OF NOW
 
 By telling a “story of now” you can communicate an urgent challenge we are called upon to face, the hope that we can face it and the hopeful outcome we can create together, and the choice we must make to act now. 
 
@@ -95,90 +92,61 @@ A good story allows the listener to empathetically identify with the character a
 
 The story of the character and his or her choices encourages listeners to think about their own values and challenges, and inspires them with new ways of thinking about how to make choices in their own lives.
 
-### Incorporating Challenge, Choice, and Outcome in Your Own Story
+#### Incorporating Challenge, Choice, and Outcome in Your Own Story
 
-### **There are some key questions you need to answer as you consider the choices you have made in your life and the path you have taken that brought you to this point in time as a leader. Once you identify the specific_relevant_** **choice, dig deeper by answering the following questions.**   
+There are some key questions you need to answer as you consider the choices you have made in your life and the path you have taken that brought you to this point in time as a leader. Once you identify the specific _relevant_ choice, dig deeper by answering the following questions.
 
-### Challenge**: Why did you feel it was a challenge? What was so challenging about it? Why was it your challenge?**
+**Challenge**: Why did you feel it was a challenge? What was so challenging about it? Why was it your challenge?
 
-### Choice**: Why did you make the choice you did? Where did you get the courage (or not)? Where did you get the hope (or not)? Did your parents or grandparents’ life stories teach you in any way how to act in that moment? How did it feel?**
+**Choice**: Why did you make the choice you did? Where did you get the courage (or not)? Where did you get the hope (or not)? Did your parents or grandparents’ life stories teach you in any way how to act in that moment? How did it feel?
 
-### Outcome**: How did the outcome feel? Why did it feel that way? What did it teach you? What do you want to teach us? How do you want us to feel?**
+**Outcome**: How did the outcome feel? Why did it feel that way? What did it teach you? What do you want to teach us? How do you want us to feel?
 
-### A word about challenge**. Sometimes people see the word challenge and think** **it means describing** **the** **worst misfortunes of our** **lives.Sometimes those are the moments that most shaped us. But keep in mind that a struggle might** **also** **be one of your own choosing – a high mountain you decided to climb as much as a valley you managed to climb out of.**    **Many things** **may have been a challenge to you and can be the source of a good story to inspire others.**        
+**A word about challenge**. Sometimes people see the word challenge and think it means describing the worst misfortunes of our lives. Sometimes those are the moments that most shaped us. But keep in mind that a struggle might also be one of your own choosing – a high mountain you decided to climb as much as a valley you managed to climb out of. Many things may have been a challenge to you and can be the source of a good story to inspire others.        
 
-
-**VIDEO REVIEW**
-
+-----------
+## VIDEO REVIEW
 SAMPLE STORY OF SELF, US, AND NOW
-
-
 
 We'll be watching a sample story of Self, Us and Now. While you watch it, think about the elements of SELF – US – NOW that you hear in this story.
 
-**SELF**
+| **SELF** | **US** | **NOW** |
+| ---- | ---- | ---- |
+| **1.** What experiences and values call this person to leadership? **2.** What choice points does the speaker include to show, rather than tell us his or her values? | **1.** Who is the “us” that the speaker identifies? **2.** What are the common values the speaker appeals to? How? **3.** What challenges and hopes does this “us” or community share? | **1.** What urgent challenge does this speaker identify? **2.** How does he or she make that challenge real? **3.** What gives us real hope that we can do something? **4.** What is the first step that each person can take to be part of the solution? |
 
-**US**
-
-**NOW**
-
-- _What experiences and values call this person to leadership?_ 
-- _What choice points does_ _the speaker_ _include to show, rather than tell us his_ _or her_ _values?_
-
-- _Who is the “us” that_ _the_ _speaker_ _identifies?_  
-- _What are the common values_ _the speakerappeals to? How?_
-- _What challenges and hopes does this “us” or community share?_
-
-- _What_ _urgent_ _challenge_ _does this speaker_ _identify?_ 
--  _How does he_ _or she_ _make that challenge real?_ 
-- _What gives us_ _real_ _hope that we can do something?_
-- _What is the first step that each person can take to be part of the solution?_
-1. **What was** **the speaker’spurpose in telling these stories? What wass/he moving people to do?**
-
-1. **What values did** **this story convey?How? By telling or showing?**
-
+1. **What was the speaker’s purpose in telling these stories? What was s/he moving people to do?**
+1. **What values did this story convey? How? By telling or showing?**
 1. **What details or images in particular reflected those values?**
-
 1. **What were the challenges, choices and outcomes in each part of his story? What morals do the outcomes teach?**
 
-**SAMPLE STORY OF SELF:** **Lilian Molina**
+-----------
+## SAMPLE STORY OF SELF: Lilian Molina
 
+>As told at Powershift 2011: a gathering of 10,000 climate activists from around the US.
 
-
-
-
-Greetings, My name is Lilian Maria Molina and I am the Environmental Justice Director at Energy Action Coalition.  I am part Mayas-Chorti, Lenca and Palestinian, was born in Honduras, Central America and moved to the United States at the age of 5 with my mother.  For the first couple years my mom and I would take an hour-long ride on a two-floor train; I would always rush to the top floor, look out the window, and envision what I would do at our destination. I would imagine the cartoons I would watch, salivate over the Kudos and Pringles I would be able to eat, and think about all the great toys I would play with. Then one day, as I was playing with a fully equipped Barbie Mansion, my mom reached over and handed me a bottle of Windex and paper towels; at that moment I realized that our hour-long train ride wasn’t a field trip, it was a commute to work. My mom and I were there to clean houses not to play.  
+_Greetings, My name is_ Lilian Maria Molina and I am the Environmental Justice Director at Energy Action Coalition.  I am part Mayas-Chorti, Lenca and Palestinian, was born in Honduras, Central America and moved to the United States at the age of 5 with my mother.  For the first couple years my mom and I would take an hour-long ride on a two-floor train; I would always rush to the top floor, look out the window, and envision what I would do at our destination. I would imagine the cartoons I would watch, salivate over the Kudos and Pringles I would be able to eat, and think about all the great toys I would play with. Then one day, as I was playing with a fully equipped Barbie Mansion, my mom reached over and handed me a bottle of Windex and paper towels; at that moment I realized that our hour-long train ride wasn’t a field trip, it was a commute to work. My mom and I were there to clean houses not to play.  
 
 From that moment on I started to notice that things looked very different in different parts of town. I wondered why some families lived in three floor homes, while I lived in a one-bedroom basement apartment with two families. I wondered why the park equipment in my neighborhood was always broken, but was fancy and new on the other side of town. I wondered if people in the neighborhood where my mom and I cleaned houses had to worry about La Migra coming to their jobs or their homes. I wondered if the kids at these houses ever had to miss school to translate for their parents.  I wondered why the police didn’t arrest kids around these houses for standing on the corner but my friends back in the neighborhood were arrested all the time. I slowly started to understand that these were two separate worlds.  
 
-	         
-
 As I got older, I would refuse to take the hour-long train ride with my mom, instead I would hang out with my friends in the neighborhood. When I was 12, my mom noticed that I was starting to get involved in some risky activities. She decided to send me to Honduras for the summer to spend time with Mi Abuelita (grandma). That summer Mi Abuelita, a Natural Healer and Master Gardener, helped me connect to my ancestral roots and taught me how to love nature through gardening. I learned about all the different plants that she used to help heal people and deliver babies - it was an eye-opening experience. That summer I also realized that some of the people that looked like my family and I wore suits to work and lived in houses rather than apartments.
-
-	         
 
 When I came back to the U.S, I returned to hanging out with my friends; but when I was 16, I decided I was done watching my friends get beat up, get beat by the cops, or arrested. My friends and I started hosting different activities to keep our friends from joining street gangs.  Throughout high school we organized different events, from parties, to walkouts to bring awareness to the violence in our communities. Around this time I remembered how the garden that Mi Abuelita introduced me to helped me to heal, and started wondering if a garden in our community could have the same impact for other young people. I got super excited and started looking for plots of land around the school. But in my search I learned that most of the land in Little Village was contaminated with industrial pollution. I thought to myself, “You have to be kidding me, on top of all of the issues I was aware of, our land is also polluted? We have poor education, gang violence, police brutality, immigration raids, militarization of schools and we also have contamination in our community? What the heck else could be wrong?” I learned that what my community was experiencing is called Environmental Racism and what we need is Environmental Justice before we can plant gardens here in Little Village…and that is what brought me to the work that I am doing now.
 
 Now I am here at Power Shift with Front-line Community Members and our Allies, working with the leadership of front-line communities and helping them create a trans-local movement to oppose corporate power is where there is strategic need for youth leadership.
 
-**TEAM BREAKOUT SESSION**
-
+-----------
+## **TEAM BREAKOUT SESSION**
 GROUP PRACTICE WORK
 
 **GOALS**
-
 - Practice telling your Story of Self and get constructive feedback
 - Learn to draw out and coach the stories of others  
-#### _AGENDA_
 
+#### _AGENDA_
 Total time: 65 min
 
-1. 
-Gather in your team. Choose a **timekeeper.**  Do **quick introductions** (name and hometown).  **Articulate group agreements** for how you’ll work together as during this training.  
-
-**Have your facilitator tell their 2-minute story of self** as an example. 	
-
-10 min.
+| ---- | ---- | ---- |
+| 1. | Gather in your team. Choose a **timekeeper.**  Do **quick introductions** (name and hometown).  **Articulate group agreements** for how you’ll work together as during this training. **Have your facilitator tell their 2-minute story of self** as an example. 	| 10 min. |
 
 1. 
 Take some time as individuals to **silently develop your “Story of Self**.”
