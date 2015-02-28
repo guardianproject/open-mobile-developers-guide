@@ -20,6 +20,10 @@ We have broken down content into something easily understandable for anyone new 
   - Going open source on Android with F-Droid
   - Key Books to Read and Open Source Organizations
 
+* Usability and Design
+  - Intro to Android design principles
+  - Making security boring
+
 * Application Fundamentals
   - Building apps for a complex world
   - Getting started in android development
@@ -34,10 +38,6 @@ We have broken down content into something easily understandable for anyone new 
   - Intro to ioCipher virtual encrypted disease
   - Intro to sqlCipher encrypted mobile databases
   - Taking smart photos
-
-* Usability and Design
-  - Intro to Android design principles
-  - Making security boring
 
 * Team and Project Management
   - Building an open source community
