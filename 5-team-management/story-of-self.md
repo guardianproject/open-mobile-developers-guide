@@ -148,69 +148,34 @@ Total time: 65 min
 | 1. | Gather in your team. Choose a **timekeeper.**  Do **quick introductions** (name and hometown).  **Articulate group agreements** for how you’ll work together as during this training. **Have your facilitator tell their 2-minute story of self** as an example. 	| 10 min. |
 | ---- | ---- | ---- |
 | 1. | Take some time as individuals to **silently develop your “Story of Self**.” Use the worksheet that follows. | 10 min. |
-| 1. | **Choose a partner** **Practice telling your story of self.** - 2 minutes each to tell your story - Focus on the values you want to convey—what specific experiences shaped those values in your life? - Be specific and give lots of detail
-**Use the worksheet “ Coaching Tips: Story of Self” to help guide your feedback**. - 3 minutes each for feedback: - What **values** did the storyteller convey? How specifically? - What is the **Challenge**, **Choice**, **Outcome** in each story? - Were there sections of the story that had especially **good details or images**  (sights, sounds, smells, or emotions of the moment)? How did those details make you feel? - What could the storyteller do to more effectively convey why they are called to leadership in this campaign? | 15 min |
+| 1. | **Choose a partner** **Practice telling your story of self.** - 2 minutes each to tell your story - Focus on the values you want to convey—what specific experiences shaped those values in your life? - Be specific and give lots of detail **Use the worksheet “ Coaching Tips: Story of Self” to help guide your feedback**. - 3 minutes each for feedback: - What **values** did the storyteller convey? How specifically? - What is the **Challenge**, **Choice**, **Outcome** in each story? - Were there sections of the story that had especially **good details or images**  (sights, sounds, smells, or emotions of the moment)? How did those details make you feel? - What could the storyteller do to more effectively convey why they are called to leadership in this campaign? | 15 min |
+| 1. | As a team **go around the group** and tell your story one by one. For each person: - 2 minutes to tell their story - 3 minutes to offer feedback from the group *Make sure your timekeeper cuts you off. This encourages focus and makes sure everyone has a chance to tell their story. Remember, the purpose here isn’t to tell a perfect story, it’s to practice narrative as part of the work of leadership. | 30 min |
 
-1. 
-As a team **go around the group** and tell your story one by one
-
-For each person:
-
--2 minutes to tell their story
-
--3 minutes to offer feedback from the group
-
-*Make sure your timekeeper cuts you off. This encourages focus and makes sure everyone has a chance to tell their story. Remember, the purpose here isn’t to tell a perfect story, it’s to practice narrative as part of the work of leadership.
-
-30 min
-
-**WORKSHEET**
-
+## WORKSHEET
 DEVELOPING YOUR STORY OF SELF
-
-
 
 **Before you decide what part of your story to tell, think about these questions:**
 
-1.1. What will I be calling on others to do?
-1.1. What values move me to take action and might also inspire others to similar action?
-1.1. What stories can I tell from my own life about specific people or events that would _show_ (rather than tell) how I learned or acted on those values?
+1. What will I be calling on others to do?
+1. What values move me to take action and might also inspire others to similar action?
+1. What stories can I tell from my own life about specific people or events that would _show_ (rather than tell) how I learned or acted on those values?
 
 **What are the experiences in your life that have shaped the values that call you to leadership in this campaign?**
 
-**FAMILY & CHILDHOOD**
+| **FAMILY & CHILDHOOD** | **LIFE CHOICES** | **ORGANIZING EXPERIENCES** |
+| ---- | ---- | ---- | 
+| Parents/Family | School | First Experience of organizing | 
+| Growing Up | Career | Connection to key books or people | 
+| Your Community | Partner/Family | Role Models |
+| Role Models | Hobbies/Interests/Talents |
+| School | Finding Passion | 
+| | Overcoming Challenge | 
 
-**LIFE CHOICES**
 
-**ORGANIZING EXPERIENCES**
 
-        Parents/Family
 
-	Growing Up 
 
-	Your Community 
 
-	Role Models
-
-	School
-
-      School
-
-	Career
-
-	Partner/Family
-
-	Hobbies/Interests/Talents
-
-	Finding Passion 
-
-Overcoming Challenge
-
-First Experience of organizing
-
-Connection to key books or people
-
-Role Models
 
 Think about the challenge, choice and outcome in your story. The outcome might be what you learned, in addition to what happened.
 
