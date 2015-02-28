@@ -147,9 +147,9 @@ Total time: 65 min
 
 | 1. | Gather in your team. Choose a **timekeeper.**  Do **quick introductions** (name and hometown).  **Articulate group agreements** for how you’ll work together as during this training. **Have your facilitator tell their 2-minute story of self** as an example. 	| 10 min. |
 | ---- | ---- | ---- |
-| 1. | Take some time as individuals to **silently develop your “Story of Self**.” Use the worksheet that follows. | 10 min. |
-| 1. | **Choose a partner** **Practice telling your story of self.** - 2 minutes each to tell your story - Focus on the values you want to convey—what specific experiences shaped those values in your life? - Be specific and give lots of detail **Use the worksheet “ Coaching Tips: Story of Self” to help guide your feedback**. - 3 minutes each for feedback: - What **values** did the storyteller convey? How specifically? - What is the **Challenge**, **Choice**, **Outcome** in each story? - Were there sections of the story that had especially **good details or images**  (sights, sounds, smells, or emotions of the moment)? How did those details make you feel? - What could the storyteller do to more effectively convey why they are called to leadership in this campaign? | 15 min |
-| 1. | As a team **go around the group** and tell your story one by one. For each person: - 2 minutes to tell their story - 3 minutes to offer feedback from the group *Make sure your timekeeper cuts you off. This encourages focus and makes sure everyone has a chance to tell their story. Remember, the purpose here isn’t to tell a perfect story, it’s to practice narrative as part of the work of leadership. | 30 min |
+| 2. | Take some time as individuals to **silently develop your “Story of Self**.” Use the worksheet that follows. | 10 min. |
+| 3. | **Choose a partner** **Practice telling your story of self.** - 2 minutes each to tell your story - Focus on the values you want to convey—what specific experiences shaped those values in your life? - Be specific and give lots of detail **Use the worksheet “ Coaching Tips: Story of Self” to help guide your feedback**. - 3 minutes each for feedback: - What **values** did the storyteller convey? How specifically? - What is the **Challenge**, **Choice**, **Outcome** in each story? - Were there sections of the story that had especially **good details or images**  (sights, sounds, smells, or emotions of the moment)? How did those details make you feel? - What could the storyteller do to more effectively convey why they are called to leadership in this campaign? | 15 min |
+| 4. | As a team **go around the group** and tell your story one by one. For each person: - 2 minutes to tell their story - 3 minutes to offer feedback from the group *Make sure your timekeeper cuts you off. This encourages focus and makes sure everyone has a chance to tell their story. Remember, the purpose here isn’t to tell a perfect story, it’s to practice narrative as part of the work of leadership. | 30 min |
 
 ## WORKSHEET
 DEVELOPING YOUR STORY OF SELF
@@ -178,7 +178,7 @@ _Try drawing pictures here instead of words_. Powerful stories leave your listen
 
 | **CHALLENGE** | **CHOICE** | **OUTCOME** | 
 | ---- | ---- | ---- |
-| --x-- | --x-- | --x-- |
+|  |  |  |
 
 ## COACHING TIPS:
 STORY OF SELF
@@ -221,7 +221,7 @@ _As you hear each other's stories, keeping track of the details of each person�
 
 | **NAME** | **VALUES** | **CHALLENGE** | **CHOICE** | **OUTCOME** | 
 | ---- | ---- | ---- | ---- | ---- |
-| --x-- | --x-- | --x-- | --x-- | --x-- |
+|  |  |  |  |  |
 
 ### **ADDITIONAL RESOURCES:**
 

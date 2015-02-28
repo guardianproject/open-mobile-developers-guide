@@ -12,7 +12,7 @@ We have broken down content into something easily understandable for anyone new 
 * Open Source Foundations
   - What is Open Source
   - Beginners Guide to Open Source
-  - Intro to Civic Hacking
+  - Getting started in Civic Hacking
   - How to get started in Open Source
   - Three key elements that define every open source project
   - Getting started with GitHub
