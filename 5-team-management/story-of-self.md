@@ -145,36 +145,11 @@ GROUP PRACTICE WORK
 #### AGENDA
 Total time: 65 min
 
-
 | 1. | Gather in your team. Choose a **timekeeper.**  Do **quick introductions** (name and hometown).  **Articulate group agreements** for how you’ll work together as during this training. **Have your facilitator tell their 2-minute story of self** as an example. 	| 10 min. |
 | ---- | ---- | ---- |
-1. 
-Take some time as individuals to **silently develop your “Story of Self**.”
-
-Use the worksheet that follows.
-
-10 min.
-
-1. 
-**Choose a partner**
-
-**Practice telling your story of self.**
-
--2 minutes each to tell your story
-
-- Focus on the values you want to convey—what specific experiences shaped those values in your life?
-- Be specific and give lots of detail
-
-**Use the worksheet “ Coaching Tips: Story of Self” to help guide your feedback**.
-
-- 3 minutes each for feedback:
-
-- What **values**did the storyteller convey? How specifically?
-- What is the **Challenge**, **Choice**, **Outcome** in each story? 
-- Were there sections of the story that had especially **good details or images**  (sights, sounds, smells, or emotions of the moment)?How did those details make you feel?
-- What could the storyteller do to more effectively convey why they are called to leadership in this campaign?
-
-15 min
+| 1. | Take some time as individuals to **silently develop your “Story of Self**.” Use the worksheet that follows. | 10 min. |
+| 1. | **Choose a partner** **Practice telling your story of self.** - 2 minutes each to tell your story - Focus on the values you want to convey—what specific experiences shaped those values in your life? - Be specific and give lots of detail
+**Use the worksheet “ Coaching Tips: Story of Self” to help guide your feedback**. - 3 minutes each for feedback: - What **values** did the storyteller convey? How specifically? - What is the **Challenge**, **Choice**, **Outcome** in each story? - Were there sections of the story that had especially **good details or images**  (sights, sounds, smells, or emotions of the moment)? How did those details make you feel? - What could the storyteller do to more effectively convey why they are called to leadership in this campaign? | 15 min |
 
 1. 
 As a team **go around the group** and tell your story one by one
