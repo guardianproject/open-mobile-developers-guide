@@ -14,14 +14,7 @@
 | **TRAINER STORY** **(2 minutes 30 seconds)** | | Tell your 2 min story of Self, as it relates to this particular training group or campaign. Use the Story of Self worksheet in the participant guide to help develop your story. |
 | **LEADERSHIP** **(30 seconds)** | | Go back to our definition of leadership. How does public narrative fit into this way of practicing leadership? Stories help us learn to make choices in the face of uncertainty. |
 | **WHY DO WE TELL STORIES?** **(1 minute)** | | **_Why do we tell stories?_** We tell stories to motivate others to take action with us. We tell stories to enable others to understand who they are and why to take action. Story telling is a leadership art that “enables others” to understand their individual, community and immediate calling. A good story helps us make choices in our own lives, by illustrating how a particular character overcame a challenge. |
-| **TWO WAYS OF KNOWING** **(1 minute)** | | There are 2 ways in which we understand the world around us: 
-1. The heart understands the ‘why’ (story)
-1. The head understands the ‘how’ (strategy)
-Both lead to action, but we need to learn to lead with the head AND the Heart. Organizing without a strategy isn’t driven and doesn’t lead us anywhere, like walking blind.  But having the best strategy in the world doesn’t matter if we’re not motivated to implement it and we can’t get anyone to join us._
-
-Audience Engagement: _By show of hands, who here has been in an organizing situation that was all about head (strategy)? Like “lets get the petitions signed and then the meeting with the congressional members and then lets make calls, etc.” How’d it go? How about an organization that was all heart- storytelling, community building and no strategy?_
-
-_Emphasize the need for the head_ **_and_** _the heart._ |
+| **TWO WAYS OF KNOWING** **(1 minute)** | | There are 2 ways in which we understand the world around us: 1. The heart understands the ‘why’ (story); 2. The head understands the ‘how’ (strategy). Both lead to action, but we need to learn to lead with the head AND the Heart. Organizing without a strategy isn’t driven and doesn’t lead us anywhere, like walking blind.  But having the best strategy in the world doesn’t matter if we’re not motivated to implement it and we can’t get anyone to join us._ **Audience Engagement**: _By show of hands, who here has been in an organizing situation that was all about head (strategy)? Like “lets get the petitions signed and then the meeting with the congressional members and then lets make calls, etc.” How’d it go? How about an organization that was all heart- storytelling, community building and no strategy?_ _Emphasize the need for the head_ **_and_** _the heart._ |
 
 **EMOTIONS, VALUES, ACTION**
 
