@@ -18,11 +18,16 @@ We have broken down content into something easily understandable for anyone new 
   - Getting started with GitHub
   - Getting started with Discourse
   - Going open source on Android with F-Droid
+  - Things newcomers to open source rarely ask but often wonder
   - Key Books to Read and Open Source Organizations
 
-* Usability and Design
+* Design and Usability
   - Intro to Android design principles
   - Making security boring
+  - Can truly great design be done the open source way?
+  - Where design thinking and open source community collaboration meet
+  - Leverage user-centered design in your open source project
+  - Five steps to using design in your open source project
 
 * Application Fundamentals
   - Building apps for a complex world
@@ -45,4 +50,3 @@ We have broken down content into something easily understandable for anyone new 
   - The story of self and motivating a movement
   - Top five open source project management tools
   - Five ways to boots community engagement
-

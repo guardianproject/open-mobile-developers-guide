@@ -15,7 +15,8 @@ Many authors have chronicled the history of open source and profiled the movemen
 - [Open Sources](http://shop.oreilly.com/product/9781565925823.do) by Chris DiBona and Sam Ockman
 - [The Foundation for an Open Source City](http://theopensourcecity.com)
 
-### An open world: Stories from the open source community [[source link](http://opensource.com/resources/ebook/best)]
+### An open world: Stories from the open source community 
+[[source link](http://opensource.com/resources/ebook/best)]
 At opensource.com, our mission is to shine a light on the places where the open source way is magnifying ideas and multiplying effort. And we remain especially interested in topics beyond technology—developments in areas like business, education, government, health, law, and everyday life.
 
 [This collection](http://opensource.com/sites/default/files/open_source_eBook_AnOpenWorld_web.pdf) offers some of our most empowering stories. From the trenches. From the library. From the cubicle. From the capitol. From the classroom and the boardroom and the courtroom. These are our community members—and perhaps you could be in the next edition.
@@ -23,7 +24,8 @@ At opensource.com, our mission is to shine a light on the places where the open 
 Download this free eBook
 An open world: Stories from the open source community [[ePub](http://opensource.com/sites/default/files/an_open_world.epub)] | [[PDF](http://opensource.com/sites/default/files/open_source_eBook_AnOpenWorld_web.pdf)]
 
-### How to get started with Open Source [[source link](http://opensource.com/resources/ebook/how-get-started-open-source)]
+### How to get started with Open Source 
+[[source link](http://opensource.com/resources/ebook/how-get-started-open-source)]
 Taking the first steps in any journey can be scary. There are new obstacles to hurdle, unfamiliar landscapes to traverse, and usually the destination is shrouded in mystery. But that's also what makes new ventures exciting and worthwhile.
 
 The collection of stories in this eBook are about striking out on the open source way. Whether you're an individual, seeking information on moving away from closed software, or an organization looking for free and open alternatives to the utilities that help your business succeed, these are stories about finding your footing in the world of open source. Several are “origin stories” about how experts discovered open source, and how they've flourished in the time since. Others are focused guides on finding the right software, using a specific open source tool, or introducing your neighborhood or town to the power of the open source way.
@@ -33,7 +35,8 @@ Remember that it's not easy to get started with anything new, but, as an old Bud
 Download this free eBook
 How to get started with open source [[ePub](http://opensource.com/sites/default/files/beginners-in-open-source.epub)] | [[ODT](http://opensource.com/sites/default/files/beginners-in-open-source.odt)] 
 
-### Open always wins: A Michael Tiemann collection [[source Link](http://opensource.com/resources/ebook/open-always-wins)]
+### Open always wins: A Michael Tiemann collection 
+[[source Link](http://opensource.com/resources/ebook/open-always-wins)]
 Michael Tiemann is Vice President of Open Source Affairs at Red Hat and former President of the Open Source Initiative. He has written many articles for Opensource.com speaking to the power of the open source way, and part of his process has been to highlight the great ideas of others.
 
 From his introduction:
@@ -47,7 +50,8 @@ Glean insight from a true open source visionary and learn how can you apply thos
 Download this free eBook
 Open always wins [[ePub](http://opensource.com/sites/default/files/open_always_wins_michael_tiemann_collection.epub)] | [[ODT](http://opensource.com/sites/default/files/open_always_wins_michael_tiemann_collection_source.odt)]
 
-### Applying open source principles to government [[source link](http://opensource.com/resources/ebook/opengov)]
+### Applying open source principles to government 
+[[source link](http://opensource.com/resources/ebook/opengov)]
 At opensource.com, we look at the intersection of open source and government, with a special focus on the ways governments adopt and release new technologies and can cultivate open source communities. We document the way that open source principles—participation, transparency, collaboration, sharing, meritocracy, community, and rapid prototyping—have enormous value beyond the technology sector. Citizen movements around open voting, the Freedom of Information Act (FOIA) request tracking, and even crowdsourced legislation, represent a growing trend of open source principles within government.
 
 Download the free eBookThis collection features stories about government initiatives around the world, from the first two years of opensource.com. They illustrate the impact of open source on government and vice versa. There is a long journey left and we hope you'll share your experiences with us.
