@@ -178,6 +178,7 @@ _Try drawing pictures here instead of words_. Powerful stories leave your listen
 
 | **CHALLENGE** | **CHOICE** | **OUTCOME** | 
 | ---- | ---- | ---- |
+| --x-- | --x-- | --x-- |
 
 ## COACHING TIPS:
 STORY OF SELF
@@ -220,6 +221,7 @@ _As you hear each other's stories, keeping track of the details of each personâ€
 
 | **NAME** | **VALUES** | **CHALLENGE** | **CHOICE** | **OUTCOME** | 
 | ---- | ---- | ---- | ---- | ---- |
+| --x-- | --x-- | --x-- | --x-- | --x-- |
 
 ### **ADDITIONAL RESOURCES:**
 
