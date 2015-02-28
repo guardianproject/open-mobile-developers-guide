@@ -1,11 +1,14 @@
 # TRAINERS NOTES: STORY OF SELF
 
+Source: [NOI's Story of Self Materials](http://neworganizing.com/toolbox/training/story-of-self/materials)
+
 **Key Teaching Points:**
 - Stories communicate values through emotions: emotions move us to act
 - Certain emotions inhibit action while others facilitate action: we can use stories to elicit emotions that facilitate action.
 - Good stories have a structure => challenge, choice, outcome
 - Public Narrative is a particular type of story with three parts: Self, Us, Now
 - Story of Self is a practice organizers can use to build community by introducing who they are and why they are called to this work. We can teach through the script of our own lives. 
+
 
 | **SECTION** | **SLIDE** | **ANNOTATED NOTES** |
 | ----------- | --------- | ------------------- |
@@ -24,4 +27,4 @@
 | **LEARNING TEAMS EXPLANATION** **(5 minutes)** | | Review the Story of Self worksheets and learning team agenda before the groups break out. Trainer Tip: Remind the participants to_focus on 1 or 2 choice points in your life that teach others about what values move them to be here, and like a good movie their story should be constructed so we can SEE it, HEAR it, FEEL it because of the details. |
 | **ROLEPLAY** |
 | **BREAK INTO TEAMS** **65 min** | All materials are in the participant guide | **1.** Review agenda, Set Norms, assign a time keeper (10 min) **2.** Develop your story (10 min) **3.** Partner pair-and-share (15 min) **4.** Share stories in small group (30 min) | 
-| **DEBRIEF** **20 min** | | Invite 2-3 participants to tell their stories. Have group coach them on making their stories better. Also, define what makes for effective coaching. What coaching questions helped your stories improve? **1.** Did they tell a real Story of Self with a clear moment(s) of choice?**2.** Did they avoid the trap of just talking about the campaign? If not how could they?  What in their life are you still curious about? **3.** Was there good detail?  Where could there be more? **4.** Coaching—what types of feedback & questions were helpful? |
+| **DEBRIEF** **20 min** | | Invite 2-3 participants to tell their stories. Have group coach them on making their stories better. Also, define what makes for effective coaching. What coaching questions helped your stories improve? **1.** Did they tell a real Story of Self with a clear moment(s) of choice **2.** Did they avoid the trap of just talking about the campaign? If not how could they?  What in their life are you still curious about? **3.** Was there good detail?  Where could there be more? **4.** Coaching—what types of feedback & questions were helpful? |
