@@ -172,88 +172,65 @@ DEVELOPING YOUR STORY OF SELF
 | | Overcoming Challenge | 
 
 
-
-
-
-
-
 Think about the challenge, choice and outcome in your story. The outcome might be what you learned, in addition to what happened.
 
 _Try drawing pictures here instead of words_. Powerful stories leave your listeners with images in their minds that shape their understanding of you and your calling_._
 
-**CHALLENGE**
+| **CHALLENGE** | **CHOICE** | **OUTCOME** | 
+| ---- | ---- | ---- |
 
-**CHOICE**
-
-**OUTCOME**
-
-**COACHING TIPS:**
-
+## COACHING TIPS:
 STORY OF SELF
 
-
-
-Remember to balance both positive and constructive critical feedback. The purpose of coaching is to listen to the_way_ stories are told and think of ways that the storytelling could be improved.
+Remember to balance both positive and constructive critical feedback. The purpose of coaching is to listen to the _way_ stories are told and think of ways that the storytelling could be improved.
 
 **DON’T** simply offer vague “feel good” comments. (“That was a really great story!”)
 
 **DO** coach each other on the following points:
 
-- **_THE CHALLENGE:_**What were the specific challenges the storyteller faced? Did the storyteller paint a vivid picture of those challenges?
+1. **_THE CHALLENGE:_**What were the specific challenges the storyteller faced? Did the storyteller paint a vivid picture of those challenges?
+  - _“When you described ________, I got a clear picture of the challenge.”_
+  - _“I understood the challenge to be ________. Is that what you intended?”_
 
-_“When you described ________, I got a clear picture of the challenge.”_
+1. **_THE CHOICE:_**Was there a clear choice that was made in response to each challenge? How did the choice make you feel? (Hopeful? Angry?)
 
-_“I understood the challenge to be ________. Is that what you intended?”_
+  - _“To me, the choice you made was _______, and it made me feel _______.”_
+  - _“It would be helpful if you focused on the moment you made a choice.”_
 
-- **_THE CHOICE:_**Was there a clear choice that was made in response to each challenge? How did the choice make you feel? (Hopeful? Angry?)
+1. **_THE OUTCOME:_**What was the specific outcome that resulted from each choice? What does that outcome teach us?
+  - _“I understood the outcome was _______, and it teaches me _______. But how does it relate to your work now?”_
 
-_“To me, the choice you made was _______, and it made me feel _______.”_
+1. **_THE VALUES:_**Could you identify what this person’s values are and where they came from? How? How did the story make you feel?
+  - _“Your story made me feel ________ because _________.”_
 
-_“It would be helpful if you focused on the moment you made a choice.”_
+  - _“It’s clear from your story that you value _______; but it could be even clearer if you told a story about where that value comes from.”_
 
-- **_THE OUTCOME:_**What was the specific outcome that resulted from each choice? What does that outcome teach us?
-
-_“I understood the outcome was _______, and it teaches me _______. But how does it relate to your work now?”_
-
-- **_THE VALUES:_**Could you identify what this person’s values are and where they came from? How? How did the story make you feel?
-
-_“Your story made me feel ________ because _________.”_
-
-_“It’s clear from your story that you value _______; but it could be even clearer if you told a story about where that value comes from.”_
-
-- **_DETAILS:_** Were there sections of the story that had especially good details or images (e.g. sights, sounds, smells, or emotions of the moment)? 
-
-_“The image of ________ really helped me identify with what you were feeling.”_
-
-_“Try telling more details about _______ so we can imagine what you were experiencing.”_
+1. **_DETAILS:_** Were there sections of the story that had especially good details or images (e.g. sights, sounds, smells, or emotions of the moment)? 
+  - _“The image of ________ really helped me identify with what you were feeling.”_
+  - _“Try telling more details about _______ so we can imagine what you were experiencing.”_
 
 
 _Record Feedback/Comments from Your Team Members Here:_
 
-_Coaching Your Team's “Story of Self”_  _As you hear each other's stories, keeping track of the details of each person’s story will help you to provide feedback and remember details about people on your team later. Use the grid below to track your team's stories in words or images._
-
-**NAME**
-
-**VALUES**
-
-**CHALLENGE**
-
-**CHOICE**
-
-**OUTCOME**
-
-**ADDITIONAL RESOURCES:**
+[Section for writing]
 
 
+#### _Coaching Your Team's “Story of Self”_  
+_As you hear each other's stories, keeping track of the details of each person’s story will help you to provide feedback and remember details about people on your team later. Use the grid below to track your team's stories in words or images._
 
-Videos:
+| **NAME** | **VALUES** | **CHALLENGE** | **CHOICE** | **OUTCOME** | 
+| ---- | ---- | ---- | ---- | ---- |
+
+### **ADDITIONAL RESOURCES:**
+
+#### Videos:
 
 - [Barack Obama, Keynote Address, “The Audacity of Hope”, Democratic National Convention, July 27, 2004, Boston, Massachusetts (first 7 minutes).](http://www.youtube.com/watch?v=eWynt87PaJ0&feature=player_embedded)
 - [NOI Video resource center: Story of Self](http://noitoolbox.mirocommunity.org/category/story-of-self)
 
-Readings:
+#### Readings:
 
-- Jerome Bruner, “Two Modes of Thought”, Chapter 2 in Actual Minds, Possible Worlds (Cambridge: Harvard University Press, 1986), p.11 – 25.
+-	 Jerome Bruner, “Two Modes of Thought”, Chapter 2 in Actual Minds, Possible Worlds (Cambridge: Harvard University Press, 1986), p.11 – 25.
 - Martha Nussbaum, “Emotions and Judgments of Value”, Chapter 1 in Upheavals of Thought: The Intelligence of Emotions, (New York: Cambridge University Press, 2001), (pp. 19-33).
 - George Marcus, The Sentimental Citizen: Emotion in Democratic Politics, (University Park: Penn State University Press, 2002), Chapter 4, “Becoming Reacquainted with Emotion” (pp.49-78)
 - Malcolm Gladwell, “Small Change: why the revolution will not be tweeted”, in The New Yorker, October 4, 2010. (http://www.newyorker.com/reporting/2010/10/04/101004fa_fact_gladwell)
