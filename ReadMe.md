@@ -30,23 +30,21 @@ We have broken down content into something easily understandable for anyone new 
   - Five steps to using design in your open source project
 
 * Application Fundamentals
-  - Building apps for a complex world
+  - Building apps for a complex world (*needs more content*)
   - Getting started in android development
-  - How to I secure my internet traffic
-  - Fundamentals of a web app
-  - Fundamentals of a mobile apps
 
 * Security and Privacy
-  - Making Security boring
   - Encrypt all the bits introduction to mobile security
-  - How to I protect my apps and data
-  - Intro to ioCipher virtual encrypted disease
-  - Intro to sqlCipher encrypted mobile databases
+  - How to I protect my apps and data (*needs more content*)
+  - How do I encrypt a file (Intro to ioCipher virtual encrypted disease)
+  - How do I protect my app's data (Intro to sqlCipher encrypted mobile databases)
+  - How to I secure my internet traffic (Intro to NetCipher)
   - Taking smart photos
 
 * Team and Project Management
   - Building an open source community
   - How to use IRC (Internet Relay Chat)
   - The story of self and motivating a movement
+  	- TRAINERS NOTES: STORY OF SELF
   - Top five open source project management tools
-  - Five ways to boots community engagement
+  - Five ways to boost community engagement

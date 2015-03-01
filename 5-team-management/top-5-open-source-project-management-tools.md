@@ -5,7 +5,6 @@ Source [OpenSource.com](http://opensource.com/business/15/1/top-project-manageme
 Last year, I covered five of the best [open source project management tools](http://opensource.com/business/14/1/top-project-management-tools-2014), like ProjectLibre and OpenProject. The article struck a chord with readers and continues to prove valuable. So, this year I revisited the tools mentioned in last year's article, taking into account comments and suggestions from readers, and provided an update on where they are today. First, I share five new open source project management tools for 2015. All in all, this article will give you a good look at 11 of the top open source project management tools out there.
 
 The criteria I used is based on the following:
-
 - Is the software provided under an open source license?
 - Does it have an active community?
 - Does it have up-to-date documentation available?
