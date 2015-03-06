@@ -6,15 +6,6 @@ This is our guide for teaching you how to join the open-source mobile developer 
 ## Content Sources and Translations
 This content is pulled from many different locations. Also, some of this content will be in languages other than english. If the translation needs to be improved, please perform a pull request.
 
-#### Currently, we are working on the following languages
-* Arabic (AR), Needs a translation
-* English (EN), Source documents
-* Spanish (ES), Needs a translation
-* Farsi/Persian (FA), In process
-* French (FR), Needs a translation
-* Chinese (ZH), Needs a translation
-
-
 # Table of Contents
 We have broken down content into something easily understandable for anyone new to open source, civic hacking, and mobile development. 
 
