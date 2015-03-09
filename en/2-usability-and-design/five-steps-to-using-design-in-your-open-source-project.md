@@ -9,6 +9,7 @@ More on that in [my previous article](http://opensource.com/life/14/1/how-to-lev
 In this article, I've expanded on the five tips I've identified for leveraging user-centered design in your open source project.
 
 1. **Track usability and design issues**.
+
 - Gather context as well as feedback
 - Don't respond (with software/design changes) to each piece of feedback
 - Synthesize issues for themes 
