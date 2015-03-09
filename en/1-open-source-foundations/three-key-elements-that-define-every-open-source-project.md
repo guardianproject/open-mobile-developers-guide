@@ -1,4 +1,4 @@
-# 3 key elements that define every open source project
+# Three key elements that define every open source project
 Source: [OpenSource.com](https://opensource.com/life/15/2/3-key-elements-every-open-source-project)
 
 Open source has come a long way in the past 30 years and is entering the consciousness of most modern cultures. When thinking of open source projects, people categorize them several ways: governance structure, type of product platform, programming language, utility, technical details (language written in), industry sponsored or fully independent, and more.
