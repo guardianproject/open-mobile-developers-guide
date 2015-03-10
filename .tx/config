@@ -1,0 +1,27 @@
+[main]
+host = https://www.transifex.com
+
+[developers-corner.beginners-guide-to-open-source]
+file_filter = <lang>/1-open-source-foundations/beginners-guide-to-open-source.md
+source_file = en/1-open-source-foundations/beginners-guide-to-open-source.md
+source_lang = en
+type = TXT
+
+[developers-corner.things-newcomers-to-open-source-rarely-ask-but-often-wonder]
+file_filter = <lang>/1-open-source-foundations/things-newcomers-to-open-source-rarely-ask-but-often-wonder.md
+source_file = en/1-open-source-foundations/things-newcomers-to-open-source-rarely-ask-but-often-wonder.md
+source_lang = en
+type = TXT
+
+[developers-corner.what-is-open-source]
+file_filter = <lang>/1-open-source-foundations/what-is-open-source.md
+source_file = en/1-open-source-foundations/what-is-open-source.md
+source_lang = en
+type = TXT
+
+[developers-corner.three-key-elements-that-define-every-open-source-project]
+file_filter = <lang>/1-open-source-foundations/three-key-elements-that-define-every-open-source-project.md
+source_file = en/1-open-source-foundations/three-key-elements-that-define-every-open-source-project.md
+source_lang = en
+type = TXT
+
