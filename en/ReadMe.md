@@ -30,8 +30,10 @@ We have broken down content into something easily understandable for anyone new 
   - Five steps to using design in your open source project
 
 * Application Fundamentals
-  - Building apps for a complex world (*needs more content*)
+  - Elements of the mobile user experience 
+  - Building apps for a complex world (needs more content)
   - Getting started in android development
+
 
 * Security and Privacy
   - Encrypt all the bits introduction to mobile security
