@@ -1,62 +1,62 @@
-# Android Design Principles
-Source: [Android.com](https://developer.android.com/design/get-started/principles.html)
+# اصول طراحی آندروید
+منبع :  [Android.com](https://developer.android.com/design/get-started/principles.html)
 
-These design principles were developed by and for the Android User Experience Team to keep users' best interests in mind. For Android developers and designers, they continue to underlie the more detailed design guidelines for different types of devices.
+این اصول طراحی توسط تیم کاربران تجربه ای اندروید برای  بهترین نحوه استفاده کاربران  اندروید تهیه شده. یکی از دلایل طراحی آن این است که  دستورالعمل های مربوط به  طراحی جزییات برای دستگاه های مختلف اندروید را برای  توسعه دهندگان و طراحان مشخص می کند.
 
-Consider these principles as you apply your own creativity and design thinking. Deviate with purpose.
+ این اصول را همزمان با خلاقیت و نگاهت برای طراحیت در نظر بگیر.  کارت را انجام بده ولی برای انجام دادنش دلیل داشته باش. 
 
-## Enchant Me
-### Delight me in surprising ways
-A beautiful surface, a carefully-placed animation, or a well-timed sound effect is a joy to experience. Subtle effects contribute to a feeling of effortlessness and a sense that a powerful force is at hand.
+## منو فریب بده / منو جادو کن 
+### منو شوق زده کن از طریق راه های تعجب آور 
+یک دستگاه زیبا که انیمیشن خوبی به همراه افکت های صوتی  که خیلی خوب زمانبندی شدند می تونه  چیزه خوبی  برای امتحان کردن باشه.  این اثرات کوچک  هستند که می تونه تاثیر بسزایی داشته باشه برای امتحان کردن و به بیانی معنای اینکه نیروی قدرتمندی در دست است. 
  
-### Real objects are more fun than buttons and menus
-Allow people to directly touch and manipulate objects in your app. It reduces the cognitive effort needed to perform a task while making it more emotionally satisfying.
+### اشیاء واقعی می تونن از دکمه ها و منو ها باحال تر باشند 
+به همه اجازه بده بطور مستقیم همه چیز را در برنامه ات دستکاری کنند. این  زحمتت  را برای شناخت بیشتر کم می کنه  در حالی که از  حیم ساختنش احساس راضی بودن خواهی داشت. 
  
-### Let me make it mine
-People love to add personal touches because it helps them feel at home and in control. Provide sensible, beautiful defaults, but also consider fun, optional customizations that don't hinder primary tasks.
+### بزار اون را مال خودم کنم 
+همه دوست دارن بتون دستکاری های خودشون را انجام بدن٬ چرا که این کمک می کنه احساس کنن همه چیز تحت کنترله خودشونه و به بیانی تو خونه خودشون هستند. پیش فرض خوب  و معقول را حتما قرار بده ولی  به این فکر کن که باحال باشن ٬ همچنین تغییرات سفارشی که جلوی انجام کارهای اولیه را نگیره. 
  
-### Get to know me
-Learn peoples' preferences over time. Rather than asking them to make the same choices over and over, place previous choices within easy reach.
-
-
-## Simplify My Life
-### Keep it brief
-Use short phrases with simple words. People are likely to skip sentences if they're long.
-
-### Pictures are faster than words
-Consider using pictures to explain ideas. They get people's attention and can be much more efficient than words.
- 
-### Decide for me but let me have the final say
-Take your best guess and act rather than asking first. Too many choices and decisions make people unhappy. Just in case you get it wrong, allow for 'undo'.
- 
-### Only show what I need when I need it
-People get overwhelmed when they see too much at once. Break tasks and information into small, digestible chunks. Hide options that aren't essential at the moment, and teach people as they go.
- 
-### I should always know where I am
-Give people confidence that they know their way around. Make places in your app look distinct and use transitions to show relationships among screens. Provide feedback on tasks in progress.
- 
-### Never lose my stuff
-Save what people took time to create and let them access it from anywhere. Remember settings, personal touches, and creations across phones, tablets, and computers. It makes upgrading the easiest thing in the world.
- 
-### If it looks the same, it should act the same
-Help people discern functional differences by making them visually distinct rather than subtle. Avoid modes, which are places that look similar but act differently on the same input.
- 
-## Only interrupt me if it's important
-Like a good personal assistant, shield people from unimportant minutiae. People want to stay focused, and unless it's critical and time-sensitive, an interruption can be taxing and frustrating.
+### منو بهتر بشناس 
+اون چیزی که مردم ترجیح می دهند را در طول زمان بفهم ٬ به جای اینکه مکررا  از اونها بخواهیم همون انتخاب قدیمی  را دوباره و دوباره انجام بدن انتخاب های قدیمی را جایی بزار که بتونن به راحتی بهش دسترسی داشته باشند. 
 
 
-## Make Me Amazing
-### Give me tricks that work everywhere
-People feel great when they figure things out for themselves. Make your app easier to learn by leveraging visual patterns and muscle memory from other Android apps. For example, the swipe gesture may be a good navigational shortcut.
+## زندگی من را آسانتر کن. 
+### کوتاه نگهش دار 
+از عبارات کوتاه به همراه کلمات آسون استفاده کن. مردم جملات دوست ندارن مخصوصا اگر بلند باشند. 
+
+### عکس ها از کلمه ها سریعتر هستند
+سعی کن از عکس ها استفاده کنی برای توضیح دادن ایده هات. عکس ها  توجه همه را  بخدوشون جذب می کنند و می تونند تاثیرگذارتر از کلمات باشند.  
  
-### It's not my fault
-Be gentle in how you prompt people to make corrections. They want to feel smart when they use your app. If something goes wrong, give clear recovery instructions but spare them the technical details. If you can fix it behind the scenes, even better.
+### برای من تصمیم گیری کن ولی بزار حرف آخر را من بزنم 
+بهترین حدس را بزن و عمل کن بجای اینکه بخوای اول سوال کنی . انتخاب های زیاد م تصمیم گیری ها همه را ناراحت می کنه.  فقط برای اینکه اگر اشتباه کردی٬ امکان بازگشت را باز بزار. 
  
-### Sprinkle encouragement
-Break complex tasks into smaller steps that can be easily accomplished. Give feedback on actions, even if it's just a subtle glow.
+### فقط چیزی را بهم نشون بده وقتی که بهش نیاز دارم 
+مردم وقتی همه چیز  در یک لحظه را با هم می بینند درونش غرق می شوند (دچاراشتباه می شوند) . اطلاعات و داده ها را به بخش های کوچک و قابل هضم تبدیل کن. قسمت های غیر ضروری را در حال حاضر پنهان کن و به مرور زمان به کاربرات یاد بده.
  
-### Do the heavy lifting for me
-Make novices feel like experts by enabling them to do things they never thought they could. For example, shortcuts that combine multiple photo effects can make amateur photographs look amazing in only a few steps.
+### من باید همیشه بدونم کجا هستم 
+به همه این امکان و اراده را بده که بدونن کجا هستن. مکان هایی در برنامه ات  بوجود بیار که ظاهری متفاوت داشته باشه و از تغییراتی استفاده کن برای نشان دادن رابطه میان صفحه نمایش. همچنین  داشتن امکان پیشنهاد و انتقاد باعث پیش رفت می شه. 
  
-### Make important things fast
-Not all actions are equal. Decide what's most important in your app and make it easy to find and fast to use, like the shutter button in a camera, or the pause button in a music player.
+### هیچوقت چیزهایم را گم نکن 
+اون چیزی را که کاربرات  وقت گذاشتن و درست کردن ذخیره کن و بهشون اجازه بده از بهش دسترسی داشته باشند از هر جایی. تنظیمات و دستکاری های شخصی را بیاد داشته باش و نوآوری ها  جدید را در موبایل٬ تبلت٬‌ کامپیوترها . این بروزرسانی را یکی از آسانترین کارهای دنیا می کنه. 
+ 
+###  اگر همون شکلی باشه٬ همنجوری هم کار می کنه
+به مردم کمک کن برای تشخیص دادن تفاوت عملکردها با ساختن اونها با شکلی متفاوت بجای اینکه ظریف باشند. اصول و سبک را کنار بزار چرا که می تونن بصورت ظاهری یکی باشند ولی عملکردی متفاوت داشته باشد 
+ 
+## فقط وقتی مزاحمم بشو که خیلی مهمه. 
+ مثل یک دستیار شخصی خوب باید سپری باشی در مقابل جزییات غیر ضروری. مردم می خواهند متمرکز بمونن٬‌ قبل از اینکه خیلی جدی باشه و یا زمان خوبی نباشه مزاحم شدن می تونه واقعا  سنگین و خسته کننده باشه.
+
+
+##  منو شگفت زده کن 
+### به من راه کاری را بده که همه جا کار می کنه 
+مردم احساس خوبی می کنند وقتی خودشون می تونن مشکلشون را حل بکنند. برنامه ات را آسان کن با اعمال نفوذ از الگوهای تصویری و  خاطره کار کردن با دیگر برنامه های اندروید. به عنوان نمونه حرکت جابجایی مثل جاروب کردن می تونه یک میانبر خوب باشه برای جهتنمایی. 
+ 
+### این تقصیر من نیست  
+ مراقب باش که چگونه به کاربرانت بگی که تغییرات را انجام بدن. اونها دوست دارند احساس هوشمندی کنند وقتی دارند ار برنامه  ات استفاده می کنند. اگر مشکلی بوجود آمد٬‌ بهشون راه حل را نشون بده ولی دستور العمل بازیابی فنی را براشون بزار. اگر خودت می تونی مشکل را حل بکنی بدون حضورت (پشت پرده) می تونه خیلی بهتر باشه. 
+ 
+### کم کم تشویقم کن 
+مراحل پیچیده را به بخش های کوچکتر تبدیل کن که به راحتی بتونن انجام بشن. در هر مرحله پیشنهاد بده  حتی اگر خیلی حساس و ظریف باشند. 
+ 
+### بلند کردن سنگین را انجام بده / کار سخت را برای من انجام بده 
+به تازه کارها  با در اختیار گذاشتن امکان انجام کارهایی که قبلا فکر می کردند نمی توانند انجام بدن احساس متخصص بودن بده . به عنوان مثال با میانبری  از چند افکت تصویری می شه  یک عکس  معمولی را به یک عکس حرفه ای  تبدیل کرد اون هم فقط با انجام چند حرکت. 
+ 
+### کارهای اصلی را سریعتر کن 
+همه حرکات با هم یکسان نیستند. تصمیم بگیر که چه چیزی از همه مهمتر می تونه باشه در برنامه ات برای پیدا کردنش و استفاده سریع! مثل دکمه شاتر دوربین برای عکس گرفتن ٬ و یا دکمه نگه دانشتن موزیک در یک موزیک پلیر. 

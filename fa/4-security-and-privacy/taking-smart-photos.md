@@ -1,6 +1,6 @@
-# Taking smart photos
+# گرفتن تصاویری حرفه ای
 
-Source: [Guardian Project](https://guardianproject.info/apps/obscuracam)
+منبع: [Guardian Project](https://guardianproject.info/apps/obscuracam)
 
 Obscuracam is a photo and video app for Android that keeps certain information private.
 
@@ -16,7 +16,7 @@ We’re currently building a version of ObscuraCam for advanced users called [In
 
 You can find the app in the [Android Market](https://market.android.com/details?id=org.witness.sscphase1&feature=search_result). For those without access to the Android Market, you can get the [ObscuraCam.APK file from our public builds folder](https://guardianproject.info/builds/Obscura/).  For this option, be sure to check back for updates, because the app will not auto-update itself.
 
-## Background
+## پس زمینه
 
 We developed our more  secure and private camera application in partnership with [Witness.org](http://witness.org/), the leading human rights video advocacy and training organization. This collaboration grew out of an [open hackday at the 2010 Open Video Conference.](http://blog.witness.org/2010/10/ovc2010-opensubtitles/)
 
@@ -24,7 +24,7 @@ This is an open-source project and you can track our progress here: https://gith
 
 For updates on our progress, you can check out our blog: https://guardianproject.info/tag/obscuracam/
 
-## User Stories
+## داستان های کاربر
 Here are some of the user stories we aim to support, along with links where to track our progress and find out more:
 
 1. An activist group records a video interview of a spokesperson at a protest and wants to protect the identify of the people in the background of the shot.
@@ -39,7 +39,6 @@ Learn more about our encrypted database library SQLCipher: https://guardianproje
 
 Xfer is our video upload and download app that works over the Tor network: https://github.com/guardianproject/sscxfer
 
-1. My phone could be compromised. I have already delivered what I need to. I want to remove all traces of any images captured.
+1. تلفن من ممکن است به خطر بیافتد. من چیزی را که می خواستم انتقال بدم را انتقال دادم. می خواهم تمام رد های تصاویر گرفته شده را حذف کنم.
 
 InTheClear is our panic/data-wipe app: https://github.com/guardianproject/InTheClear
-

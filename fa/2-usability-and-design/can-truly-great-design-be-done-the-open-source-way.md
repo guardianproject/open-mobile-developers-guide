@@ -1,6 +1,6 @@
 # Can truly great design be done the open source way?
 
-Source: [OpenSource.com](http://opensource.com/business/10/3/can-truly-great-design-be-done-the-open-source-way)
+منبع: [OpenSource.com](http://opensource.com/business/10/3/can-truly-great-design-be-done-the-open-source-way)
 
 A few weeks ago, I wrote an article [about Apple and open innovation](http://opensource.com/business/10/2/apple-exception-where-open-innovation-theory-breaks-down). The discussion in the comments about Apple's success, despite their non-openness, was pretty interesting. [Greg DeKoenigsberg](http://opensource.com/users/gdk) started things off with this salvo:
 
@@ -10,7 +10,7 @@ I think few people would argue that one of Apple's greatest strengths is their a
 
 From a design perspective, Apple has figured out how to make lightning strike in the same place over and over again.
 
-Today, I want to ask a question that I've been thinking about for a long time:
+امروز می خواهم سوالی بپرسم که مدتی بود داشتم بهش فکر می کردم:
 
 Can truly great design be done the open source way?
 
@@ -30,6 +30,6 @@ These sites don't seem very collaborative to me either. Sure, you can see the de
 
 So tell me. Will great design ever be a bazaar, or will it always be a cathedral? Do you know of examples where amazing design work—big D or little d—is being done the open source way? Do you think open, collaborative design will ever be as good as (or better than) design done the traditional way?
 
-I'm not sure.
+مطمئن نیستم.
 
-I'd love to hear your thoughts.
+دوست دارم افکار تو رو بدونم و بشنوم.

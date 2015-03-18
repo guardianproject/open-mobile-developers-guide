@@ -9,6 +9,7 @@ More on that in [my previous article](http://opensource.com/life/14/1/how-to-lev
 In this article, I've expanded on the five tips I've identified for leveraging user-centered design in your open source project.
 
 1. **Track usability and design issues**.
+
 - Gather context as well as feedback
 - Don't respond (with software/design changes) to each piece of feedback
 - Synthesize issues for themes 
@@ -46,4 +47,3 @@ To do this, we prepared a plan for our interactions with the user community, ask
 Similar to what the [Magnolia CMS team described in their post about designing for mobile versus desktop](http://opensource.com/business/13/1/mobile-revolution-challenging-open-source-user-interfaces), it’s important to be open and transparent about the usability review and design process as it can help you engage your broader community. This means cultivating conversations on mailing lists, encouraging constructive criticism of UX and design, or even asking current members to recruit others that work in UX to the project.
 
 For the Commotion team, this was just one iteration of what has been and will continue to be many improvements to the user interface, but it gave us a chance to practice our process, catch up on a backlog of user interface issues, and work on developing our community. It also gave us an opportunity to show the community the many ways that they contribute to the process, aside from just contributing code. We’re making sure that whenever we go to a hackathon, we have our documentation ready to be hacked on along side our software, website, and everything else, so that we can keep making it better and easier to use.
-

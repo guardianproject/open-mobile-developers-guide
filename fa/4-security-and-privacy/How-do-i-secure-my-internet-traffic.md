@@ -1,12 +1,12 @@
-# How do I secure my internet traffic (NetCipher)
+# چطوری ترافیک اینترنتم را امن کنم؟ (NetCipher) 
 
-Source: [Guardian Project](https://guardianproject.info/code/netcipher/)
+منبع:  [Guardian Project](https://guardianproject.info/code/netcipher/)
 
 ## Better TLS and Tor App Integration
 
 This is an Android Library Project that provides multiple means to improve network security in mobile applications. The “Onion” name refers to not only the Onion Routing concept used by Tor (which provides anonymity and resistance to traffic surveillance), but also the idea of multiple layers of security that any application should utilize.
 
-More specifically this library provides:
+جزییات بیشتری که این کتابخانه می تواند ارائه کند:
 
 1. Stronger Sockets: Through support for the right cipher suites, pinning and more, we ensure your encrypted connections are as strong as possible.
 1. Proxied Connection Support: HTTP and SOCKS proxy connection support for HTTP and HTTP/S traffic through specific configuration of the Apache HTTPClient library
@@ -30,8 +30,7 @@ HTTP Proxy: localhost:8118 SOCKS 4/5 Proxy: localhost:9050
 
 The sample project shows the basics of how to use this library to open sockets and make HTTP requests via the SOCKS and HTTP proxies available from Orbot The standard Apache HTTPClient libraries provide calls to setup proxying. This sample code demonstrates that. All applications using the SOCKS proxy should not resolve their DNS locally, and instead should pass the hostnames through the SOCKS proxy.
 
-## Orbot Helper
+## کمک رسان Orbot
 Provides simple helper to check if Orbot (Tor for Android) is installed, and whether it is currently running or not. Allows your app to request Orbot to start (user is prompted whether to start or not). Finally, it can show a user prompt to install Orbot, either from Google Play, or via direct APK download from torproject.org or the guardianproject.info site.
 
 For apps with on-device servers, it can also assists in requesting a Tor Hidden Service from Orbot, and discovering the assigned .ONION address.
-

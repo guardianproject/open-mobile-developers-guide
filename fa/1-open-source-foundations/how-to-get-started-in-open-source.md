@@ -1,6 +1,6 @@
-# How to get started in Open Source (in 2014)
+# چطوری در (در 2014) پروژه های متن باز را شروع کنیم
 
-Source: [OpenSource.com](http://opensource.com/life/14/1/get-involved-open-source-2014)
+منبع: [OpenSource.com](http://opensource.com/life/14/1/get-involved-open-source-2014)
 
 For open source projects to survive and thrive, it takes all sorts of different people contributing in various ways. We hope you are already participating in the open source community, but if you’re not, 2014 is going to be a great year to start!
 
@@ -8,7 +8,7 @@ Already an open source convert? Why not consider giving back in a new way this y
 
 Here are seven roles you might consider taking on in the new year.
 
-## 7 ways to get involved in open source in 2014
+## 7 راهی که شما می توانید درگیر پروژه های متن باز در 2014 بشوید
 
 1. **Get your start as an open source user**. First and foremost, we hope you're an open source user! There are open source solutions for nearly every need you can imagine, and chances are you've already used a few. From browsers like [Firefox](http://www.mozilla.org/en-US/firefox/new/) to email clients like [Thunderbird](http://www.mozilla.org/en-US/thunderbird/), and content management systems like [Drupal](https://drupal.org/) and [Wordpress](http://wordpress.org/), much of the software that powers the Internet is open source. Why not give a new tool a try this year?
 

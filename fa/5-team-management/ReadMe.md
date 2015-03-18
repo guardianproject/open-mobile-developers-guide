@@ -1,8 +1,8 @@
-#  Team and Project Management
+# مدیریت تیم و پروژه
 
-  - Building an open source community
+  - ساختن یک جامعه ی متن باز
   - How to use IRC (Internet Relay Chat)
   - The story of self and motivating a movement
   	- TRAINERS NOTES: STORY OF SELF
-  - Top five open source project management tools
-  - Five ways to boost community engagement
+  - پنج ابزار برتر مدیریت پروژه های متن باز
+  - پنج راه برای بالابردن تعامل در جامعه ی متن باز

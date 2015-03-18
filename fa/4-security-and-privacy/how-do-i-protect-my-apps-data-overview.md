@@ -21,4 +21,3 @@ IOCipher Source Code
 
 NetCipher: Encrypted Network Data & Tor Integration
 NetCipher is improving network security. It provides a strong TLS/SSL verifier to help mitigate weaknesses in the certificate authority system. It eases the implementation of supporting SOCKS and HTTP proxies into applications and also supports onion routing for anonymity and traffic surveillance circumvention.
-

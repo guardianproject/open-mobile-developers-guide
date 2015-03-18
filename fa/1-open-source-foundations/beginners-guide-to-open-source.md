@@ -1,8 +1,8 @@
-# A BEGINNER’S GUIDE TO CONTRIBUTING TO OPEN SOURCE
+# یک راهنمای ساده برای کسانی که می خواهند به پروژه های متن باز کمک کنند
 
-By Natasha Murashev
+از Natasha Murashev
 
-Source [General Assembly Blog](https://blog.generalassemb.ly/beginners-guide-contributing-open-source/)
+منبع [General Assembly Blog](https://blog.generalassemb.ly/beginners-guide-contributing-open-source/)
 
 _Natasha is a iOS Engineer at [Capital One Labs](https://www.capitalonelabs.com/) and [instructor at GA in San Francisco](https://generalassemb.ly/instructors/natasha-murashev/1871?utm_campaign=social_guest&utm_content=2014-03-24+natasha-open-source&utm_medium=ga_blog&utm_source=blog_post). This post originally appeared on her blog, [Natasha The Robot.](http://natashatherobot.com/beginners-contributing-to-open-source/)_
 
@@ -12,7 +12,7 @@ To this day, I haven’t contributed any open source code to the Rails community
 
 Fast forward to the end of Mobile Makers, when I first learned iOS, and I made my very first open source contribution! Since then, I’ve made a few more, and I’m no longer scared of contributing to even more projects! Here is how I made the jump and what I learned in the process:
 
-## IT’S NOT MAGIC
+## این یک جادو نیست
 
 Getting out of the Rails community, one thing I learned quickly was that there is actually a sort of mistrust of open source libraries. While I wanted to use all the CocoaPods all the time (just like in Rails!), the senior iOS engineer on my team would always question using external libraries, preferring to build our own if possible.
 

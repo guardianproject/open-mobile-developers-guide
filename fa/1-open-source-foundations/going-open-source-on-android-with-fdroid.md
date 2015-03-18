@@ -1,49 +1,48 @@
-# Going open source on Android with F-Droid
-Source [OpenSource.com](https://opensource.com/life/15/1/going-open-source-android-f-droid)
+بسمت کد منبع باز در اندروید بوسیله اف دروید (F-Droid)
+منبع https://opensource.com/life/15/1/going-open-source-android-f-droid
 
-Android. It can be a divisive word in the free and open source software world. Some embrace it, others shun it. Some still use open versions of Android like [Cyanogenmod](http://www.cyanogenmod.org/) and [Replicant](http://replicant.us/). If you do use an Android device—no matter what version of the operating system it is—there's one thing that you need to get the most out of your device: apps. There's just no way around that.
+اندروید نامی که میتواند در دنیای آزاد و کد منبع باز تفرقه افکن باشد. بعضی روی سر میگذارندش و بعضی ها از کنارش هم رد نمیشوند. بعضی ها هنوز از نسخه های باز و آزاد اندروید مثل Cyanogenmod (http://www.cyanogenmod.org/) یا Replicant (http://replican.us/) استفاده میکنند.اگر از دستگاهی با سیستم عامل اندروید استفاده میکنید- فرقی نمیکند که چه نسخه ای- یک فاکتور از همه چیز بیشتر بشما کمک میکند که بیشترین بهره رو از دستگاه خود ببرید: برنامه ها(اَپس) و بس.
 
-Most people grab their Android apps from the Google Play Store. Some might install apps from the Amazon Appstore or another third-party source. A majority of the apps that you get from Google and Amazon's app stores are proprietary, and many of them collect a lot of information about you.
+بیشتر کاربران برنامه های مورد نظر خودشون رو از بازار گوگل یا Google Play دریافت میکنند. بعضیها برنامه های خودشون رو از بازار Amazon یا منابع متفرقه دریافت میکنند. اکثر این برنامه ها که از بازار Google یا Amazon گرفته میشوند اختصاصی هستند و اقلب اطلاعات زیادی در مورد شما را جمع آوری میکنند.
 
-So what choice to you have if you want to use Android and keep your apps as free and open as possible? You turn to [F-Droid](https://f-droid.org/).
+پس چه گزینه ای باقی میماند اگر بخواهید از اندروید استفاده کنید و در عین حال برنامه های باز و رایگان داشته باشید؟ از F-Droid استفاده کنید (https://f-droid.org/)
 
-## F-Droid?
+F-Droid چیست؟
 
 F-Droid is:
 
->an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.
+شاخه ای نصب شدنی از نرم افزارهای FOSS (نرم افزارهای کد رایگان و منبع باز) بر روی پلت فرم های اندروید میباشد.
 
-All of the apps are FOSS and only FOSS. The source code is available, with app listings often pointing you to where you can download it. F-Droid also warns you if an app uses or relies upon a proprietary service.
+تمام برنامه ها فقط وفقط"کد منبع باز و رایگان" هستند. کد منبع در دسترس است و معمولا لیست برنامه ها حاوی لینک دانلود هستند. اگر برنامه ای وابسته به سرویس ویا دسترسی بخصوصی باشد اف دروید به شما اخطار میدهد. 
 
-F-Droid Non-Free Warning
+پیام اخطار باز و رایگان نبودن
 
-## Getting going
+شروع
 
-You can do this in two ways: Download and install the [F-Droid client](https://f-droid.org/repository/browse/), or [download the .apk installer](https://f-droid.org/repository/browse/) for the app that you want and install it by hand. In either case, you might need to enable the installation of third-party apps on your device. To do that, tap settings. Then, tap security. Finally, select the unknown sources option.
+دو راه برای شروع نصب برنامه ها هست: دانلود و نصب برنامه اف دروید مستقیم از (https://f-droid.org/repository/browse/) و یا دانلود و نصب فایل .apk و نصب بعد از دانلود. در هرصورت شما احتمالا احتیاج خواهید داشت که گزینه اجازه نصب برنامه های متفرقه را در گوشی خود فعال کنید. برای اینکار به قسمت تنضیمات (settings) رفته، سپس به قسمت امنیت (Security) و در آخر گزینه منابع نامعلوم (unknown sources) را فعال کنید.
 
-I prefer to use the F-Droid client because it makes searching for and updating apps a lot easier.
+من اف دروید رو بخاطر آسان بودن جستجو و بروز کردن برنامه ها ترجیح میدم.
 
-## Using F-Droid
+استفاده از اف دروید
 
-Let's assume that you plan to use the F-Droid client to install your apps. Once you've installed the client, fire it up. It may take a few moments (or longer) for the database of apps to refresh and to check whether or not the apps in the catalogue are compatible with your device.
+فرض کنیم که شما قصد دارید که از اف دروید برای نصب برنامه ها استفاده کنید. بعد از نصب نرم افزار اف دروید آن را باز(اجرا) کنید. احتمالا چند دقیقه برای برنامه طول خواهد کشید که اطلاعات خود را بروز کرده تا چک کند که برنامه ها بانک اطلاعاتی با گوشی شما همخوانی و مطابقت دارد یا نه 
 
-Once that's done, you're ready to go.
+بعد از انجام این مرحله شما آماده استفاده از اف دروید خواهید بود.
 
-## Apps, apps, apps
+برنامه ها، برنامه ها، برنامه ها
 
-The first thing you'll notice is the number of apps available with F-Droid: just over 1,300, in contrast to the hundreds of thousands that are available in the Google Play Store. You won't find many of the popular apps that you may have grown to know and love in the F-Droid repository, but that doesn't mean you won't recognize some. These include Firefox, [ownCloud](http://www.owncloud.org/), [VLC Media Player](http://www.videolan.org/vlc/index.html), [DuckDuckGo](https://duckduckgo.com/), [K-9 Mail](http://k9mail.org/), and [FBReader](http://fbreader.org/).
+اولین نکته ای که توجهتون رو جلب خواهد کرد تعداد برنامه های موجود در اف دروید است: فقط بیش از 1300 برنامه، در برابر هزاران برنامه موجود در Google Play Store. شما احتمالا اکثر برنامه هایی رو که دوست داشتید و بهشون عادت کرده بودید رو در اف دروید پیدا نخواهید کرد، اما این الضاما به این معنی نیست که بعضیهاشون رو پیدا نکنید. از جمله مرورگر فایرفاکس (FireFox) ، برنامه ذخیره کننده اون کلاد (Owncloud)، برنامه وی ال سی نمایش دهنده فایل های تصویری (VLC)، جستجوگر داک داک گو (DuckDuckGo)، برنامه دریافت ایمیل کی ناین (K-9 Mail)، و برنامه اف بی ریدر برای خواندن کتب الکتونیکی (FBReader).
 
-The apps are divided into a dozen categories, ranging from education to games, to internet, to office and productivity apps. Tap the right-facing triangle in the top corner of the F-Droid window to open a list of the categories.
+برنامه ها به چندین دسته مختلف تقسیم شدند، از آموزشی تا بازی، از اینترنتی تا برنامه های کاربردی و کاری. روی مثلثی که بسمت راست در گوشی پنجره اف دروید بزنید تا لیست طبقه بندی ها برای شما باز شود.
 
-F-Droid Categories
+طبقه بندی های اف دروید
 
-From there, tap a category and then tap the app that you want to install. F-Droid downloads the installer. You'll be shown a list of the permissions the app needs (if any) and whether or not you want to proceed. When you're ready, tap **Install**.
+از آنجا روی طبقه بندی دلخواه بزنید و سپس روی برنامه ای که می خواهید نصب کنید. اف دروید قسمت قابل نصب رو دانلود میکند. سپس لیستی از درخواست دسترسیهایی را که برنامه تقاضا میکند بشما نمایش میدهد، و آیا شما میخواهید ادامه بدهید یا نه. هروقت که حاضر بودید روی گزینه نصب یا (Install) بزنید.
 
-## Maintenance and such
+نگهداری و نکات جانبی
 
-The main window of the F-Droid app has tabs that list the available apps, the apps you've installed, and the ones you've installed that have updates available. You can remove unwanted apps and update installed apps, with just a tap (or two). You'll also want to keep the list of available apps up to date. To do that, tap the **Refresh** icon to load an updated listing.
+پنجره اصلی برنامه اف دروید حاوی لیستی از برنامه های قابل دسترسی، برنامه هایی که نصب کردید، و برنامه های نصب شده ای نیاز به بروز شدن دارند. شما میتونید برنامه هایی که احتیاج ندارید را حذف کنید یا انهایی که احتیاج دارید را با یک(یا دو) حرکت بروز کنید. شما حتی میتونید لیست برنامه های در دسترس را بروز کنید. برای اینکار روی تجدید یا (refresh) بزنید تا لیست برنامه ها بروز شوند.
 
-So why would you want to do this, besides a desire to be on the bleeding edge? While new apps aren't added to F-Droid all that regularly, the number of apps available through F-Droid jumped from about 1,200 to 1,340 in the past month and a half or so.
+حالا چرا این کارو میخواهید انجام بدید، غیر از اینکه کرمتون گرفته. درحالی که برنامه های جدید اینقدر زود بزود به لیست اف دروید اضافه نمی شوند، شمار برنامه های در دسترس در اف دروید فقط در یکی دو ماه اخیر از حدود 1200 به 1340 عدد پرش کرده.
 
-F-Droid may not have the breadth of apps available in the Google Play Store and other third-party Android software libraries, but if you want to use as many free and open source apps with your Android device as you can, then it's an option you'll want to explore.
-
+اگر چه تنوع و تعداد نرم افزار های قابل دسترس در اف دروید به Google Play Store و بازارهای متفرقه دیگر نمیرسه ولی اگر میخواهید از نرم افزار های رایگان و کد منبع باز در دستگاه اندروید خود استفاده کنید اونوقت اف دروید یک گزینه قابل تامل است.

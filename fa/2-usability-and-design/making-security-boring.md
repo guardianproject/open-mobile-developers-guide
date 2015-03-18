@@ -1,48 +1,48 @@
-# Making Security Boring
+# امنیت را خسته کننده کنیم 
 
-Source: [Guardian Project](https://guardianproject.info/2015/01/02/2015-is-the-year-of-bore-sec/)
+منبع :  [Guardian Project](https://guardianproject.info/2015/01/02/2015-is-the-year-of-bore-sec/)
 
-We have been thinking about how to approach the next five years of our work. An idea of “security so easy and seamless, that it is boring” came to the surface through some discussions. This led us to look for inspiration in important inventions and innovations of the past, that provide safety and security to all on a day-to-day basis, without the users of these technologies hardly thinking about them. This is no longer about James Bond super-spy technologies, it is about having as little impact on your day-to-day use of mobile technology while still providing the maximum protection to your data and communications, as possible.
+ما داشتیم  به این فکر می کردیم که در  که در پنج سال آینده چکار خواهیم کرد. یک ایده ی امنیت خیلی ساده و بدون روزنه٬ اینه موضوع  خسته کننده در بحث ها در یک سری سطوح آمد.  این ما را راهنمایی کرد که از اخترعات و نوآوری های گذشته برای تامین امنیت بدون اینکه بخواهیم بهش فکر کنیم الهام بگیریم. این دیگه در مورد تکنولوژی های جاسوسی برای جیمز باند نیست٬ این در مورد تاثیر خیلی کم استفاده روزانه از تکنولوژی  موبایل همزمان  با ارائه   بهترین حد ممکن از محافظت  در اطلاعات و ارتباطات روزمره ما . 
 
-*Here then, as inspiration and our guiding lights, is our list of safety inventions of the past that we aim to be “Boring Like….”*
+پس اینجا٬ به عنوان  چراغی هدایتگر و الهام بخش لیست  ابتکارت امنیتی مان در  گذشته را که تلاش داشتیم کسل کننده  کننده باشه را گذاشتیم. 
 
 IMAGE - Old-seatbelt-image
 
-Boring Like [Seat Belts](http://blog.esurance.com/seat-belt-history/) (buckle up!)
+ خسته کننده  ‫[کمربمند ایمنی]http://blog.esurance.com/seat-belt-history/)(دست و پنجه نرم کردن)
 
 IMAGE - StateLibQld_1_212036_Cream_pasteurising_and_cooling_coils_at_Murgon_Butter_Factory,_1939
 
-Boring Like [Pasteurized Milk](http://en.wikipedia.org/wiki/Pasteurization)
+خسته کننده مثل [شیر پاستوریزه] (http://en.wikipedia.org/wiki/Pasteurization)
 
 
 IMAGE - versagate3
 
-Boring Like [Baby Gates](https://www.google.com/search?q=baby+gates&source=lnms&tbm=isch&sa=X&ei=htKmVJm_GZPmgwSNn4HYBg&ved=0CAkQ_AUoAg&biw=1701&bih=839) (kids and dogs hate ‘em, but they are a necessary fun killer for any household)
+خسته کننده مثل [گارد محافظ بچه](https://www.google.com/search?q=baby+gates&source=lnms&tbm=isch&sa=X&ei=htKmVJm_GZPmgwSNn4HYBg&ved=0CAkQ_AUoAg&biw=1701&bih=839) (بچه ها و سگ ها ازش متنفرند ولی  اونا واقعا یک چیز ضروری برای تو خونه هستند)
 
 IMAGE - smokealarm
 
-Boring Like [Smoke Detectors](http://thesmokedetector.umwblogs.org/antecedents-the-evolution/) (though our friends at [Birdi](http://getbirdi.com/) are aiming to make them exciting again…)
+خسته کننده مثل [دستگاه هشدار دهنده دود](http://thesmokedetector.umwblogs.org/antecedents-the-evolution/) (هر چند دوستان ما در  [Birdi](http://getbirdi.com/)تلاش می کنند جذابشون کنند)
 
-IMAGE - childlids
+عکس -childlids
 
-Boring Like [Childproof Lids](http://mentalfloss.com/article/54410/surprising-origins-child-proof-lids) (again, for the parents out there, a literal life saver)
+خسته کننده مثل [درب قوطی که کودکان نمی توانند باز کنند](http://mentalfloss.com/article/54410/surprising-origins-child-proof-lids) (و دوباره اینم از اون چیزهایی هست که پدر و مادر ها را واقعا کمک می کنه ٬‌ به بیانی میشه گفت  مثل یک نجات دهنده می مونه)
 
 IMAGE - sft_08_01
 
-Boring Like [Anti-Lock Brakes](http://www.toyota-global.com/innovation/safety_technology/safety_technology/technology_file/active/) (the modern automobile is one of the best examples of bore-sec!)
+خسته کننده مثل[ترمز ضد قفل](http://www.toyota-global.com/innovation/safety_technology/safety_technology/technology_file/active/) (ماشین های جدید نمونه خوبی از یک سیستم امنیتی می مونن!)
 
-IMAGE - bg_SurgeProtectorBuyingGuide_hero_image
+عکس - bg_SurgeProtectorBuyingGuide_hero_image
 
-Boring Like [Surge Protectors](http://www.lowes.com/cd_Surge+Protector+Buying+Guide_754129873_Learn) (wouldn’t you rather lose your $2 power strip then your $1000 computer?)
+خسته کننده مثل [محافظ برق] (http://www.lowes.com/cd_Surge+Protector+Buying+Guide_754129873_Learn)(آیا تو ترجیح نمیدی به  جای از دست دادن کامپیوتر 1000 دلاریت٬ محافظ برق  2 دلاری از دسست بدی)
 
 IMAGE - RestaurantInspectionGradeA
 
-Boring Like [Restaurant Inspections](http://msdh.ms.gov/msdhsite/_static/30,5314,77,333.html) (peace of mind from a single letter rating when you go out to eat…)
+خسته کننده مثل[بازرس رستوران](http://msdh.ms.gov/msdhsite/_static/30,5314,77,333.html)(باعث میشه که با استفاده از یک نامه امتیازمعمولی ما با خیال راحت بیرون غذا بخوریم)
 
 IMAGE - dougie_2008_in_his_outwardhound_dog_life_jacket
 
-Boring Like [Life Vests](https://americandogblog.wordpress.com/tag/dog-life-vest/) (even dogs love ‘em!)
+خسته کننده مثل [جلیقه نجات](https://americandogblog.wordpress.com/tag/dog-life-vest/) (حتی سگها هم دوستش دارند)
 
-With our work on critical security and privacy enhancements for mobile devices and apps, we aim to bore. The best security is the kind you don’t have to worry about, until you need it (and then you won’t know how you ever lived without it…)
+ما امید داریم به با کارامون روی نقاط حساس ٬ آسیب پذیر و پیشرفت برای حریم خصوصی خیال شما را راحت کنیم. بهترین نوع امینت اونی هست که شما احساس نگرانی نکنی تا وقتی که واقعا نیاز باشه (و بعد می فهمی که چجوری بدون اون زندگی کردی )
 
-**Here’s to breaking new “Bore-Sec” ground in 2015! Happy New Year!**
+اینها اخرین ها بود از “Bore-Sec” در سال 2015. سال نو مبارک 

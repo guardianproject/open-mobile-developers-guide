@@ -1,8 +1,8 @@
-# Key books to read
+# کتاب های کلیدی برای خواندن
 
 Source: [Open Source Books](http://opensource.com/resources/ebooks)
 
-### Open Source Essentials
+###  ملزومات پروه متن باز
 Many authors have chronicled the history of open source and profiled the movement’s most prolific personalities. These are some of the most popular accounts. If we taught a class—call it "Open Source 101"—then this list would be the syllabus.
 
 - [The Cathedral and the Bazaar](http://shop.oreilly.com/product/9780596001087.do) by Eric S. Raymond

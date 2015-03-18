@@ -46,4 +46,3 @@ The main window of the F-Droid app has tabs that list the available apps, the ap
 So why would you want to do this, besides a desire to be on the bleeding edge? While new apps aren't added to F-Droid all that regularly, the number of apps available through F-Droid jumped from about 1,200 to 1,340 in the past month and a half or so.
 
 F-Droid may not have the breadth of apps available in the Google Play Store and other third-party Android software libraries, but if you want to use as many free and open source apps with your Android device as you can, then it's an option you'll want to explore.
-

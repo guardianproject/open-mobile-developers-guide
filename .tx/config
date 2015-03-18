@@ -1,27 +1,227 @@
 [main]
 host = https://www.transifex.com
 
-[developers-corner.beginners-guide-to-open-source]
-file_filter = <lang>/1-open-source-foundations/beginners-guide-to-open-source.md
-source_file = en/1-open-source-foundations/beginners-guide-to-open-source.md
+
+[developers-corner.en-3-application-fundamentals-building-apps-for-a-complex-world-md]
+file_filter = <lang>/3-application-fundamentals/building-apps-for-a-complex-world.md
+source_file = en/3-application-fundamentals/building-apps-for-a-complex-world.md
 source_lang = en
 type = TXT
 
-[developers-corner.things-newcomers-to-open-source-rarely-ask-but-often-wonder]
-file_filter = <lang>/1-open-source-foundations/things-newcomers-to-open-source-rarely-ask-but-often-wonder.md
-source_file = en/1-open-source-foundations/things-newcomers-to-open-source-rarely-ask-but-often-wonder.md
+[developers-corner.en-3-application-fundamentals-elements-of-the-mobile-user-experance-md]
+file_filter = <lang>/3-application-fundamentals/building-apps-for-a-complex-world.md
+source_file = en/3-application-fundamentals/building-apps-for-a-complex-world.md
+source_lang = en
+
+
+
+[developers-corner.en-3-application-fundamentals-getting-started-in-android-development-md]
+file_filter = <lang>/3-application-fundamentals/getting-started-in-android-development.md
+source_file = en/3-application-fundamentals/getting-started-in-android-development.md
 source_lang = en
 type = TXT
 
-[developers-corner.what-is-open-source]
+[developers-corner.en-3-application-fundamentals-ReadMe-md]
+file_filter = <lang>/3-application-fundamentals/ReadMe.md
+source_file = en/3-application-fundamentals/ReadMe.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-1-open-source-foundations-how-to-get-started-in-open-source-md]
+file_filter = <lang>/1-open-source-foundations/how-to-get-started-in-open-source.md
+source_file = en/1-open-source-foundations/how-to-get-started-in-open-source.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-1-open-source-foundations-going-open-source-on-android-with-fdroid-md]
+file_filter = <lang>/1-open-source-foundations/going-open-source-on-android-with-fdroid.md
+source_file = en/1-open-source-foundations/going-open-source-on-android-with-fdroid.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-1-open-source-foundations-getting-started-with-discourse-md]
+file_filter = <lang>/1-open-source-foundations/getting-started-with-discourse.md
+source_file = en/1-open-source-foundations/getting-started-with-discourse.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-1-open-source-foundations-what-is-open-source-md]
 file_filter = <lang>/1-open-source-foundations/what-is-open-source.md
 source_file = en/1-open-source-foundations/what-is-open-source.md
 source_lang = en
 type = TXT
 
-[developers-corner.three-key-elements-that-define-every-open-source-project]
+[developers-corner.en-1-open-source-foundations-beginners-guide-to-open-source-md]
+file_filter = <lang>/1-open-source-foundations/beginners-guide-to-open-source.md
+source_file = en/1-open-source-foundations/beginners-guide-to-open-source.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-1-open-source-foundations-getting-started-with-github-md]
+file_filter = <lang>/1-open-source-foundations/getting-started-with-github.md
+source_file = en/1-open-source-foundations/getting-started-with-github.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-1-open-source-foundations-getting-started-in-civic-hacking-md]
+file_filter = <lang>/1-open-source-foundations/getting-started-in-civic-hacking.md
+source_file = en/1-open-source-foundations/getting-started-in-civic-hacking.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-1-open-source-foundations-key-books-to-read-md]
+file_filter = <lang>/1-open-source-foundations/key-books-to-read.md
+source_file = en/1-open-source-foundations/key-books-to-read.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-1-open-source-foundations-ReadMe-md]
+file_filter = <lang>/1-open-source-foundations/ReadMe.md
+source_file = en/1-open-source-foundations/ReadMe.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-1-open-source-foundations-three-key-elements-that-define-every-open-source-project-md]
 file_filter = <lang>/1-open-source-foundations/three-key-elements-that-define-every-open-source-project.md
 source_file = en/1-open-source-foundations/three-key-elements-that-define-every-open-source-project.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-1-open-source-foundations-things-newcomers-to-open-source-rarely-ask-but-often-wonder-md]
+file_filter = <lang>/1-open-source-foundations/things-newcomers-to-open-source-rarely-ask-but-often-wonder.md
+source_file = en/1-open-source-foundations/things-newcomers-to-open-source-rarely-ask-but-often-wonder.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-2-usability-and-design-leverage-user-centered-design-in-your-open-source-project-md]
+file_filter = <lang>/2-usability-and-design/leverage-user-centered-design-in-your-open-source-project.md
+source_file = en/2-usability-and-design/leverage-user-centered-design-in-your-open-source-project.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-2-usability-and-design-android-design-principles-md]
+file_filter = <lang>/2-usability-and-design/android-design-principles.md
+source_file = en/2-usability-and-design/android-design-principles.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-2-usability-and-design-where-design-thinking-and-open-source-community-collaboration-meet-md]
+file_filter = <lang>/2-usability-and-design/where-design-thinking-and-open-source-community-collaboration-meet.md
+source_file = en/2-usability-and-design/where-design-thinking-and-open-source-community-collaboration-meet.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-2-usability-and-design-making-security-boring-md]
+file_filter = <lang>/2-usability-and-design/making-security-boring.md
+source_file = en/2-usability-and-design/making-security-boring.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-2-usability-and-design-ReadMe-md]
+file_filter = <lang>/2-usability-and-design/ReadMe.md
+source_file = en/2-usability-and-design/ReadMe.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-2-usability-and-design-can-truly-great-design-be-done-the-open-source-way-md]
+file_filter = <lang>/2-usability-and-design/can-truly-great-design-be-done-the-open-source-way.md
+source_file = en/2-usability-and-design/can-truly-great-design-be-done-the-open-source-way.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-2-usability-and-design-five-steps-to-using-design-in-your-open-source-project-md]
+file_filter = <lang>/2-usability-and-design/five-steps-to-using-design-in-your-open-source-project.md
+source_file = en/2-usability-and-design/five-steps-to-using-design-in-your-open-source-project.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-5-team-management-how-to-use-irc-internet-relay-chat-md]
+file_filter = <lang>/5-team-management/how-to-use-irc-internet-relay-chat.md
+source_file = en/5-team-management/how-to-use-irc-internet-relay-chat.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-5-team-management-story-of-self-md]
+file_filter = <lang>/5-team-management/story-of-self.md
+source_file = en/5-team-management/story-of-self.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-5-team-management-building-an-open-source-community-md]
+file_filter = <lang>/5-team-management/building-an-open-source-community.md
+source_file = en/5-team-management/building-an-open-source-community.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-5-team-management-top-5-open-source-project-management-tools-md]
+file_filter = <lang>/5-team-management/top-5-open-source-project-management-tools.md
+source_file = en/5-team-management/top-5-open-source-project-management-tools.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-5-team-management-five-ways-to-boost-community-engagement-md]
+file_filter = <lang>/5-team-management/five-ways-to-boost-community-engagement.md
+source_file = en/5-team-management/five-ways-to-boost-community-engagement.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-5-team-management-story-of-self-trainers-notes-md]
+file_filter = <lang>/5-team-management/story-of-self-trainers-notes.md
+source_file = en/5-team-management/story-of-self-trainers-notes.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-5-team-management-ReadMe-md]
+file_filter = <lang>/5-team-management/ReadMe.md
+source_file = en/5-team-management/ReadMe.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-ReadMe-md]
+file_filter = <lang>/ReadMe.md
+source_file = en/ReadMe.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-4-security-and-privacy-how-do-i-encrypt-a-file-md]
+file_filter = <lang>/4-security-and-privacy/how-do-i-encrypt-a-file.md
+source_file = en/4-security-and-privacy/how-do-i-encrypt-a-file.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-4-security-and-privacy-how-do-i-protect-my-app-data-md]
+file_filter = <lang>/4-security-and-privacy/how-do-i-protect-my-app-data.md
+source_file = en/4-security-and-privacy/how-do-i-protect-my-app-data.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-4-security-and-privacy-taking-smart-photos-md]
+file_filter = <lang>/4-security-and-privacy/taking-smart-photos.md
+source_file = en/4-security-and-privacy/taking-smart-photos.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-4-security-and-privacy-ReadMe-md]
+file_filter = <lang>/4-security-and-privacy/ReadMe.md
+source_file = en/4-security-and-privacy/ReadMe.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-4-security-and-privacy-how-do-i-protect-my-apps-data-overview-md]
+file_filter = <lang>/4-security-and-privacy/how-do-i-protect-my-apps-data-overview.md
+source_file = en/4-security-and-privacy/how-do-i-protect-my-apps-data-overview.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-4-security-and-privacy-How-do-i-secure-my-internet-traffic-md]
+file_filter = <lang>/4-security-and-privacy/How-do-i-secure-my-internet-traffic.md
+source_file = en/4-security-and-privacy/How-do-i-secure-my-internet-traffic.md
+source_lang = en
+type = TXT
+
+[developers-corner.en-4-security-and-privacy-encrypt-all-the-bits-introduction-to-mobile-security-md]
+file_filter = <lang>/4-security-and-privacy/encrypt-all-the-bits-introduction-to-mobile-security.md
+source_file = en/4-security-and-privacy/encrypt-all-the-bits-introduction-to-mobile-security.md
 source_lang = en
 type = TXT
 

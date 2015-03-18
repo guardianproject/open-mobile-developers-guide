@@ -42,4 +42,3 @@ Xfer is our video upload and download app that works over the Tor network: https
 1. My phone could be compromised. I have already delivered what I need to. I want to remove all traces of any images captured.
 
 InTheClear is our panic/data-wipe app: https://github.com/guardianproject/InTheClear
-

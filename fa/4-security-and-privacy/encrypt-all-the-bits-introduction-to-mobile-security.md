@@ -1,43 +1,43 @@
-# Encrypt all the bits - introduction to mobile security
+#رمزگزاری تمام بیت ها - آشنایی با امنیت موبایل 
 
-This is a paraphrase of [Encrypt all the bits](https://docs.google.com/presentation/d/1Jgg405aEvDwkm_f65Z7x3qin_vGqzDNsk_p3cPB4VZc/edit#slide=id.g181a3a731_0335) presentation.
+این یک توضیح از رمزگزاری برای تمام بیت هاست(https://docs.google.com/presentation/d/1Jgg405aEvDwkm_f65Z7x3qin_vGqzDNsk_p3cPB4VZc/edit#slide=id.g181a3a731_0335) presentation.
 
-## Intention vs Execution
+## قصد برای اجرا 
 
-## Session Overview
-  - Overview of Guardian Project Apps & Developer Libraries (30m)
-  - Threat Models and War Stories: Open Discussion about Risks, Fears and Security Needs (30m)
-  - Encrypted Databases: securing structured data in activities, services and content providers (1hr)
-  - Encrypted Files: securing arbitrary files from small to large (30m)
-  - Secured Networking: defending against man-in-the-middle, SSL stripping, filtering and more (30m)
+## قسمت (جلسه) بررسی کلی 
+  نگاه اجمالی بر برنامه ها و کتابخانه توسعه دهندگان  پروژه گاردین (30m)
+  مدل های تهدید کننده و داستان های  جنگی : گفتگوی آزاد در مورد ریسک٬ بیم و نیاز های امنیتی (30m)
+  - رمزگزاری بانک های اطلاعاتی:  امن سازی داده های ساخته شده در فعالیت ها٬ خدمات و ارائه دهندگان محتوا (1hr)
+  - رمزگزاری فایل ها: امن سازی فایل های کوچک تا بزرگ به دلخواه  (30m)
+  - شبکه امن:‌ دفاع کردن  در مقابل مرد میانی- خنثی کردن SSL, فیلتر و چیزهای دیگر (30m)
   - Hands-On Implementation time for sample work or debugging your own apps with new security features (1.5hr)
 
-## Encryption
-a very quick introduction
+## رمزگزاری
+مقدمه ای کوتاه - معرفی خیلی سریع 
 
-### What is Encryption?
-  - Plaintext + Algorithm + Key =Ciphertext
-  - Symmetric vs Asymmetric, Private vs Public
-  - Randomness: Actual vs Pseudo
-  - Common Cryptography Tools: OpenSSL, PGP (GnuPG!), BouncyCastle
+رمزگزاری چی هست ؟
+  - متن + الگوریتم + کلید = متن رمزگزاری شده 
+  - متقارن یا نامتقارن٬‌ شخصی یا عمومی 
+  - قابل پیشبینی نبودن: واقعی یا غیر واقعی 
+  وسایل مرسوم برای کد نویسی : OpenSSL, PGP (GnuPG!), BouncyCastle
 
-### Android Built-in Encryption 
+رمگزاری داخلی اندروید  
   - HTTPS / TLS / SSL
   - javax.crypto “BouncyCastle”
-  - OpenSSL
-  - Full Disk Encryption
-  - Android KeyChain ( > API 18)
+  SSL باز 
+  - دیسک رمزگزای شده  کامل
+  - کلید واژه اندروید  (> API 18)
 
-### CipherKit
+### جعبه رمز 
 https://guardianproject.info/code
 
-### CipherKit “Platform”
-Insert image here
+###  پلتفرم CipherKit 
+عکس را اینجا وارد کن 
 
-### "CipherKit" Dev Libraries
-CipherKit is designed for Android app developers to make apps that are able to ensure better privacy, security and anonymity
+### کتاب خانه برنامه نویسان "CipherKit" 
+CipherKit برای برنامه نویسان اپ در اندروید طراحی شده  تا برنامه های خودشون را مطمن بکنن برای  حفظ حریم خصوصی٬‌ امنیت و ناشناس ماندن
 
-#### SQLCipher: Encrypted Database
+#### SQLCipher: رمزگزاری پایگاه داده ها  
 SQLCipher is an SQLite extension that provides transparent 256-bit AES encryption of database files. It mirrors the standard android.database API. Pages are encrypted before being written to disk and are decrypted when read back.
 
 #### IOCipher: Encrypted Virtual Disk
@@ -134,7 +134,7 @@ SQLCipher is an SQLite extension that provides transparent 256-bit AES encryptio
 - Zero-configuration and application level cryptography
 - Algorithms provided by the peer reviewed OpenSSL crypto library.
 
-### CipherKit “Platform”
+###  پلتفرم CipherKit 
 IMAGE
 
 ### Defense in Depth
@@ -204,7 +204,7 @@ We’ve packaged up a very simple SDK for any Android developer to add SQLCipher
 - Random salt
 - Key Derivation
 - MAC
-- OpenSSL
+SSL باز 
 - Fast startup
 - No size limit
 
@@ -230,7 +230,7 @@ IOCipher provides a virtual encrypted disk for Android apps without requiring th
 
 IOCipher is a cousin to SQLCipher-for-Android since it is also based on SQLCipher and uses the same approach of repurposing an API that developers already know well. It is built on top of libsqlfs, a filesystem implemented in SQL that exposes a FUSE API.
 
-### CipherKit “Platform”
+###  پلتفرم CipherKit 
 *image* 
 
 ### IOCipher: Core Features
@@ -293,7 +293,7 @@ CacheWord is an Android library project for passphrase caching and management. I
 1. Secrets Management: how the secret key material for your app is generated, stored, and accessed
 1. Passphrase Caching: store the passphrase in memory to avoid constantly prompting the user
 
-### CipherKit “Platform”
+###  پلتفرم CipherKit 
 [Image]
 
 
@@ -340,7 +340,7 @@ public class CacheWordSampleActivity extends Activity implements      ICacheWord
 ## NetCipher
 Secured Networking
 
-### CipherKit “Platform”
+###  پلتفرم CipherKit 
 [image]
 
 ### NetCipher: 3 reasons
