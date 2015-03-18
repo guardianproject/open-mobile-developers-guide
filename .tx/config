@@ -8,12 +8,10 @@ source_file = en/3-application-fundamentals/building-apps-for-a-complex-world.md
 source_lang = en
 type = TXT
 
-[developers-corner.en-3-application-fundamentals-elements-of-the-mobile-user-experance-md]
-file_filter = <lang>/3-application-fundamentals/building-apps-for-a-complex-world.md
-source_file = en/3-application-fundamentals/building-apps-for-a-complex-world.md
+[developers-corner.en-3-application-fundamentals-elements-of-the-mobile-user-experience-md]
+file_filter = <lang>/3-application-fundamentals/elements-of-the-mobile-user-experience.md
+source_file = en/3-application-fundamentals/elements-of-the-mobile-user-experiance.md
 source_lang = en
-
-
 
 [developers-corner.en-3-application-fundamentals-getting-started-in-android-development-md]
 file_filter = <lang>/3-application-fundamentals/getting-started-in-android-development.md
