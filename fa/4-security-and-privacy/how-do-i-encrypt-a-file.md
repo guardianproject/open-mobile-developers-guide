@@ -1,25 +1,25 @@
-# How do I protect my Data (IOCipher Virtual Encrypted Disks)
+# چگونه از اطلاعاتم محافظت کنم (IOCipher دیسک های مجازی کدگزاری شده)
 
-Source: [Guardian Project](https://guardianproject.info/code/iocipher/)
+منبع:  [Guardian Project](https://guardianproject.info/code/iocipher/)
 
-IOCipher provides a virtual encrypted disk for Android apps without requiring the device to be rooted. It uses a clone of the standard java.io API for working with files, so developers already know how to use it. Only password handling, and opening the virtual disk are what stand between the developer and working encrypted file storage. It is based on and [SQLCipher](http://sqlcipher.net/).
+IOCipher یک دیسک مجازی رمزگزاری برای برنامه های اندروید ارایه می ده بدون نیاز دستگاه به وصل بودن جایی. این از یک کپی برابر اصل استاندارد java.io API برای کار کردن با فایل ها استفاده می کنه٬ پس برنامه نویسان از قبل می دونن چجوری باهاش کار کنن. فقط تحویل رمز عبور و باز کردن دیسک های مجازی چیزیه که بین برنامه نویسان و فایل های رمزگزاری ذخیره شده هست. این بر اساس و SQLCipher است. (http://sqlcipher.net/).
 
-IOCipher is a cousin to SQLCipher-for-Android since it is also based on SQLCipher and uses the same approach of repurposing an API that developers already know well. It is built on top of libsqlfs, a filesystem implemented in SQL that exposes a FUSE API.
+IOCipher را میشه گفت فامیل SQLCiphe برای اندرویده  و همچنین این بر اساس SQLCipher و استفاده اش و کاربردش برای همونطور مثل repurposing  API می مونه که برنامه نویسان از قبل می دونن.  این در بالای libsqlfs ساخته شده٬ که یک  اجرای filesystem   را در SQL که FUSE API نشان می ده. 
 
-## Features
+## ویژگی ها 
 - Secure transparent app-level virtual encrypted disk
-- No root required
-- Only three new methods to learn: `VirtualFileSystem.get(), VirtualFileSystem.mount(dbFile, password), and VirtualFileSystem.unmount()`
-- Supports Android versions 2.1 and above
-- Licensed under the LGPL v3+
+- نیاز نداره به جایی وصل باشه 
+* سه را جدید برای یاد گرفتن :  `VirtualFileSystem.get(), VirtualFileSystem.mount(dbFile, password), and VirtualFileSystem.unmount()`
+- از نسخه  2.1 و یا پایین تر اندروید پشتیبانی می کنه
+- مجوز گرفتن با LGPL v3+
 
-## Adding IOCipher to your App
+## اضافه کردن  IOCipher  برنامتون
 
-Here are the things you need to do in your code to make it use IOCipher encrypted storage for all of your app’s file storage:
+الان باید این کارها در انجام بدی تا کدات از فضای رمزگزاری شده ی IOCipher برای فضای فایل برنامه هات استفاده کنند : 
 
-1. manage the password using Cacheword or whatever
-1. get the VFS singleton using VirtualFileSystem.get()
-1. mount a database file with a password using VirtualFileSystem.mount(dbFile, password)
+1. مدیرت رمز غبور با استفاده از Cacheword یا whatever  
+1. گرفتن VFS singleton با استفاده از VirtualFileSystem.get()
+1.  انبوهی  از رمز فایل پایگاه داده ها با استفاده از VirtualFileSystem.mount(dbFile, password)
 1. replace the relevant java.io import statements with info.guardianproject.iocipher, e.g.:
 ```
 import info.guardianproject.iocipher.File;
@@ -34,10 +34,10 @@ import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 ```
 
-For more detailed examples, see [IOCipherExample](https://github.com/guardianproject/IOCipherExample), [IOCipherThreadTest](https://github.com/guardianproject/IOCipherThreadTest), and [IOCipherTests](https://github.com/guardianproject/IOCipherTests). To start from scratch, follow [the instructions on starting with SQLCipher-for-Android](https://www.zetetic.net/sqlcipher/sqlcipher-for-android/), then download IOCipher and add it to the libs/ folder of that new project.
+برای اطلاعات بیشتر این ها ببینید  [IOCipherExample](https://github.com/guardianproject/IOCipherExample), [IOCipherThreadTest](https://github.com/guardianproject/IOCipherThreadTest), and [IOCipherTests](https://github.com/guardianproject/IOCipherTests). To start from scratch, follow [the instructions on starting with SQLCipher-for-Android](https://www.zetetic.net/sqlcipher/sqlcipher-for-android/), then download IOCipher and add it to the libs/ folder of that new project.
 
-## Downloads
-Here you can get the complete IOCipher jar and native library files, ready to drop right into your project (for MIPS, you need to build from source):
+## دانلود 
+اینجا می توانی IOCipher jar و فایل های مادری کتابخانه ای  را دریافت کنی ٬‌آماده انداختن در پروژه ات ( برای MIPS نیاز داری  که از منبعش بسازی ): 
 
 * [IOCipher-v0.2.zip](https://guardianproject.info/releases/IOCipher-v0.3.zip)
 * [detached gpg signature](https://guardianproject.info/releases/IOCipher-v0.3.zip.sig)
@@ -51,24 +51,24 @@ If you are interested in experimenting with the underlying FUSE library, you can
 * MD5: 867d60bcd1cb19f09b1fd3b7112767ac
 * SHA1: 3d5fcd3eef9bf07093987ae98951ab7a4525393a
 
-## Source Code Repositories
-* all you need for your project: https://github.com/guardianproject/IOCipher
+## فضای منابع کدها 
+* تنها چیزی که برای پروژه نیاز داریی : https://github.com/guardianproject/IOCipher
 
 
-## optional:
-the test suite: https://github.com/guardianproject/IOCipherTests
-a simple example file manager app: https://github.com/guardianproject/IOCipherExample
-a very simple test app: https://github.com/guardianproject/IOCipherThreadTest
-the core: https://github.com/guardianproject/libsqlfs
+## اختیاری: 
+مجموعه تست : https://github.com/guardianproject/IOCipherTests
+یک نمونه ساده برای مدیرت فایل برنامه ها : https://github.com/guardianproject/IOCipherExample
+یک تست خیلی ساده برای برنامه : https://github.com/guardianproject/IOCipherThreadTest
+هسته اصلی : https://github.com/guardianproject/libsqlfs
 
-## Usage notes
-* only one active mount per-app is supported
+## استفاده از نوشته ها
+* فقط از یک mount فعال برای هر برنامه پشتیبانی می شه. 
 * single thread/sequential access is the preferred way of using IOCipher
 * multi-threaded access possible (potentially unstable under extremely high write load)
-* VFS now has beginTransaction and completeTransaction to optimize performance
-* parts of java.io not currently supported: vectored I/O, memory-mapped files
+*  الان VFS برای بهینه سازی عملکرد  دارای beginTransaction و completeTransaction هست 
+قسمتی از  java.io هنوز ساپورت نمی شه : vectored I/O, memory-mapped files 
 
-## Reporting Bugs
-Please report any bugs or issues that you have with this library! We want to hear from you. Help us improve this software by filing bug reports about any problem that you encounter. Feature requests and patches are also welcome!
+## گزارش دادن مشکلات 
+لطفا  اگر مشکلی یا ایرادی داشتین با این کتابخانه به ما اطلاع بدین !‌ ما منتظر نظرات شما هستیم. این به ما کمک می کنه که مشکلات و ایرادات این برنامه را رفع کنیم. در ضمن خوشحال می شیم اگر شما ایده دارید یا راه حلی برای بهبود برنامه پیدا کردید با ما در میان بزارید. 
 
-[Report a bug or issue](https://dev.guardianproject.info/projects/iocipher/issues/new)
+[گزارش مشکلات و ایرادات ] (https://dev.guardianproject.info/projects/iocipher/issues/new)

@@ -1,16 +1,16 @@
-# How do I protect my app's data (SQLCipher: Encrypted Mobile Databases)
-Source URL: [SQLCipher: Encrypted Database](https://guardianproject.info/code/sqlcipher)
+چطور اطلاعات برنامه خود را حفاظت کنیم
+منبع: (https://guardianproject.info/code/sqlcipher)
 
-## Introduction
-In an environment where mobile data privacy is increasingly [in the headlines](http://www.reuters.com/article/2011/05/08/us-privacy-congress-idUSTRE7471SA20110508), this project will make it easier than ever for mobile developers to properly secure their local application data, and in turn better protect the privacy of their users. The data stored by Android apps protected by this type of encryption will be less vulnerable to access by malicious apps, protected in case of device loss or theft, and highly resistant to [mobile data forensics tools](http://www.cellebrite.com/) that are increasingly used to mass copy a mobile device during [routine traffic stops](http://www.thenewspaper.com/news/34/3458.asp).
+مقدمه
+در زمانی که حفظ حریم خصوصی در گوشیهای همراه در صدر خبرهاست، این پروژه امن کردن درست اطلاعات ذخیره شده توسط برنامکها رابرای برنامه نویسان هر چه آسانتر میکند، و همچنین حریم خصوصی کاربران را نیز حفظ میکند. اطلاعات ذخیره شده توسط این نوع از زمزگذاری دربرنامه های اندرویدی خصوصیتهایی از قبیل:  دسترسی کمتر بوسیله نرم افزار های متفرقه، حفاظت اطلاعات در برابر گم شدن یا دزدیده شدن گوشی، و در برابر برنامه های شنود که روزانه بیشتر و بیشتر از آنها برای کپی کردن داده های گوشیهای همراه در گذرگاهای مختلف استفاده میشود، را دارند.
 
-SQLCipher is an [SQLite](http://sqlite.org/) extension that provides transparent 256-bit AES encryption of database files. To date, it has been open-sourced, sponsored and maintained by [Zetetic LLC](http://zetetic.net/). In the mobile space, SQLCipher has enjoyed widespread use in Apple’s [iOS](http://sqlcipher.net/documentation/ios.html), as well as [Nokia / QT](http://www.qtcentre.org/wiki/index.php?title=Building_QSQLITE_driver_with_AES-256_encryption_support) for quite some time. Given that Android by default provides integrated support for SQLite databases, our goal was to create an almost identical API for SQLCipher, so that developers of all skill level could use it, without a steep learning curve.
+سایفر اس کیو ال (http://sqlite.org/) افزونه ایست که قابلیت رمزگذاری با استاندارد 256-bit AES را به بانکهای اطلاعاتی میدهد. تا این زمان این افزونه با حمایت مالی و پشتیبانی (http://zetetic.net/)  بصورت کد منبع باز میباشد. در دنیای گوشیهای همراه، سایفر اس کیو ال با استقبال زیادی در گوشی های شرکت اپل (http://sqlcipher.net/documentation/ios.html) و نوکیا (http://www.qtcentre.org/wiki/index.php?title=Building_QSQLITE_driver_with_AES-256_encryption_support) مواجه شده. ناگفته نماند که اندروید بصورت پیش فرض از بانک اطلاعاتی اس کیو ال لایت پشتیبانی میکند، هدف ما ایجاد رابط برنامه نویسی نرم افزاری مشابه برای اس کیو ال سایفر است بطوری که هر برنامه نویسی با هر تجربه و دانشی بتواند با صرف زمانی کم برای یادگیری از آن استفاده کند.
 
-[LEARN MORE AND DOWNLOAD](http://sqlcipher.net/open-source/)
-[SOURCE CODE](https://github.com/sqlcipher/android-database-sqlcipher)
+دانلود کنید و بیشتر بخوانید: http://sqlcipher.net/open-source
+منبع: (https://github.com/sqlcipher/android-database-sqlcipher)
 
-## A Simple Example
-A typical SQLite database in unencrypted, and visually parseable even as encoded text. The following example shows the difference between hexdumps of a standard SQLite db and one implementing SQLCipher.
+یک مثال ساده
+یک بانک اطلاعاتی اس کیو ال لایت بصورت ساده وبدون رمزگذاری است، حتی میتوان کدهای کامپایل شده توسط نرم افزار را مشاهد کرد و تمیز داد. مثال زیر فرق کد کامپایل شده توسط بانک اطلاعاتی اس کیو ال لایت ساده و اس کیو ال با افزونه اس کیو ال سایفر را نشان خواهد داد.
 
 ```
 $ hexdump -C sqlite.db
@@ -38,22 +38,22 @@ sqlite> SELECT * FROM t1;
 Error: file is encrypted or is not a database
 ```
 
-(example courtesy of [SQLCipher](http://sqlcipher.net/design))
+مثال از (http://sqlcipher.net/design)
 
 
-## Details for Developers
-We’ve packaged up a very simple SDK for any Android developer to add SQLCipher into their app with the following three steps:
+جزییات برای برنامه نویس ها
+ما کیت توسعه نرم افزاری برای برنامه نویسان اندروید را آماده کردیم که میتوانند اس کیو ال سایفر را به برنامه های خود در سه مرحله اضافه کنند: 
 
-1. Add a single sqlcipher.jar and a few .so’s to the application libs directory
-1. Update the import path from android.database.sqlite.* to info.guardianproject.database.sqlite.* in any source files that reference it. The original android.database.Cursor can still be used unchanged.
-1. Init the database in onCreate() and pass a variable argument to the open database method with a password*:
-   - SQLiteDatabase.loadLibs(this); //first init the db libraries with the context
+1.	Sqlcipher.jar و چندین فایل .so را به دایرکتوری libs برنامه اضافه کنید.
+2. آدرس ایمپوت (Import Path) را از android.database.sqlite.* به info.guardianproject.database.sqlite.* در تمام فایل های منبعی که به آن اشاره شده غیر از android.database.Cursor عوض کنید.
+3. بانک اطلاعاتی را در onCreate() مقدار دهی اولیه(Init)  کنید و با رمز 
+   SQLiteDatabase.loadLibs(this);// اول  کتابخانه بانک اطلاعاتی را با داده ها مقدار دهی کنید.
    - SQLiteOpenHelper.getWritableDatabase(“thisismysecret”):
 
-*Note*: we are working on some dialog builder helper methods for password and PIN input, password caching, and other features that we would like to standardize across all applications that use SQLCipher.
+*توجه*: ما در حال کار بروی اضافه کردن متدهای راهنما (Dialog Builder Helper Methods) برای رمز عبور و شماره رمز(PIN)، بارگزاری رمزعبور (password caching)، و بقیه قابلیت ها که مایلیم در اس کیو ال سایفر استاندار سازی کنیم.  
 
-## Compatibility
-The Developer Preview implements SQLCipher v1, is compatible with Android 2.2 & 2.3, and works only within one process (you can’t pass a Cursor from a remote Service to an Activity).
+##سازگاری
+پیش نسخه برنامه نویسان دارای اس کیو ال سایفر V1 است، که با اندروید 2.2 و 2.3 سازگاری دارد، و همچنین فقط با یک پردازنده کار میکند( شما نمیتوانید مقدار Cursor را از سرویس دور {remote service}به activity بدهید.)
 
 ## Notepad + SQLCipher = Notepadbot
 Notepadbot is a sample application pulled from the standard Android samples code and updated to use SQLCipher. You can browse the [source here](https://github.com/guardianproject/notepadbot) and download the [apk here](https://github.com/guardianproject/notepadbot/Notepadbot-0.0.1c-dev.apk/qr_code).

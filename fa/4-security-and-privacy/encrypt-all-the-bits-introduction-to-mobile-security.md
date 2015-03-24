@@ -38,84 +38,84 @@ https://guardianproject.info/code
 CipherKit برای برنامه نویسان اپ در اندروید طراحی شده  تا برنامه های خودشون را مطمن بکنن برای  حفظ حریم خصوصی٬‌ امنیت و ناشناس ماندن
 
 #### SQLCipher: رمزگزاری پایگاه داده ها  
-SQLCipher is an SQLite extension that provides transparent 256-bit AES encryption of database files. It mirrors the standard android.database API. Pages are encrypted before being written to disk and are decrypted when read back.
+SQLCipher یک SQLite خارجی هست که وظیفش شفاف سازی  256-bit AES برای فایل ها در بانک های اطلاعاتی  رمگزاری شده است. صفحه ها رمزگزاری می شند قبل از اینکه چیزی نوشته بشه  در دیسک ها و بعدتر رمزگشایی می شند وقتی که خونده می شن. 
 
-#### IOCipher: Encrypted Virtual Disk
-IOCipher is a virtual encrypted disk for apps without requiring the device to be rooted. It uses a clone of the standard java.io API for working with files. Just password handling & opening the virtual disk are what stand between developers and fully encrypted file storage. It is based on libsqlfs and SQLCipher.
+#### IOCipher: رمزگزاری دیسک های مجازی 
+IOCipher یک دیسک رمزگزاری شده هست برای برنامه ها بدون اینکه دستگاه نیاز به روت داشته باشه.  این از یک کلون معمولی  java.io API برای کار کردن با فایل ها استفاده می کنه. فقط دسترسی  به رمز عبور و باز کردن صفحه های مجازی چیزیه که بین برنامه نویسان هست و تمام فایل ها بصورت رمزگزاری می مونه. این بر پایه libsqlfs و SQLCipher هست. 
 
-#### NetCipher: Encrypted Network Data & Tor Integration
-NetCipher is improving network security. It provides a strong TLS/SSL verifier to help mitigate weaknesses in the certificate authority system. It eases the implementation of supporting SOCKS and HTTP proxies into applications and also supports onion routing for anonymity and traffic surveillance circumvention.
+#### NetCipher: رمزگزاری ها شبکه ی اطلاعات و  یک پارچه سازی تور 
+NetCipher یک بهبود دهنده امنیت شبکه است. اون یک تایید کننده TLS/SSL برای کمک به گواهینامه های ضعیف در سیستم هست. 
 
-### Let’s take a step back...
-(to figure out what it is we are worried about)
+### بزار یک پله به عقب برگردیم 
+(تا کشف کنیم که نگرانی ما از کجاست)
 
-## Basic Threat Modeling
-* “What are you worried about?” aka Possible Attack Vectors
-* What data are you collecting or services are you providing that might be enticing or exposed?
-* Are the potential threats you face coming from the device (other apps or physical access) or the network?
+## پایه مدلسازی تهدید
+از چی نگرانی ؟ aka Possible Attack Vectors
+چه نوع اطلاعاتی  جمع آوری می کنی یا چه  سرویسی ارایه می دی که ممکنه وسوسه انگیز باشه و یا در در معرض قرار بگیره ؟ 
+آیا  برای تو امکان خطری وجود داره که از دستگاه های دیگه بیاد یا حتی از برنامه ها٬ دسترسی فیزیکی یا استفاده از شبکه ؟ 
 
-## War Stories?
-* Have your apps, your business or your users or customers lives or businesses been affected by malware or security breaches?
-* Do you work in an industry that has specific requirements related to security and privacy?
-* Do you target a region of the world where users might be more exposed to attack, surveillance or privacy violations?
+## داستان های جنگی ؟ 
+تا به حال شده که کارت٬ کاربراتون یا زندگی مشتری هاتون تحت تاثیر بد افزار ها یا مشکلات امنیتی قرار بگیره ؟ 
+* آیا  کارت توری هست که به دلیل شغلی که درس هستی  نیاز به امنیت و پنهان بودن داری  ؟  
+آیا در منطقه ای از جهان هستی که  کاربران ممکنه تحت حمله قرار بگیرند و یا  اینکه نقض حریم خصوصی اتفاق  بیافته ؟ 
 
-## Threat Landscape
-* Forensic Analysis
-* Rooting / Jail breaking
-* OS Issues
-* Infrequent Updates
-* Removable Storage
-* Cloud Services
-* Targeted Attacks
-* Device Sharing
+##ساختار خطر 
+* تحلیل قانونی
+* ریشه ریابی / جیل بریک 
+* مشکلات OS
+* بروز رسانی های کم یاب
+*  فضاهای قابل جابجایی 
+* خدمات کلود  
+* هدف حملات 
+* به اشتراک گذاشتن دستگاه 
 
-### Malware is on the rise
-Malware on the rise: http://blog.trendmicro.com/trendlabs-security-intelligence/mobile-malware-high-risk-apps-hit-1m-mark/
+###   بدافزار های در حال تکامل 
+ بدافزار های در حال تکامل :http://blog.trendmicro.com/trendlabs-security-intelligence/mobile-malware-high-risk-apps-hit-1m-mark/
 
-### Cached GPS data stored in plain text
+### اطلاعات ذخیره شده در یک متن ساده 
 http://elifelog.org/book/iphone-gps-cache-data
 
 ### Forensic Extraction
-"Universal Forensic Extraction Devices" can quickly and easily copy all of the data from a mobile phone.
+دستگاه های "Universal Forensic Extraction " به راحتی و خیلی سریع می تونن همه اطلاعات را از روی موبایل کپی کنند. 
 
-If tools like these fall into the wrong hands, it is easy to assume any unencrypted data on a device can be easily stolen.
+اگر دستگاهی مثل این تو دست آدم نادرست بیفته٬ به راحتی می تونه همه اطلاعات رمزگشایی نشده در دستگاه را بدزده 
 
 http://www.cellebrite.com/mobile-forensics
 
-### Man in the middle 
-Man-in-the-Middle: http://thehackernews.com/2013/03/t-mobile-wi-fi-calling-app-vulnerable.html
+### حمله مرد میانی 
+حمله مرد میانی : http://thehackernews.com/2013/03/t-mobile-wi-fi-calling-app-vulnerable.html
 
-## Trust Landscape
+## ظاهر قابل اعتماد 
 
-| ID | Name | Description |
+| شناسه | اسم | توضیحات |
 | ---- | ---- | ---- |
-| 1 | Owner of the mobile phone | The primary operator of the mobile device. Assumed to have full access to the device, potentially secured with a PIN/password screen. |
+| 1 | صاحب موبایل باشید | اپراتور اول موبایل. مطمن باشید از اینکه به دستگاهتون دسترسی کامل دارید ٫‌ همچنین امنه و رمز یا کد  دارید برای وارد شدن بهش  
 | 2 | Detainer / criminal / bad actor | An authority figure or criminal who has or will be detaining the Owner[1]; has access to mobile phone. may have only manual/brute force access, or could have more sophisticated forensic extraction tools. | 
-| 3 | Operator of the mobile network | Access to call and message logs (sender/receiver/message content) and cell tower association data (rough location) |
+| 3 | اپراتور شبکه موبایل | دسترسی به تماس ها و پیام ها (فرستنده / دریافت کننده/ محتویات پیام) و برج های مخابراتی که با اطلاعات سر و کار دارند (مکان های سخت)|
 | 4 | Employer, family or support organization; | May know the Owner[1]'s PIN/password, but otherwise has no access to data or network information; On the receiving end of an emergency message |
 | 5 | Malicious App / Backdoor / Malware / Forensics App | Access to some or all of the the Owner[1]'s data depending upon app data permissions and encryption, as well as how full the backdoor is. Authorization is often required by the user to allow apps to access data. |
 
-## Assets
+## ویژگی مثبت 
 
-| ID | Name | Description | Trust Level |
+| شناسه  | اسم | توضیحات | میزان اعتماد |
 | ---- | ---- | ---- | --- |
-| 1 | Personal Data | Names, emails, phone numbers, calendar events, mostly stored on internal device memory | [1] Owner, [5] Malicious App (as authorized) |
-| 2 | Communication Data | Text messages, emails, call logs, mostly stored on internal device memory | [1] Owner, [3] Operator, [5] Malicious App (as authorized) |
-| 3 | Application data | Custom data stored by browsers, chat, social networking apps, on both internal and memory card; | [1] Owner, [3] Operator (if not HTTP/S or SSL), [5] Malicious App (as authorized) |
-| 4 | Media files | User generated and download photos, videos and music, primarily stored on memory card | [1] Owner, [5] Malicious App |
+| 1 | شخصی | اطلاعات | اسامی٬‌ ایمیل ها٬ شماره های تماس٬‌ رخداد های توی تقویم٬‌ ذخیره شده روی  حافظه داخلی  [1] صاحب  [5] برنامه های مخرب (بجای برنامه های تایید شده)
+| 2 | ارتباط داده ها | پیام های کوتاه٬ ایمل٬‌ تماس های دریافتی٬‌ خیلی بیشتر این ها در حافظه داخلی ذخیره می شن [1] صاحب , [3] اپراتور , [5]  برنامه های مخرب (بجای برنامه های تایید شده)
+| 3 | اطلاعات کاربردی | اطلاعات شخصی ذخیره شده در مرورگرها٬ گفتگوها٬‌ برنامه های شبکه اجتماعی٬‌ همه در هر دو حافظه ذخیره می شوند;  [1] صاحب٬‌ [3] اپراتور ( اگر HTTP/S or SSL نیست)٬‌ , [5]  برنامه های مخرب (بجای برنامه های تایید شده)
+| 4 |  فایل های رسانه ای | کاربران تولید می کنن یا  عکس ٬‌ ویدیو و موسیقی دانلود می کنن. اینها معمولا در کارت ها حافظه ذخیره می شوند. [1] صاحب٬‌ [5]  برنامه های مخرب (بجای برنامه های تایید شده)
 
-## STRIDE Threat List
-| Type | Examples|
+## لیست خطر STRIDE 
+| نوع | نمونه ها|
 | ---- | ---- |
-| Spoofing | - Detainer[2] or Malicious App[5] may gain control of mobile phone and pretend to be Owner[1] |
-| Tampering | - Malicious App[5] changes configuration data on the device | 
-| Repudiation | - Malicious App[5] or other system backdoor may disable or block app; - Operator[3] may passively monitor messages and pass the information along to the Detainer[2] |
+|کلک زدن| - کسی که توسط قانون ازش نگهداری میشه[2]برنامه های مخرب (بجای برنامه های تایید شده) [5] ممکنه تلاش کنن کنترل موبایل را به دست بگیریند یا خودشون را بجای صاحب موبایل معرفی کنند [1] 
+|دستکاری کردن | برنامه های مخرب [5] می تون ساختار اطلاعات را بر روی دستگاه عوض کنند.  
+| رد کردن | | برنامه های مخرب [5] یا تروجان ها برنامه را از کار بندازن   اپراتور[3]  حتی شاید بصورت دایم پیام ها را کنترل کنند و اطلاعات را به اشخاص مخرب بدن [2] |
 | Information Disclosure | Detainer[2] could have full access to Assets stored on the mobile device; - Detainer[2] may have physical and logical forensic data extraction tools that can override password controls on device and read from "wiped" storage; - Operator[3] may learn identity of Support Org[4] |
-| Denial of Service | - Communications may be blocked from being sent or received by Operator [3]; - Mobile phone may be disabled by Operator[3] or Malicious App[5] from running remote wipe | 
+| عدم دریافت سرویس | - شاید  ارسال و دریافت ارتباطات   قطع بشه از طرف اپراتور [3]; - شاید موبایل از طرف اپراتور از کار بیفته [3] یا برنامه های مخرب [5]  
 | Elevation of Privilege | - Malicious App [5] launches insecured intents or exploits known bug; - Detainer[2] or Operator[3] may be able to impersonate the Owner[1] |
 
-## Security Controls / Mitigation
-| Type | Tactics |
+## کنترل های امنیتی / کاهش خطر 
+| تایپ | تاکتیک ها |
 | ---- | ---- | 
 | Authentication (vs. Spoofing) | - Create a a non obvious passphrase for use in app - Lock screen of your mobile phone using passphrase or PIN |
 | Authorization & Auditing (vs Tampering, Repudiation, Elevation of Priv) | - Do not install any unnecessary, third-party mobile apps with network access; - Scan your mobile device using available malware tools; - Install a firewall or network connection monitoring utility; - Use a non-real name registered SIM card and mobile phone |
@@ -123,33 +123,33 @@ Man-in-the-Middle: http://thehackernews.com/2013/03/t-mobile-wi-fi-calling-app-v
 | Alternate Communications (vs Denial of Service) | - Use VPNs or Tor proxying software to hide source IP and traffic; - Use apps/services that work in WIFI only mode if data service disabled; - Use apps that allow device-to-device data sharing | 
 
 ## SQLCipher 
-Encrypted Database
+رمزگزاری بانک داده ها 
 
-SQLCipher is an SQLite extension that provides transparent 256-bit AES encryption of database files. It mirrors the standard android.database API. Pages are encrypted before being written to disk and are decrypted when read back.
+SQLCipher یک SQLite خارجی هست که وظیفش شفاف سازی  256-bit AES برای فایل ها در بانک های اطلاعاتی  رمگزاری شده است. صفحه ها رمزگزاری می شند قبل از اینکه چیزی نوشته بشه  در دیسک ها و بعدتر رمزگشایی می شند وقتی که خونده می شن. 
 
-- SQLCipher has a small footprint and great performance so it’s ideal for protecting embedded application databases and is well suited for mobile development.
+- SQLCipher ردپای خیلی کمی داره و خیلی خوب عمل می کنه برای محافظت کردن از برنامه های بانک اطلاعاتی و همچنین خیلی خوبه برای پیشرفت موبایل 
 - Blazing fast performance with as little as 5-15% overhead for encryption
-- 100% of data in the database file is encrypted
-- Uses good security practices (CBC mode, key derivation)
+-  100 درصد اطلاعات در بانک اطلاعات رمزگزاری شده
+با استفاده از شیوه هاب خوب امنیتی (CBC mode, key derivation) 
 - Zero-configuration and application level cryptography
 - Algorithms provided by the peer reviewed OpenSSL crypto library.
 
 ###  پلتفرم CipherKit 
 IMAGE
 
-### Defense in Depth
-Make attacks difficult with multiple layers of security
+###  دفاع در عمق
+حمله کردن ها رل سخت کن با  چند لایه امنیتی 
 
-### Principle of Least Privilege
-Access to device should not allow access to all apps and data
+###  اصول حداقل دسترسی 
+در دسترسی به  دستگاه نباید به همه برنامه و اطلاعات دسترسی داشته باشه 
 
-### Data Security
-Minimize impact of unauthorized access, on and off device
+### امنیت اطلاعات 
+حداقل کردن تاثیر دسترسی های بدون اجازه به دستگاه روشن یا خاموش
 
-### Strategies
-1. Authentication
-1. Encryption
-1. Authenticity
+### استراتژی
+1. تایید هویت 
+1. رمزگزاری 
+1. اعتبار
 
 ## SQLite vs. SQLCipher
 
@@ -176,29 +176,29 @@ sqlite> .quit
 
 ~ $ sqlite3 sqlcipher.db
 sqlite> SELECT * FROM t1;
-Error: file is encrypted or is not a database
+خطا: فایل رمزگزاری شده در بانک اطلاعاتی نیست 
 ```
 
 https://github.com/sqlcipher/android-database-sqlcipher
 
 ```
-import net.sqlcipher.database.SQLiteDatabase;
+وارد کن : net.sqlcipher.database.SQLiteDatabase;
 
 SQLiteDatabase.loadLibs(this);
 
 SQLiteDatabase db = eventsData.getWritableDatabase(“my password”);
 ```
 
-### Simple Steps
-We’ve packaged up a very simple SDK for any Android developer to add SQLCipher into their app with the following three steps:
+### راه حل ساده 
+ما یک بسته   SDK ساده را برای برنامه نویسان اندروید درست کردیم تا SQLCipher  را  در سه مرحله به برنامه هاشون اضافه کنن : 
 
-* Add a single sqlcipher.jar and a few .so’s to the application libs directory
+* اضافه کردن یک  sqlcipher.ja و چندتا دیگه. تا  فهرست libs برنامه ها
 * Update the import path from android.database.sqlite.* to info.guardianproject.database.sqlite.* in any source files that reference it. The original android.database.Cursor can still be used unchanged.
 * Init the database in onCreate() and pass a variable argument to the open database method with a password*:
   - SQLiteDatabase.loadLibs(this); //first init the db libraries with the context
   - SQLiteOpenHelper.getWritableDatabase(“thisismysecret”):
 
-### SQLCipher Features
+### ویژگی های SQLCipher 
 - AES 256 CBC
 - Random IVs
 - Random salt
@@ -208,13 +208,13 @@ SSL باز
 - Fast startup
 - No size limit
 
-### How it Works
-- Pager Codec
+### چطور کار می کنه ؟
+- پیگری کد ها 
 - Key Derivation
-- Encryption
+- رمزگزاری
 - MAC
 
-### Advanced
+### پیشرفته 
 - PRAGMA rekey
 - PRAGMA cipher
 - PRAGMA kdf_iter
@@ -224,36 +224,36 @@ SSL باز
 - sqlcipher_export()
 
 ## IOCipher 
-Encrypted Virtual File System
+رمزگزاری سامانه فایل های مجازی 
 
-IOCipher provides a virtual encrypted disk for Android apps without requiring the device to be rooted. It uses a clone of the standard java.io API for working with files, so developers already know how to use it. Only password handling, and opening the virtual disk are what stand between the developer and working encrypted file storage. It is based on and SQLCipher.
+IOCipher یک دیسک مجازی رمزگزاری برای برنامه های اندروید ارایه می ده بدون نیاز دستگاه به وصل بودن جایی. این از یک کپی برابر اصل استاندارد  java.io API  برای کار کردن با فایل ها استفاده می کنه٬ پس برنامه نویسان از قبل می دونن چجوری باهاش کار کنن. فقط تحویل رمز عبور و باز کردن دیسک های مجازی چیزیه که بین برنامه نویسان و فایل های رمزگزاری ذخیره شده هست. این بر اساس و SQLCipher است.
 
 IOCipher is a cousin to SQLCipher-for-Android since it is also based on SQLCipher and uses the same approach of repurposing an API that developers already know well. It is built on top of libsqlfs, a filesystem implemented in SQL that exposes a FUSE API.
 
 ###  پلتفرم CipherKit 
 *image* 
 
-### IOCipher: Core Features
+### IOCipher: ویژیگی های اصلی 
 * Secure transparent app-level virtual encrypted disk
-* No root required
-* Only three new methods to learn: new VirtualFileSystem(dbFile), VirtualFileSystem.mount(password), and VirtualFileSystem.unmount()
-* Supports Android versions 2.1 and above
-* Licensed under the LGPL v3+
+*نیاز نداره به جایی وصل باشه 
+* سه را جدید برای یاد گرفتن : new VirtualFileSystem(dbFile), VirtualFileSystem.mount(password), and VirtualFileSystem.unmount()
+* پشتیبانی کردن از اندروید نسخه 2.1 و پایینتر
+* مجوز گرفتن با  LGPL v3+
 
 ### IOCipher: The Stack
-* info.guardianproject.iocipher
+info.guardianproject.iocipher
    - Java/JNI wrapper API
 * LibSQLFS / FUSE
    - Virtual Filesystem that maps to SQL schema / structured database
 * SQLCipher
-   - Encryption layer for SQLite
+   لایه های رمزگزاری شده برای SQLite
 * SQLite
-   - Base storage mechanism
+   - اساس مکانیزم ذخیره سازی 
 
-### Adding IOCipher to App
-- manage the password
-- connect to your encrypted disk’s file using new VirtualFileSystem(dbFile)
-- mount it with a password using VirtualFileSystem.mount(password)
+### اضافه کردن IOCipher به برنامه
+- مدیریت کردن رمز عبور 
+- متصل کردن دیسک رمزگزاری شده با استفاده از VirtualFileSystem(dbFile)
+- نصب با  استفاده از رمز عبور VirtualFileSystem.mount(password)
 - replace the relevant java.io import statements withinfo.guardianproject.iocipher, e.g.:
 - import info.guardianproject.iocipher.File;
  - import info.guardianproject.iocipher.FileOutputStream;
@@ -266,7 +266,7 @@ IOCipher is a cousin to SQLCipher-for-Android since it is also based on SQLCiphe
  - import java.nio.channels.Channels;
  - import java.nio.channels.ReadableByteChannel;
 
-### IOCipher Example
+### نمونه IOCipher
 https://github.com/guardianproject/IOCipherExample
 
 ```
@@ -279,45 +279,45 @@ File dbFile = getDir("vfs", MODE_PRIVATE).getAbsolutePath() + "/myfiles.db";
 vfs = new VirtualFileSystem(dbFile);
 
 
-// TODO don't use a hard-coded password! prompt for the password
-vfs.mount("my fake password");
+// TODO از رمز عبور سخت استفاده نکن! سریع رمزت را بزن!‌
+vfs.mount("رمز عبور دورغیم");
 
 File file = new File(dirPath);
 File[] files = file.listFiles();
 ```
 
 ## CacheWord
-Secure Passphrase Management
+مدیریت کلمه رمز امن  
 
 CacheWord is an Android library project for passphrase caching and management. It helps app developers securely generate, store, and access secrets derived from a user's passphrase.
-1. Secrets Management: how the secret key material for your app is generated, stored, and accessed
-1. Passphrase Caching: store the passphrase in memory to avoid constantly prompting the user
+1. مدیریت کردن رازها:  
+1. ذخیره سازی عبارات عبور: نگه داشتن رمزهای عبور در حافظه برای جلوگیری از وارد کردن اون بطور مکرر توسط کاربر 
 
 ###  پلتفرم CipherKit 
 [Image]
 
 
-### CacheWord Features
-CacheWord manages key derivation, verification, persistence, passphrase resetting, and caching secret key material in memory.
-- Strong key derivation (PBKDF2)
-- Secure secret storage (AES-256 GCM)
-- Persistent notification: informs the user the app data is unlocked
-- Configurable timeout: after a specified time of inactivity the app locks itself
-- Manual clearing: the user can forcibly lock the application
-- Uses Android's Keystore on 4.x if available - Not Yet Implemented
+### ویژگی های  CacheWord 
+CacheWord مدیریت می کنه منبع اصلی٬ تایید کردن٬‌ مقاومت٬ ریست رمز عبور و کش کردن موارد مخفی اصلی در حافظه.
+-  سرچشمه اصلی قوی (PBKDF2)
+- امنیت فضای مخفی (AES-256 GCM)
+- هشدار دادن مداوم: به کاربرا هشدار بده که اطلاعات برنامه هاشون باز هست
+تنظیم مهلت زمانی: بعد از هر بار عدم استفاده خود برنامه بسته بشه
+- پاک کردن دستی: کاربر بتونه به اجبار برنامه را ببنده 
+- استفاده از منبع گواهی های اندروید بر 4.x اگر موجود هست -  هنوز عملی نشده. 
 
-### Problem with Android...
+### مشکلات با اندروید 
 [IMG]
 
-### CacheWord Solution
+###  راه حل CacheWord 
 [IMG]
 
-### CacheWord Code Example
+###  نمونه کد CacheWord
 https://github.com/guardianproject/cacheword/tree/master/sample
 
 
 ```
-public class CacheWordSampleActivity extends Activity implements      ICacheWordSubscriber {
+public class CacheWordSampleActivity extends Activity implements ICacheWordSubscriber {
 …
         mCacheWord = new CacheWordActivityHandler(this);
 
@@ -326,8 +326,8 @@ public class CacheWordSampleActivity extends Activity implements      ICacheWord
 
     @Override
     public void onCacheWordOpened() {
-               // fetch the encryption key from CacheWordService
-        SecretKey key = ((PassphraseSecrets) mCacheWord.getCachedSecrets()).getSecretKey();
+               // آوردن کلید رمز گزاری شده از  CacheWordService
+        کلید مخفی  key = ((PassphraseSecrets) mCacheWord.getCachedSecrets()).getSecretKey();
     }
 
     @Override
@@ -338,21 +338,21 @@ public class CacheWordSampleActivity extends Activity implements      ICacheWord
 ```
 
 ## NetCipher
-Secured Networking
+شبکه امن 
 
 ###  پلتفرم CipherKit 
 [image]
 
-### NetCipher: 3 reasons
-1. *Stronger Sockets*: Through support for the right cipher suites, pinning and more, we ensure your encrypted connections are as strong as possible.
+###  دلیل NetCipher :  3
+1. *سوکت های قوی تر * : از طریق حمایت برای مجموعه های صحیح رمز٬‌ پین کردن و چیزهای دیگر٬ ما مطمنتون می کنیم که ارتباطات رمزگزاری شده شما به بهترین شکل ممکن قوی هستند. 
 1. *Proxied Connection Support*: HTTP and SOCKS proxy connection support for HTTP and HTTP/S traffic through specific configuration of the Apache HTTPClient library
 1. *OrbotHelper*: a utility class to support application integration with Orbot: Tor for Android. Check if its installed, running, etc.
 
-### Network Threats
-Tor Proxying
+### خطرات شبکه 
+پرکسی تور 
 [image]
 
-### NetCipher Code Example
+### نمونه کد  NetCipher 
 https://github.com/guardianproject/NetCipher
 
 ```
@@ -372,11 +372,11 @@ https://github.com/guardianproject/NetCipher
             httpclient.useProxy(true, ConnRoutePNames.DEFAULT_PROXY, proxyHost, proxyPort);
 ```
 
-## From here
+## از اینجا 
 https://guardianproject.info/contact
 
 Guardian-Dev and SQLCipher mailing lists
 IRC (freenode): #guardianproject
-Project Trackers: https://dev.guardianproject.info
+ردیابی  پروژه : https://dev.guardianproject.info
 
 support@guardianproject.info

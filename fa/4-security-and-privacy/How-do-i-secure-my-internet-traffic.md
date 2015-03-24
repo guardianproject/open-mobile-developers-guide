@@ -2,29 +2,29 @@
 
 منبع:  [Guardian Project](https://guardianproject.info/code/netcipher/)
 
-## Better TLS and Tor App Integration
+## TLS بهتر و یکپارچه سازی برنامه های تور 
 
-This is an Android Library Project that provides multiple means to improve network security in mobile applications. The “Onion” name refers to not only the Onion Routing concept used by Tor (which provides anonymity and resistance to traffic surveillance), but also the idea of multiple layers of security that any application should utilize.
+این یک کتابخانه اندروید که ابزار های متفاوت را برای بهبود امنیت شبکه در برنامه های موبایل ارايه می دهد. اسم پیاز نتنها از ریشه های پیاز گرفته شده که تور از این ایده برای گمنام موندن و مقاومت در برابر نظارت ترافیک استفاده کرده بلکه از ایده چند لایه بودن امنیتی برای برنامه ها استفاده می کنه. 
 
 جزییات بیشتری که این کتابخانه می تواند ارائه کند:
 
-1. Stronger Sockets: Through support for the right cipher suites, pinning and more, we ensure your encrypted connections are as strong as possible.
-1. Proxied Connection Support: HTTP and SOCKS proxy connection support for HTTP and HTTP/S traffic through specific configuration of the Apache HTTPClient library
-1. OrbotHelper: a utility class to support application integration with Orbot: Tor for Android. Check if its installed, running, etc.
+1. سوکت قویتر: با ساپورت صحیح از cipher suites٬ پین کردن و بیشتر٬‌ما  تلاش می کنیم تا ارتباطات رمزگزاری شده شما بسیار قویترین شکل ممکن باشه. 
+1.ساپورت ارتباطات پروکسی:  ساپورت از HTTP و SOCKS پروکسی برای HTTP and SOCKS از طریق پیکربندی خاص  برای  Apache HTTPClient library
+1. OrbotHelper: یک ابزار سودمند برای حمایت از یکپارچه سازی با Orbot: تور برای اندروید. چک کنید اگر نصب شده و کار می کنه. 
 
-**IT MUST BE NOTED**, that you can use this library without using Orbot/Tor, but obviously we think using strong TLS/SSL connections over Tor is just about the best thing in the world.
+**لازم به ذکر است ** شما می تونید از این کتابخانه بدون  Orbot/Tor استفاده کنید ولی ما فکر می کنیم که اگر از ارتباطات TLS/SSL قوی با تور استفاده کنین  بهترین چیز تو دنیا می تونه بشه. 
 
-*This library was formerly named OnionKit – https://github.com/guardianproject/onionkit*
+*این کتابخانه رسما OnionKit  نام گرفته بود –  https://github.com/guardianproject/onionkit*
 
-## Stronger Sockets
+## سوکت قویتر 
 
-Developers can create their own CACert store using the information provided by our CACertMan project: https://github.com/guardianproject/cacert
+برنامه سازان می تونند خودشون CACert store درست کنن با استفاده از اطلاعات  ما در  پروژه CACertMan  : https://github.com/guardianproject/cacert
 
-It can be used in combination with Android Pinning and the MemorizingTrustManager, to support user prompted override for non-validating certificates.
+این می تونه در ترکیبی از Android Pinning و MemorizingTrustManager  استفاده بشه٬‌ برای ساپورت کردن  کاربران نادیده گرفته شده برای گواهی های بدون اعتبار. 
 
-## Proxied Connections
+## ارتباطات پروکسی 
 
-Once Orbot connects successfully to the Tor network, it offers two proxy servers running on localhost that applications can route their traffic through.
+وقتی که Orbot با موفقیت به شبکه تور وصل شد٬‌ دو سرور پروکسی ارايه می ده که روی هاست های محلی فعال هستند و برنامه ها می تونند ترافیک خودشون اینجوری منتقل کنند. 
 
 HTTP Proxy: localhost:8118 SOCKS 4/5 Proxy: localhost:9050
 
