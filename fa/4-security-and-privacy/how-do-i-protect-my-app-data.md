@@ -56,9 +56,9 @@ Error: file is encrypted or is not a database
 پیش نسخه برنامه نویسان دارای اس کیو ال سایفر V1 است، که با اندروید 2.2 و 2.3 سازگاری دارد، و همچنین فقط با یک پردازنده کار میکند( شما نمیتوانید مقدار Cursor را از سرویس دور {remote service}به activity بدهید.)
 
 ## Notepad + SQLCipher = Notepadbot
-Notepadbot is a sample application pulled from the standard Android samples code and updated to use SQLCipher. You can browse the [source here](https://github.com/guardianproject/notepadbot) and download the [apk here](https://github.com/guardianproject/notepadbot/Notepadbot-0.0.1c-dev.apk/qr_code).
+Notepadbot یک نمونه اپ هست که از یک نمونه های کد استاندارد آندروید گرفته شده و بروز شده برای استفاده از SQLCipher . می توانید منبع را اینجا جستجو کنید (https://github.com/guardianproject/notepadbot) and download the [apk here](https://github.com/guardianproject/notepadbot/Notepadbot-0.0.1c-dev.apk/qr_code).
 
-## Final Notes
-It’s important to note that this project is not intended to be a distinct, long-term fork of SQLCipher. We’ve been working closely with the SQLCipher team at [Zetetic](http://zetetic.net/) and fully intent to closely maintain the project as SQLCipher evolves, re-integrating changes in upcoming releases such as [SQLCipher v2](https://github.com/sjlombardo/sqlcipher/tree/v2beta).
+سخن آخر
+خاطر نشان میکنیم که این پروژه قصد جدایی یا دور شدن از پروژه اصلی اس کیو ال سایفر ندارد. ما همکاری تنگاتنگی با تیم اس کیو ال سایفر داریم (http://zetetic.net/) و قصد داریم این همکاری را ادامه داده و تغیرات و پچ های ارائه شده در آینده را در همین پروژه (https://github.com/sjlombardo/sqlcipher/tree/v2beta) بروز رسانی کنیم. 
 
-The Android support libraries are licensed under [Apache 2.0](https://github.com/guardianproject/android-database-sqlcipher/blob/master/LICENSE), in line with the Android OS code on which they are based. The SQLCipher code itself is licensed under a [BSD-style license from Zetetic LLC](https://github.com/guardianproject/android-database-sqlcipher/blob/master/SQLCIPHER_LICENSE). Finally, the original SQLite code itself is in the [public domain](http://www.sqlite.org/copyright.html).
+کتاب خانه های ساپورت اندروید تحت مجوز  [Apache 2.0] هست (https://github.com/guardianproject/android-database-sqlcipher/blob/master/LICENSE), در یک خط همراه با  کد Android OS. کد SQLCipher خودش تحت مجوز [BSD-style license from Zetetic LLC] هست. (https://github.com/guardianproject/android-database-sqlcipher/blob/master/SQLCIPHER_LICENSE). و در آخر کد original SQLite در یک دومین عمومی هست (http://www.sqlite.org/copyright.html).

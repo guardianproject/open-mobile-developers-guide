@@ -31,6 +31,6 @@ HTTP Proxy: localhost:8118 SOCKS 4/5 Proxy: localhost:9050
 The sample project shows the basics of how to use this library to open sockets and make HTTP requests via the SOCKS and HTTP proxies available from Orbot The standard Apache HTTPClient libraries provide calls to setup proxying. This sample code demonstrates that. All applications using the SOCKS proxy should not resolve their DNS locally, and instead should pass the hostnames through the SOCKS proxy.
 
 ## کمک رسان Orbot
-Provides simple helper to check if Orbot (Tor for Android) is installed, and whether it is currently running or not. Allows your app to request Orbot to start (user is prompted whether to start or not). Finally, it can show a user prompt to install Orbot, either from Google Play, or via direct APK download from torproject.org or the guardianproject.info site.
+بهتون یک کمک رسان ساده ارائه می ده اگر Orbot (یا تور برای آندروید) نصب کردید و به چه در حاضر اجرا باشه یا نه. به اپلیکیشنت اجازه درخواست شروع Orbot را می ده (چه کاربر اون را فعال کرده باشه یا نه). در آخر این می تونه خیلی سریع به  Orbot را نصب کنید٬ چه از طریق Google Play, چه بطور مستقیم از APK . دانلود کنید از این سایت ها: torproject.org یا the guardianproject.info 
 
-For apps with on-device servers, it can also assists in requesting a Tor Hidden Service from Orbot, and discovering the assigned .ONION address.
+برای اپلیکیشن هایی با سرور روی دستگاه٬‌ این همچنین می تواند کمک کند به درخواست  Tor Hidden Service از Orbot ٬ و پیدا کردن آدرس اختصاصی ONION.

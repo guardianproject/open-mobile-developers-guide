@@ -1,44 +1,44 @@
-# گرفتن تصاویری حرفه ای
+# گرفتن عکس های زیرکانه
 
 منبع: [Guardian Project](https://guardianproject.info/apps/obscuracam)
 
-Obscuracam is a photo and video app for Android that keeps certain information private.
+Obscuracam یک اپلیکیشن برای عکاسی و ویدئو برای آندروید هست که یک سری اطلاعات را مخفی نگه می داره.
 
-Ever capture someone in a photo or video, then realize they may not want to be in it? Not comfortable posting a friend, family member or child’s face on the internet? Worried about the geolocation data in the picture giving away private hideaway? Tired of Facebook, Google and other sites “auto detecting” faces in your photos? Then this is for you, giving you the power to better protect the identity of those captures in your photos, before you post them online.
+تا حالا شده از کسی عکس و یا فیلم بگیرین و بعدتر بفهمید که اونها نمی خواستند توی اون باشند ؟ راحت نیستید با این که عکس دوستاتون٬ اعضای خانوادتون یا صورت بچه در اینترنت باشه ؟ نگران این هستید که اطلاعات جغرافیایی در عکس مخفی گاه شما را لو بده ؟ از این  تکنولوژی شناسایی خودکار صورت در فیس بوک٬ گوگل و دیگر سایت ها  خسته شدید ؟ پس این برای شماست٬ این بهتون این قدرت را می ده که از هویت عکس هاتون بهتر مراقبت کنید قبل از اینکه آن ها را به روی اینترنت بزارید.
 
-Take a picture or load a photo or video from the Gallery, and ObscuraCam will automatically detect faces that you can pixelate, redact (blackout) or protect with funny nose and glasses. You can also invert pixelate, so that only the person you select is visible, and no one in the background can be recognized.
+عکس را بگیرید و یا عکس ها و فیلم هاتون را از گالری وارد کنید٬ ObscuraCam بصورت خودکار چهره ها را انتخاب می کنه و شما می تونید اونها را شطرنجی کنید٬ تاریکش کنید و یا با شکلک های مسخره و یا مات کردن اون از هویتش محافظت کنید. شما  حتی می تونید کل عکس را شطرنجی کنید و فقط شخص مورد نظرتون را قابل دیدن کنید. 
 
-This app will also remove all identifying data stored in photos including GPS location data and phone make & model. You can save the protected photo back to the Gallery, or share it directly to Facebook, Twitter or any other “Share” enabled app.
+این اپلیکشن همچنین همه اطلاعات شناسایی را قبیل نقطه جغرافیاییی (GPS) و اطلاعات تلفن و مدلش را پاک می کنه. شما می تونید اون عکسی را که روش کار کردید در گالری ذخیره کنید و بعدتر مستقیم به فیس بوک٬ تویتر و یا جاهای دیگر به اشتراک بگزارید.
 
-We’re currently building a version of ObscuraCam for advanced users called [InformaCam](https://guardianproject.info/apps/informacam/). Users will have the option to secure images with PGP, inversely, to gather and broadcast additional details in metadata.
+ما در حال حاضر درایم یک نسخه از ObscuraCam برای حرفه های می سازیم که [InformaCam] نام داره (https://guardianproject.info/apps/informacam/). کاربران این قابلیت را دارند که عکس ها امن کنن با PGP ٬‌ معکوس کردن برای جمع آوری و پخش  دیگراطلاعات در متا دیتا. 
 
-## How To Get The Latest Release
+##  چگونه آخرین نسخه را بگیریم 
 
-You can find the app in the [Android Market](https://market.android.com/details?id=org.witness.sscphase1&feature=search_result). For those without access to the Android Market, you can get the [ObscuraCam.APK file from our public builds folder](https://guardianproject.info/builds/Obscura/).  For this option, be sure to check back for updates, because the app will not auto-update itself.
+شما می تونید اپ را در [Android Market] پیدا کنید (https://market.android.com/details?id=org.witness.sscphase1&feature=search_result). برای اونهایی که به Android Market دسترسی ندارند می تونید فایل  [ObscuraCam.APK را از پوشه ساخته شده عمومی دریافت کنید. (https://guardianproject.info/builds/Obscura/).  با استفاده  از این گزینه حتما بیاد داشته باشید که برای به روز رسانی چک کنید چرا که خود اپ بصورت خودکار اپدیت نمیشه. 
 
 ## پس زمینه
 
-We developed our more  secure and private camera application in partnership with [Witness.org](http://witness.org/), the leading human rights video advocacy and training organization. This collaboration grew out of an [open hackday at the 2010 Open Video Conference.](http://blog.witness.org/2010/10/ovc2010-opensubtitles/)
+ما دوربین های امن دیگری را با همکاری [Witness.org] ساختیم. (http://witness.org/), سازمانی فعال در آموزش و پیشرو در حمایت از ویدیو های حقوق بشری. این همکاری در روز هک کردن آزاد سال 2010 در یک ویدیو کنفراس اتفاق افتاد. (http://blog.witness.org/2010/10/ovc2010-opensubtitles/)
 
-This is an open-source project and you can track our progress here: https://github.com/guardianproject/SecureSmartCam.
+این یک پروژه  منبع باز هست که شما می تونید اینجا پروسه را دنبال کنید. https://github.com/guardianproject/SecureSmartCam.
 
-For updates on our progress, you can check out our blog: https://guardianproject.info/tag/obscuracam/
+برای بروزرسانی در مورد روند پیشرفت پروژه می تونید این بلاگ را چک کنید: https://guardianproject.info/tag/obscuracam/ 
 
 ## داستان های کاربر
-Here are some of the user stories we aim to support, along with links where to track our progress and find out more:
+اینجا داستان بعضی از کاربرا هست که ما امید به ساپورت کردنشون داریم٬‌ همراه با لینک های که می تونید پیشرفت را مشاهده و تراک کنید : 
 
-1. An activist group records a video interview of a spokesperson at a protest and wants to protect the identify of the people in the background of the shot.
+1. یک گروه فعال فیلمی را از مصاحبه با سخنگو را در یک تظاهرات ضبط کردن و می خوان هویت بقیه آدم ها در فیلم مشخص نشه. 
 
-Development of video filtering and processing is underway: https://github.com/guardianproject/SSCVideoProto
+ساختن  فیلتر ویدیو و پردازشش در حال انجام هست : https://github.com/guardianproject/SSCVideoProto
 
-1. A rights defender uses their smartphone to take many pictures of abuses in a village. On their way back to their hotel, they are detained by local authorities and their phone is confiscated.
+1. یک گروه مدافع حقوق از تلفنشون برای گرفتن کلی عکس بد رفتاری ها در روستا استفاده کردند. در راه برگشتن به هتل٬‌ اونها توسط نیروهای امنیتی بازاداشت می شن و موبایل هاشون هم مصادره می شه. 
 
-Learn more about our encrypted database library SQLCipher: https://guardianproject.info/code/sqlcipher/ and our Cryptographic features planning: https://github.com/guardianproject/SecureSmartCam/wiki/Cryptographic-features
+در مورد پایگاه داده ی رمزگزاری شده  کتاب خانه SQLCipher بیشتر یاد بگیرید : https://guardianproject.info/code/sqlcipher/ و برنامه ریزی با امکانات رمزنویسی : https://github.com/guardianproject/SecureSmartCam/wiki/Cryptographic-features
 
-1. The internet and mobile network are shutdown. Images taken at a protest of human rights abuses need to be delivered out of@gamamb the country. (tor/proxies/bluetooth/wifi mesh)
+1. شبکه اینترنت و موبایل قطع شده. عکس های  تظاهرات نقض حقوق بشر باید به خارج از کشور برسه.(tor/proxies/bluetooth/wifi mesh)
 
-Xfer is our video upload and download app that works over the Tor network: https://github.com/guardianproject/sscxfer
+Xfer یک اپ برای دریافت و ارسال فیلم هست که در شبکه تور کار می کنه : https://github.com/guardianproject/sscxfer
 
 1. تلفن من ممکن است به خطر بیافتد. من چیزی را که می خواستم انتقال بدم را انتقال دادم. می خواهم تمام رد های تصاویر گرفته شده را حذف کنم.
 
-InTheClear is our panic/data-wipe app: https://github.com/guardianproject/InTheClear
+InTheClear  اپ ما هست برای پاک کردن دیتا / و ترس : https://github.com/guardianproject/InTheClear

@@ -1,44 +1,44 @@
-# Leverage user-centered design in your open source project
+# اعمال نفوذ طراحی کاربر محور در پروژه متن باز
 
-Source: [Opensource.com](http://opensource.com/life/14/1/how-to-leverage-user-design)
+منبع:  [Opensource.com](http://opensource.com/life/14/1/how-to-leverage-user-design)
 
-When I first started working at the [Open Technology Institute](http://oti.newamerica.net/) (OTI), I was consistently challenged with the question: "Why would a UX designer want to work at an open source organization?" The truth, in my opinion, is almost all design and usability work is by its nature open source.
+وقتی که من در Open Technology Institute شروع به کار کردم (http://oti.newamerica.net/) (OTI), همیشه این سوال را از خودم می پرسیدم : چرا طراحان  UX علاقه دارن در یک مجموعه متن باز کار کنند ؟ واقعیت در نظر من اینه که همه طراحی ها و قابلیت ها بطور طبیعی با متن باز کار می کنند. 
 
-Designers build on and adapt from design patterns that we see and experience in the world around us. We are constantly sharing and testing our ideas with our peers and collaboratively iterating on concepts because good design is widely understandable. There are great resources around the Internet [see below] on usability and design best practices, and many of the open source user interface frameworks are building these principles into their toolkits, so that the lines between developers, designers, etc are even more blurred.
+طراحان٬‌ طرح ها و ایده ها را از الگوه های طراحی می گیرند که ما تجربه کردیم و یا در دنیای اطراف ما هستند. ما بطور مداوم ایده هامون را از مفاهیم متفاوت  با هم به را آزمایش و یا به اشتراک می زاریم تا طراحی بهتر قابل درک بشه. منابع خیلی خوبی برای قابلیت های استفاده و بهترین روش های طراحی  در اینترنت هستند (پایین را ببینید) و خیلی از کاربران متن باز از این چارچوب به عنوان اصولی در جعبه ابزار های خودشون  اضافه می کنند٬‌ پس خط بین توسعه دهندگان٬ طراحان و غیره خیلی مبهمه. 
 
-The question remains though: Why do we so rarely see usability professionals and designers in the open source community, and how we might begin to change that?
+اینجا یک سوال باقی می مونه: چرا ما به ندرت قابلیت های استفاده حرفه ای و طراحان را در جامعه متن باز می بینیم٬ و ما چطور می توانیم شروع به تغییر  این کنیم ؟ 
 
-Open source processes and projects are also not highlighted as frequently in design and UX schools and conferences, limiting the awareness in design communities of the needs in the field. Additionally, as I touched on above, the evolution of software frameworks, libraries, and toolkits, such as Twitter Bootstrap, and AngularJS are allowing the roles to blur, and making it easier to "fake it until you make it." While on the one hand it's become clear that usability and design are crucial needs for both user facing and developer facing projects (APIs need to be usable too!), there seems to be a divide as to the percentage of designers in proprietary versus open source software. In the past, small projects have viewed user experience (UX) as a luxury and therefore not invested in staffing their UX needs. Also, I imagine that the market demand for designers keeps many of them occupied in companies who can pay them competitively, where many (not all!) of open source projects are volunteer run, or operate on smaller budgets.
+غالبا پروسه ها و پروژه های زبان باز در طراحی و مدارس  UX و کنفراس ها برجسته نیستند٬  محدود کردن  آگاهی ها در جوامع طراحی از نیاز های این حوزه است. علاوه بر این٬ همون طور که دربالا اشاره کردم٬ سیر تکامل نرم افزارها٬ چارچوب ها٬‌ کتابخانه ها و جعبه های ابزار مثل Twitter Bootstrap و AngularJS اجازه می ده که وظیفه ها کمرنگتر بشند و این ساختن را آسان تر می کنه. همزمان با اینکه در یک دست داره مشخص میشه که قابلیت های استفاده و طراحی نیاز های حیاتی هستند که هم برای کاربران و هم برای توسعه دهندگان پروژه ها (APIs هم نیاز به استفاده است)٬‌ ظاهرا در استفاده از نرم افزار های زبان باز یک شکاف  درصدی وجود داره. در گذشته٬ پروژه های کوچک تجربه کاربران را به عنوان یک چیز تجملی  مشاهده می کردند ( UX) و بنابراین از نیروی انسانی برای نیازهای UX سرمایه گزاری نمی کردند. همچنین من می تونم تصور کنم  که تقاضای بازار از طراحان را برای کار کردن در کمپانی های های خوب پول می دن اونها را نگه داشته٬ در حالی که بسیاری از پروژه های زبان باز یا بصورت مجانی اداره می شن یا بودجه خیلی کمی دارند. 
 
-However, I believe that one of the main reasons that we don’t see as many designers and usability professionals in open source is that they aren't sure how to participate in projects and may not have had exposure to open source projects in the past.
+به هر حال٬ من اعتقاد دارم که یکی از دلایلی که ما طراحان و قابیلیت های استفاده حرفه ای را در جامعه متن باز نمی بینیم این هست که اونها مطمن نیستن که چطور می توانند در پروژه ها همکاری کنند یا در گذشته در نتوستن خودشون را در پروژه های متن باز نشان بدهند. 
 
-At Open Technology Institute (OTI), we've been working on opening our user feedback process as a way to improve our internal processes and collaboration, engage our user community more, promote non-developer contributions, and think more broadly about how open source process plays a role in the [Commotion Wireless project](http://commotionwireless.net/), a free and open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.
+در Open Technology Institute (OTI), ما داشتیم به این فکر می کردیم که چطور راهی را پیدا کنیم برای استفاده فیدبک کاربران در بهتر شدن در تغییرات داخلی و همکاری ها٬ کمک بیشتر کاربران در جامعه٬ ترویج همکاری کسانی که برنامه ساز نیستن٬ و بزرگتر فکر کردن به اینکه جایگاه پروسه زبان باز در (پروژه چمدان باز)(http://commotionwireless.net/) ٬یک ابزار متن باز برای  ارتباط  که از   موبایل ها٬ کامپیوترها و دیگر دستگاه های سیار برای بوجود آوردن شبکه های مش (تور) استفاده کنه.
 
-For the [official Version 1 release](http://commotionwireless.net/blog/commotion-router-v1-release-notes) of the software, we decided to do a full overhaul of the user interface, focused primarily on the version for wireless routers, but also on aligning the other platforms (Mac, Linux, Android, Windows, iOS) to the router. Mesh networking firmware is not your everyday project—our development team frequently is focused on how to add more functionality while simultaneously making the files smaller so that they can fit on hardware with very little space (only 5.2 MB!). Meanwhile our field team, of which I am part, is researching how mesh networks can leverage existing social relationships, developing training and adoption frameworks, and testing these ideas out with communities who are interested in experimenting with community-owned infrastructure.
+برای (نسخه رسمی 1  پخش شده) (http://commotionwireless.net/blog/commotion-router-v1-release-notes) نرم افزار٬ ما تصمیم گرفتیم به یک  تغییرات  کلی روی رابط کاربری٬ اولین تمرکزمان به روی نسخه روتر سیار بود و همچنین هماهنگی سایر سیستم عامل ها(Mac, Linux, Android, Windows, iOS)  با روتر. سفت افزار  شبکه مش چیزی نیست که هر روز باهاش سروکار داشته باشید - تیم توسعه دهندگان ما غالبا تمرکزشون روی اضافه کردن قابلیت های بیشتر هست در حالی بطور همزمان تلاش می کنند که فایل ها را کوچک تر کنند تا بتونند در سخت افزار که جای خیلی کمی دارند جا بشند (فقط 5.2 مگابایت). همزمان تیم حوزه ما که منم بخشی از اون هستم٬‌ داریم تحقیق می کنیم که چطور قدرت نفوذ شبکه مش را در روابط اجتماعی ٬ آموزش توسعه و اتخاذ چارچوب و امتحان کردن این ایده ها  را با جامعه ای که تجربه کردن را با جامعه های که زیرساخت هاش متعلق به خودشون بالا ببریم. 
 
-In [my next article](http://opensource.com/life/14/2/Five-steps-using-design-open-source-project), I will expand on these 5 tips that we learned from our user-centered design review of the Commotion interface.
+در مقاله بعدیم (http://opensource.com/life/14/2/Five-steps-using-design-open-source-project), من این 5 نکته ای که یاد گرفتیم  را از بررسی های اعمال نفوذ کاربرا در   اینترفیس بهم ریخته بازتر می کنم 
 
-**5 tips for leveraging user-centered design in your open source project**
+** 5  راهنمایی برای اعمال نفوذ طراحی کاربر محور در پروژه متن بازت**
 
-1. **Track usability and design issues**.
-Gather context as well as feedback. Don't respond (with software/design changes) to each piece of feedback. Synthesize issues for themes.
+1. **پیگری قابلیت ها و مسائل مربوط به طراحی **.
+ایده ها را جمع آوری کن همنطور که پیشنهادات و انتقادات را جمع می کنی. با برنامه یا تغییرات در طراحی به تک تک فید بک ها پاسخ نده. مسائل را برای تولید تم هات بکار ببر. 
 
-2. **Understand who you want to design for**.
-When making design decisions, you often have to prioritize which type of user to design for—novice or expert users.
+2. **بدون که برای کی داری طراحی می کنی**.
+وقتی که داری تصمیمات را برای طراحی می گیری٬ معمولا باید اولیت گذاری کنی که مخاطبت کیه ؟  کاربرای مبتدی یا حرفه ای. 
 
-3. **Make prototypes**.
-Leverage the style of the prototype (low-fidelity vs high-fidelity) to get the type of feedback you need.
+3. **ساخت پیش نمونه یا نمونه اولیه**.
+از روش پیش نمونه برای قدرت نفوذت استفاده کن (روی کاغذ - یا کامپیوتر) برای بدست آوردن اون پیشنهاد و انتقادی که نیاز داری.
 
-4. **Understand how the software works from the user's perspective**.
+4. **اینو بدون که برنامه ات از دید یک کاربر چطور کار می کنه**.
 
-5. **Use usability/design iterations to build your community: hackathons, mailing lists, and distributed tools**.
+5. **از قابلیت ها و تکرار طرح استفاده کن برای ساختن  مجموعه خودت: hackathons٬ ٬ لیست ایمیل ها و ابزارهای توضیع**.
 
 
-### Additional Resources
+### منابع اضافی 
 
-- [10 Usability Heuristics](http://www.nngroup.com/articles/ten-usability-heuristics/)
-- [How to write a good UX Bug report](http://georgiamoon.github.io/ux-bugs-talk/)
-- [What UX Methods To Use And When To Use Them](http://www.measuringusability.com/blog/method-when.php)
-- [Usability Testing Methods](http://www.usabilityfirst.com/usability-methods/usability-testing/)
-- [Low Cost User Experience Testing](http://usabilitygeek.com/low-cost-user-experience-testing/)
-- [The Encyclopedia of Human Computer Interaction, 2nd Ed](http://www.interaction-design.org/books/hci.html)
+- [10 قابلیت Heuristics] (http://www.nngroup.com/articles/ten-usability-heuristics/)
+- [چگونه یک گزارش خوب از مشکلات UX بنویسیم](http://georgiamoon.github.io/ux-bugs-talk/)
+- استفاده ی UX Methods چی هست و کی از آنها استفاده می کنیم](http://www.measuringusability.com/blog/method-when.php)
+- [قابلیت روش های تست یا Testing Methods ](http://www.usabilityfirst.com/usability-methods/usability-testing/)
+- [استفاده از تجربه کاربران با هزینه کم]http://usabilitygeek.com/low-cost-user-experience-testing/)
+- دانشنامه تعامل انسان با کامپیوتر٬ نسخه 2(http://www.interaction-design.org/books/hci.html)

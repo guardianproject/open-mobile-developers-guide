@@ -1,8 +1,8 @@
-# مدیریت تیم و پروژه
+# تیم و مدیریت پروژه 
 
   - ساختن یک جامعه ی متن باز
-  - How to use IRC (Internet Relay Chat)
-  - The story of self and motivating a movement
-  	- TRAINERS NOTES: STORY OF SELF
+  - چگونه از IRC استفاده کنیم (Internet Relay Chat)
+  - داستان  یک شخص و ایجاد یک جنبش
+  	نکاتی برای مربیان: داستانی از خودت 
   - پنج ابزار برتر مدیریت پروژه های متن باز
   - پنج راه برای بالابردن تعامل در جامعه ی متن باز

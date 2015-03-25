@@ -1,67 +1,67 @@
-# Getting started with Discourse
+# شروع کار با Discourse
 
-Source: [Discourse wiki](https://github.com/discourse/discourse/wiki/Basic-Usage-Guide)
+منبع :[Discourse wiki](https://github.com/discourse/discourse/wiki/Basic-Usage-Guide) 
 
-This page covers basic usage of Discourse. Note that the interface may look different than the screenshots here, because your site admin may have customized the site.
+این صفحه به نکات ابتدای استفاده از Discourse می پردازه. به این توجه کنین که ممکن رابط کاربری یا interface  با screenshot ها فرق بکنه٬‌ این دلیلش اینه هست که ممکن مدیر سایتت یک سری تنظیمات را به دلخواه انجام کرده. 
 
 
-## Topic Lists
-There are several topic lists in Discourse. The first one you see as a new user will be the *Top* list. It displays the 'best' posts from the past, by totaling up the topics' posts, likes, and views.
+## لیست موضوعات
+چند لیست از موضوعات در Discourse. اولین چیزی که عنوان کاربر جدید خواهی دید *Top* لیست خواهد بود. این بهترین پست ها از قبل نشون می ده  که بر اساس تعداد لایک ها و بازدید کنندگان است. 
 
 ![Screenshot of Top page](http://i.imgur.com/7Qolwkl.png)
 
-There are several things on this page. On the first row, we have the **Category filter**, **Nav menu items**, and the **Create Topic** button.
+در این صفحه چند چیز هست. در ردیف اول **Category filter** را داریم٬ **Nav menu items** و دکمه  **Create Topic** 
 
-You can use the **Category filter** to filter by category. For example, here is the top page, filtered to UX topics only:
+شما می تونی از  **Category filter** برای فیلترکردن مقوله ها استفاده کنی. به عنوان مثل٬ این بالای صفحه است که  فیلتر شده فقط موضوعات مربوط به  UX را نشون بده. 
 
 ![Screenshot of Top page with UX selected in the category dropdown](http://i.imgur.com/kpBmpfJ.png)
 
-A topic is displayed in a row on the list. Going from left to right, we have the **title**, the topic's **category**, a list of **participants**' avatars, the number of **posts** in the topic, the number of **likes** in the topic, the topic's **view** count, and its **creation** and **last activity** dates.
+موضوعات در یک ردیف نشون داده می شه. از چپ به راست٬‌ **عنوان** را داریم٬‌ موضوعات  ** مقوله ها **٬ لیست  **شرکت کنندگان** آواتار٬‌ تعداد **پست ها** در موضوعات٬ تعداد **لایک ها **در موضوعات٬ تعداد موضوعات **نمایش داده شده**٬ و  تاریخ ** ایجاد شدن** و **آخرین فعالیت **.
 
-Clicking on the title or post count will bring you to the **[last post that you read](#last-read-tracking)** in the topic. Clicking on the like count will take you to the **start of the topic in [summary mode](#summary-mode)**, if available. Clicking the topic start date will take you to the **start of the topic**, and clicking the last activity date will take you to the **end of the topic**.
+با کلیک کردن بر موضوع یا شمارنده پست به شما آخرین پستی را که خواندید در موضوعات نشان داده می شه.  کلیک کردن بر شمارنده لایک ها شما را به ابتدای موضوع در حالت خلاصه می بره٬  [summary mode](#summary-mode) اگر موجود باشه.با کلیک کردن بر تاریخ شروع موضوع این شما به را به ابتدای شروع موضوع می بره٬‌ و با کلیک کردن بر آخرین تاریخ فعالیت ها این شما را به پایان اون موضوع می بره. 
 
-The other available topic lists are **Latest** (this will be the default once you achieve Trust Level 1), [New, and Unread](#new-and-unread-topics). 
+لیست های موجود دیگر شامل **آخرین** (این بطور پیش فرض خواهد بود وقتی که شما به اطمینان درجه 1 دست پیدا کردید)٬ ‪‫[جدید و خوانده نشده](#جدید- و- موضوعات- خوانده نشده) 
 
-### New and Unread topics
-**New topics** are those that you have never read. By default, only topics created in the **last two days** will be considered New.
+### جدید و تاپیک های خوانده نشده 
+**موضوعات  جدید**  اونهایی هست که هیچ وقت نخوندیشون. بطور پیش فرض٬ فقط موضوعاتی که طی دو روز گذشته ساخته شده جدید محصوب می شه. 
 
-Topics considered New to you look like this: (screenshot)
+موضوعاتی که جدید محصوب می شن این شکلی هستند :  (screenshot)
 
-There are two kinds of unread topics: those that you stopped reading, and those that have new posts.
+دو نوع موضوعات خوانده نشده وجود داره: اونهایی که خواندنش را متوقف کردی٬‌و آنهایی که تازه به اشتراک گذاشته شدن.
 
-Topics you stopped reading have a grey bubble with a number in it, representing the number of posts you haven't read yet.  
-It looks like this: ![gray bubble on end of topic title](http://i.imgur.com/vUzIhMT.png)  
-Topics that have new posts since you last read them have a blue bubble with a number in it, which is the count of new posts.  
-It looks like this: ![blue bubble on end of topic title](http://i.imgur.com/s1pwh4P.png)
+موضوعاتی که خواندنش را متوقف کردی یک حباب خاکستری داره که داخلش شماره هست٬‌ این نشان دهنده تعداد پست هایی هست که هنوز نخواندی.   
+این مثل این می مونه: [یک حباب خاکستری در پایان عنوان موضوع ](http://i.imgur.com/vUzIhMT.png)  
+تاپیک هایی که پست جدید دارن از آخرین باری که خوندیشون یک حباب دارن با یک شماره داخلشون٬ این تعداد پست های جدید را نشون می ده.   
+این مثل این می مونه: [یک حباب آبی در پایان عنوان موضوع](http://i.imgur.com/s1pwh4P.png)
 
-### Nav menu
-The nav menu is displayed near the top of the topic lists:
+### ناو منو 
+ناو منو در بالا نزدیک لیست عنوان نمایش داده می شه : 
 
-The available tabs are Latest, New, Unread, Starred, Categories, Top, Read, and Posted. Not all of these will be shown, but they are still accessible.
+تب های موجود آخرین ها هستند٬‌ جدید٬ خوانده نشده٬ ستاره دار٬ طبقه بندی ها٬‌ بالا٬ خوانده٬ و پست شده. تمام این نمیش داده نمی شن ولی قابل دسترسی هستند. 
 
- - **Latest**: All topics, in order of last activity.
- - **New**: Here, only topics considered [new](#new-and-unread-topics) will be listed. (Logged-in only)
- - **Unread**: Here, only topics considered [unread](#new-and-unread-topics) will be listed.  (Logged-in only)
- - **Starred**: Only topics that you have starred will be listed.  (Logged-in only)
- - **Read**: Topics in the order that you last read them.  (Logged-in only)
- - **[Categories](#categories)**: Overview of the categories in the forum.
- - **Top**: The most active topics in the last day, week, month, and year.
+ - **آخرین ها**: تمام موضوعات بر اساس آخرین فعالیت است. 
+ - **جدید**:  اینجا٬ فقط موضوعاتی در نظر گرفته می شوند که [جدید](#جدید- و- موضوعات- خوانده نشده) در لیست قرار می گیرند. (فقط  به سیستم وارد شده)
+ - **خوانده نشده**: اینجا٬ فقط موضوعاتی در نظر گرفته شدند که [خوانده نشده](#جدید- و- موضوعات- خوانده نشده) در این لیست قرار می گیرند(فقط  به سیستم وارد شده)
+ - **ستاره دار**: فقط موضوعاتی که ستاره دارشون کردی در لیست قرار می گیرند. (فقط  به سیستم وارد شده)
+ - **خوانده شده**:  موضوعات بر اساس آخرین باری که خوانده شدن منظم می شن. (فقط  به سیستم وارد شده)
+ - **[دسته بندی ها ](#دسته بندی ها)**: نمایش کلی دسته بندی ها در تالار گفتگو.
+ - **بالاترین**: براساس آخرین فعالیت در روز گذشته٬ هفته٫ ماه و سال نشان داده می شوند. 
 
-The leftmost item in the nav menu is the **default tab**, and it's what you see when you click the Discourse logo or a category badge. By default, this is the Latest tab.
+در قسمت سمت چپ  ناو منو **زبانه پیش فرض** هست و این چیزیه که وقتی به روی لوگوی Discourse و یا نشان طبقه بندی کلیک کنید می بینید. بصورت پیش فرض این آخرین زبانه هست.
 
-## Categories
-Every topic has a **category**. Discourse, unlike older forums, encourages mostly flat categorization: there is only one subcategory level available, and all the topics go on the same list.
+##  مقوله ها 
+هر موضوعی یک **طبقه بندی** داره. Discourse ٬‌ برخلاف تالارهای گفتگوی قدیمی٬ طبقه بندی مسطح را ترویج می کنه : فقط یک لوول زیر شاخه موجوده٬  و تمام موضوعات در همون لیست قرار می گیرند. 
 
-### Categories page
-The categories page gives you an overview of all the categories on the forum.
+### صفحه مقوله ها 
+صفحه مقوله ها بهت یک نمای کلی از تمام مقوله ها در تالارهای گفتگو نشون می ده.
 
 (screenshot)
 
-Here we see that an entry in the categories page consists of the **category badge**, its **definition**, the badges of its **subcategories**, the avatars of repeat **participants**, a selection of recent **topics**, and the **rate of new posts and topics**.
+اینجا ما فقط یک ورودی برای صفحه طبقه بندی های می بینیم که ** نشانه طبقه بندی**  هست٬  **تعریف** ٬ این نشانه های **زیرشاخه هاست**٬ و **شرکت کنندگان** آواتار تکراره٬ گزیده های اخیر **موضوعات** و ریت پست های جدید و موضوعات. 
 
-## Topic Page
+##  صفحه موضوعات 
 
-### Creating a topic
-To create a topic, click on `+ Create Topic` in the upper-right of any topic list. If the topic list is filtered by a category, that category will be pre-filled for you.
+### ساخت یک موضوع 
+برای بوجود آوردن یک موضوع جدید٬ به روی `+ Create Topic` در بالای هر لیست موضوعی می توانید  کلیک کنید. اگر لیست موضوع بر اساس طبقه بندی فیلتر شده٬ اون طبقه بندی از قبل برای شما پر شده. 
 
-Choose a good topic title and start writing in the composer.
+یک موضوع خوب انتخاب کن و شروع کن به نوشتن آهنگسازی. 

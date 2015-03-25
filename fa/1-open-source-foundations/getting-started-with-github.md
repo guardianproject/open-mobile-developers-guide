@@ -1,14 +1,14 @@
-# Getting started with GitHub
+# شروع کار با  GitHub 
 
-Source: [LifeHacker.com](http://lifehacker.com/5983680/how-the-heck-do-i-use-github)
+منبع : [LifeHacker.com](http://lifehacker.com/5983680/how-the-heck-do-i-use-github)
 
 > Dear Lifehacker,
-> I've learned to code and want to start using GitHub to manage my projects. Despite the introductory lesson they provide, I still don't understand how it works at all. Can you help me? 
+> من کد نویسی را یاد گرفتم و می خواهم با GitHub برای مدیریت پروژه هام استفاده کنم. با وجود آموزش مقدماتی که ارائه دادن هنوز نمی دونم چطور کار می کنه. می تونی بهم کمک کنی ؟  
 
-> Sincerely,
-> Git Help
+> با احترام٬
+> کمک Git
 
-Dear GH,
+GH عزیز٬
 
 GitHub's a great tool but it's definitely a little confusing the first time around (and, possibly, a few times after that). That's likely why GitHub created software (for [OS X](http://mac.github.com/) and [Windows](http://windows.github.com/)) to make the process a bit easier. Nevertheless, it's good to learn the old-fashioned way otherwise your options in the simplified software won't make sense. Let's start by walking through the basics.
 
