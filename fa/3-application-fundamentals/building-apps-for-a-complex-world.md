@@ -1,11 +1,11 @@
-# Building Apps for a Complex World
+# ساختن اپلیکیشن ها برای دنیای پیچیده
 
-something here about why we need security, etc.
+ چیزی در مورد اینکه چرا ما به امنیت نیاز داریم٬‌ و غیره.
 
-The idea of an application is simple. The world where that application lives is not. To be a _great_ software developer, one has to manage the following: 
+ایده یک اپلیکشین ساده است. اما جهانی که ما  اون زندگی می کنیم نه. برای اینکه سازنده نرم افزار خوبی باشید٬‌ یکی باید موارد زیر را مدیریت کنه :  
 
-- Usability and design
-- Practicality and devices
-- Security and infrastructure
+- قابلیت استفاده و طراحی 
+- کارایی و دستگاه ها 
+- امنیت و زیر ساخت
 
 (*TBD*...)

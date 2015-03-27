@@ -3,7 +3,7 @@
 منبع : [کتاب های متن باز] (http://opensource.com/resources/ebooks)
 
 ###  ملزومات پروه متن باز
-Many authors have chronicled the history of open source and profiled the movement’s most prolific personalities. These are some of the most popular accounts. If we taught a class—call it "Open Source 101"—then this list would be the syllabus.
+خیلی از نویسندگانی که تاریخچه وقایع متن باز را دارند و شخصیت های مهم این جنبش از پرکارترین شخصیت ها هستند. اینها یک سری از مهمترین ها هستند. اگر ما یک کلاس درس داشتیم  که اسمش  "Open Source 101 بود پس  این لیست درس ها بود
 
 - [کلیسای اعظم و بازار](http://shop.oreilly.com/product/9780596001087.do) by Eric S. Raymond
 -  [برنامه آزاد٬ جامعه آزاد] (http://shop.fsf.org/product/free-software-free-society-2/) by Richard M. Stallman
@@ -17,7 +17,7 @@ Many authors have chronicled the history of open source and profiled the movemen
 
 ### دنیای باز: داستان هایی از جامعه متن باز  
 [منبع](http://opensource.com/resources/ebook/best)]
-At opensource.com, our mission is to shine a light on the places where the open source way is magnifying ideas and multiplying effort. And we remain especially interested in topics beyond technology—developments in areas like business, education, government, health, law, and everyday life.
+در opensource.com هدف ما تابش نور به جاهایی که  از  متن باز راهی هست که ایده ها را بزرگتر می کنه و تلاش ها را چند برابر. و علاقه ما همچنان در موضوعاتی مثل توسعه - تکنولوژی  در حوزه هایی مثل کسب و کار٬ آموزش و پرورش٬ دولت٬ سلامت و قانون در زندگی روزمره باقی می مونه.  
 
 [این مجموعه] (http://opensource.com/sites/default/files/open_source_eBook_AnOpenWorld_web.pdf) یک سری از بهترین داستان ها را به ارایه می ده. از کتابخانه!‌ از خوابگاه٬ از پایتخت٬ از کلاس و اتاق جلسات روئسا و دادگاه. اینها اعضای جامعه ما هستند.  و شاید شما در نسخه بعدی باشید 
 
@@ -28,7 +28,7 @@ At opensource.com, our mission is to shine a light on the places where the open 
 [لینک منبع](http://opensource.com/resources/ebook/how-get-started-open-source)
 برداشتن قدم اول در یات مسیر می تونه ترسناک باشه. موانع جدید٬ مناظر نا آشنا برای عبور کردن و معمولا این مسیر بسیار رمزآلوده. اما این همان چیزیه که سرمایه گذاری جدید و هیجان انگیز را ارزشمند می کنه. 
 
-The collection of stories in this eBook are about striking out on the open source way. Whether you're an individual, seeking information on moving away from closed software, or an organization looking for free and open alternatives to the utilities that help your business succeed, these are stories about finding your footing in the world of open source. Several are “origin stories” about how experts discovered open source, and how they've flourished in the time since. Others are focused guides on finding the right software, using a specific open source tool, or introducing your neighborhood or town to the power of the open source way.
+مجموعه داستان هایی این کتاب الکترونیکی درباره ی  کار کردن در مسیرمتن باز (open source) است. چه به تنهایی به دنبال اطلاعاتی می گردی که از برنامه بسته فرار کنی٬ یا سازمان شما به دنبال یک برنامه یا یک راه حل می گردید برای ابزاری که بتونه به کسب و کار شما کمک کنه٬ اینها داستان هایی برای ورود به دنیای متن باز.  چندتا از این داستان ها مربوط به متخصصانی می شه که متن باز(open source) را کشف کردند٬ نشون می ده که چگونه شکوفا شدند از آن زمان. باقی آنها به کمک کردن برای پیدا کردن نرم افزار درست٬ استفاده از یک ابزار خاص ٫‌ یا معرفی اون به همسایه هاتون یا محلتون به قدرتی که در زبان باز (open source) هست تمرکز کردند.
 
 این را به یاد داشته باش که کار کردن با یک چیز جدید اصلا آسون نیست٬ ولی٬ یک بودایی قدیمی می گه که بهتر خوب سفر کنی تا بعد برسی. ما امیدواریم این داستان ها به شما کمک کنه تا به سلامت سفر کنید در مسیر متن باز و بتونید در سال های پیش رو سفر کنید. 
 
@@ -37,7 +37,7 @@ The collection of stories in this eBook are about striking out on the open sourc
 
 ###  باز همیشه برنده می شه : مجموعه Michael Tiemann 
 [[لینک منبع](http://opensource.com/resources/ebook/open-always-wins)]
-Michael Tiemann is Vice President of Open Source Affairs at Red Hat and former President of the Open Source Initiative. He has written many articles for Opensource.com speaking to the power of the open source way, and part of his process has been to highlight the great ideas of others.
+Michael Tiemann نایب رئیس ٬‌امور Open Source  درRed hat و مدیر سابق  Open Source در ابتکارات هست. اون که مقاله های زیادی برای  Open Source نوشته٬‌ در مورد قدرت  Open Source صحبت کرده و در بخشی از این پروسه ایده های خوب دیگران را برجسته یا هایلایت کرده.
 
 از مقدمه خودش : 
 
@@ -52,7 +52,7 @@ Linus Pauling معروف گفته "بهترین راه برای داشتن یک 
 
 ### اعمال اصول متن باز به دولت   
 [[لینک منبع](http://opensource.com/resources/ebook/opengov)]
-At opensource.com, we look at the intersection of open source and government, with a special focus on the ways governments adopt and release new technologies and can cultivate open source communities. We document the way that open source principles—participation, transparency, collaboration, sharing, meritocracy, community, and rapid prototyping—have enormous value beyond the technology sector. Citizen movements around open voting, the Freedom of Information Act (FOIA) request tracking, and even crowdsourced legislation, represent a growing trend of open source principles within government.
+در opensource.com ٬ ما به تلاقی متن باز (Open Source) و دولت ها نگاه میکنم٬ با توجه خاص به راه ها یی  که دولتها  تکنولوژی را در اختیار می گیرند و تکنولوژی های جدیدی در آزاد می کنند و ترویج جامعه open source ما در مسیری اصول  مشارکت در open source مکتوب می کنیم که ٬ شفافیت٬‌ همکاری٬ به اشتراک گذاری٬ شایسته سالاری٬ جامعه و نمونه سازی سریع  ارزشش فراتر از بخش تکنولوژی باشه.آزادی حرکت های مردمی در هر جا به رای دادن٬ پیگری درخواست قانون آزادی اطلاعات(FOIA)٬ و حتی وضع قوانین (جمع‌سپاری)crowdsourced ٬ نشان دهنده روند رشد اصول open source با دولت هاست. 
 
 این کتاب الکترونیک را دانلود کنید تا داستان های درباره امکانات دولت ها در سرار دنیا٬ از دو سال اول opensource.com بدست بیارید. آنها تاثیر متن باز را به دولت ها و برعکس نشان می دهند. هنوز راه طولانی باقی مونده و ما امیدواریم شما هم تجربه خودتان را با ما به اشترام بگذارید. 
 

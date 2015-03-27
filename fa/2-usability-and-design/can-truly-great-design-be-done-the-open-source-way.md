@@ -1,4 +1,4 @@
-# Can truly great design be done the open source way?
+- آیا واقعا طراحی بطور متن باز (open source) امکان پذیزه ؟
 
 منبع: [OpenSource.com](http://opensource.com/business/10/3/can-truly-great-design-be-done-the-open-source-way)
 

@@ -1,5 +1,5 @@
-# Application Fundamentals
+# اصول اپلیکیشن
 
-  - Elements of the mobile user experience 
-  - Building apps for a complex world
-  - Getting started in android development
+  - المان های تجربه کاربران موبایل 
+  - ساختن اپلیکشن ها برای دنیای پیچیده 
+  - توسعه در اندروید را شروع کنیم

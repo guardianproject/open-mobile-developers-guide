@@ -2,7 +2,7 @@
 
 منبع : [LifeHacker.com](http://lifehacker.com/5983680/how-the-heck-do-i-use-github)
 
-> Dear Lifehacker,
+> Lifehacker عزیز٬
 > من کد نویسی را یاد گرفتم و می خواهم با GitHub برای مدیریت پروژه هام استفاده کنم. با وجود آموزش مقدماتی که ارائه دادن هنوز نمی دونم چطور کار می کنه. می تونی بهم کمک کنی ؟  
 
 > با احترام٬
@@ -10,151 +10,151 @@
 
 GH عزیز٬
 
-GitHub's a great tool but it's definitely a little confusing the first time around (and, possibly, a few times after that). That's likely why GitHub created software (for [OS X](http://mac.github.com/) and [Windows](http://windows.github.com/)) to make the process a bit easier. Nevertheless, it's good to learn the old-fashioned way otherwise your options in the simplified software won't make sense. Let's start by walking through the basics.
+GitHub's ابزار خوبیه ولی قطعا یک مقدار گیج کننده است برای بار اول( و شاید چند بار بعد از اون). بخاطر همین GitHub نرم افزاری را برای (for [OS X](http://mac.github.com/) و [Windows](http://windows.github.com/)) تا کار کردن با اون ساده تر بشه. با وجود این٬ راحت تره که به روش  قدیمی  یادش بگیریم در غیر این صورت  گزین های  ساده این نرم افزار بی معنی می شه برای شما. بزارید با هم کار کردن با نکات ساده اش شروع کنیم
 
-## Step One: Sign Up for GitHub
+## قدم اول: برای GitHub ثبت نام کنید
 
-Here comes the easy part: make yourself a GitHub account [signing up on the front page](https://github.com/). After completing the form, GitHub will sign you in and take you to your empty news feed. In the middle of the page, you'll see the boot camp (pictured to the right). We're going to go through it to set up your account and, later, create your first repository. Click on "Set Up Git" to get started.
+اینجاست که بخش آسانش میاد: برای خودت یک حساب با GitHub درست کن [از بالای صفحه ثبت نام کن](https://github.com/). بعد از تمام کردن ثبت نام٬ GitHub بهتون اجازه ورود می ده و شما را به یک news feed خالی می بره. در میان صفحه  شما یک boot camp می بینید (عکس در راست). ما به بهت نشان می دهیم که چطور حساب کاربریت را تنظیم کنی و دیرتر انبارت را بسازی. به روی  "Set Up Git" کلیک کن تا شروع بشه. 
 
-## Step Two: Install Git
+## قدم دوم: Git را نصب کن 
 
-GitHub exists because of a version control application called `git`. The site is based around how git works, and git is pretty old. It runs via the command line and has no fancy graphical user interface. Since it's made to manage code you wrote, this shouldn't sound too scary. (Of course, as previously mentioned, GitHub did make wonderful software to allow you to use their service without the command line but that won't help you too much unless you know the basics.)
+بودن GitHub بخاطر وجود `git` یک کنترل کنترل کننده آپ هست. سایت تقریبا بر اساس git کار می کنه٬ و git تقریبا قدیمی محصوب می شه. اون با  command line  کار می کنه و هیچ  ظاهر گرافیکی باحالی برای رابط کاربری یا  user interface  نداره. از وقتی این برای مدیریت کدهایی  که می نویسی  ساخته شده٬ پس نباید زیاد ترسناک باشه. البته٬‌ همنطور که قبلا گفته شد٬ GitHub یک نرم افزار بسیار عالی درست کرده که به شما اجازه می ده از سرویسش استفاده کنید بدون نیاز به command line ولی این زیاد بهتوت کمک نمی کنه قبل از اینکه نکات ابتدایی را بدونید. 
 
-Git works by reading a local code repository (just a folder containing code for your project) on your computer and the mirroring that code elsewhere (in this case, GitHub's servers). Initially we'll commit (i.e. send) your entire local repository to GitHub, but that's just a one-time affair. As you continue to work on your code, you'll simply commit changes. GitHub will then keep track of the changes you made, creating different versions of files so you can revert back to old ones if you want (or just keep track of those changes for other reasons). This is primarily why you'd want to use a version control system like git on your own, but additional benefits surface when using git to manage code with other people working on your project. When multiple developers commit code with git, GitHub becomes a central repository where all the code that everyone's working on can stay in sync. You'll commit your changes, and other developers will pull them (i.e. sync them to their local repository). You'll do the same with their code.
+Git با خواندن کدهای محلی repository (فقط پوشه ای که  کد های پروژه در آن است) در کامپیوترت و بازتاب کردن کدهات به جاهای دیگه (در این مورد GitHub's servers) کار می کنه. در ابتدا ما کل  repository محلیت را  به    GitHubهات commit (یا ارسال) می کنیم٬‌ولی این فقط یکبار اتفاق می افتد. همزمان با اینکه شروع به کار می کنی تو تغییرات را commit می کنی. بعد از اون GitHub تمام تغییرات که ایجاد کردی دنبال می کنه٬ با ساختن ورژن های متفاوتی از فایل ها بهت کمک می کنه به ورژن قبلی برگردی (یا فقط تغییرات را دنبال می کنه به دلایل دیگر). این اولین دلیلی هست که چرا تو می خوای ورژنی از control system مثل git استفاده کنی٬ ولی دلیل دیگر استفاده از اون برای وقتی هست که می خوای  کدها  را  با اشخاص دیگری که در پروژه ات کار می کنند مدیریت کنی .وقتی که توسعه دهندگان متعددی (developers ) کد ها با استفاده از git ارسال (commit) می کنند٬ Github به یک مرکز  repository تبدیل می شه که تمام کد هایی که کسان دیگری دارند روش کار می کنند با هم  sync (همگام) می شوند. وقتی تغییرات را commit می کنی و دیگران هم اون را وارد می کنند ( همه با هم به repository محلی synv میشند). و تو هم همین کار را با کد های اونها انجام می دی. 
 
-Git makes this all happen, so you need to [download the latest version](http://git-scm.com/downloads) and install it. On OS X, you'll just install the command line app. On Windows, you'll get a few more items. We'll discuss how they work in the next step.
+Git همه اینها را عملی کرد٬ پس تو نیاز داری که آخرین نسخه را دریافت کنی (http://git-scm.com/downloads) و نصبش کن. برای OS X, فقط نیاز به نصب command line app را داری. و در Windows چند مورد دیگر را می گیرید. در مورد نحوه کارکردشون بیشتر توضیح می دیم در قدم بعدی. 
 
-## Step Three: Set Up Git
+## قدم سوم: Git را تنظیم کن
 
-To set up git, you need to make your way into the command line. On OS X, that means launching the Terminal app (Hard Drive -> Applications -> Utilities -> Terminal) and on Windows that means launching the Git Bash app you just installed—not the Windows command prompt. When you're ready, tell git your name like this:
+ برای نصب git ٬ شما نیاز دارید که مسیرتون را به command line پیدا کنید. در OS X ٬ این به معنای باز کردن  Terminal app هست (Hard Drive -> Applications -> Utilities -> Terminal) و در Windows  یعنی باز کردن Git Bash app که نصبش کردین - نه Windows command prompt . وقتی آماده هستید اسمتون را به git مثل این بگید :  
 
 ```
 git config --global user.name "Your Name Here"
 ```
 
-For example, mine would look like this because I'm using a test account for this example:
+به عنوان نمونه٬ مال من این شکلیه چرا که من از یک حساب آزمایشی برای نمونه استفاده می کنم: 
 
 ```
 git config --global user.name "Adam Dachis"
 ```
 
-You can put in any name you like, but afterwards you'll need to input your email and that email must be the email you used when signing up for GitHub:
+می تونی هر اسمی را که دوست داری را وارد کنی٬‌ ولی بعدا نیاز به وارد کردن ایمیلت هست و اون باید همون ایمیلی باشه که برای وارد شدن به GitHub استفاده می کنی: 
 
 ```
 git config --global user.email "your_email@youremail.com"
 ```
 
-If, for whatever reason, you signed up for GitHub with the wrong email address, [you'll need to change it](https://help.github.com/articles/how-do-i-change-my-primary-email-address).
+اگر به هر دلیلی برای ساختن حساب با  GitHub از ایمیلی اشتباه استفاده کردی باید اون را عوض کنی. (https://help.github.com/articles/how-do-i-change-my-primary-email-address).
 
-Now, to avoid always entering your login credentials and generating SSH keys, you'll want to install the credential helper so your passwords are cached. If you're on Windows, [download it](https://github.com/downloads/anurse/git-credential-winstore/git-credential-winstore.exe) and install it. If you're on OS X, you'll need to handle this through the Terminal. To start, use this command to download the credential helper:
+الان٬ برای جلوگیری از وارد کردن مجوز ورود و ساختن رمز SSH ٬ شما می تونید  credential helper را نصب کنید که رمزهاتون ذخیره می شه. اگر از Windows استفاده می کنی٬ [download it](https://github.com/downloads/anurse/git-credential-winstore/git-credential-winstore.exe) این را نصب کن. و اگر از OS X استفاده می کنی٬‌ باید این را از طریق Terminal وارد کنی. برای شروع از این دستور برای دانلود credential helper استفاده کن:
 
 ```
 curl -s -O \
 http://github-media-downloads.s3.amazonaws.com/osx/git-credential-osxkeychain
 ```
 
-This will download a tiny little file and shouldn't take too long. When finished, enter the following command to make sure the permissions are correct on the file you just download (and fix them if not):
+این یک فایل خیلی کوچک را دانلود می کنه که زمان زیادی را نمی بره. وقتی که تمام شده٬ دستورات بعدی را دنبال کن تا مطمئن بشی که مجوزت درسته برای فایلی که دانلود کرد (و درستشون بکنی اگر درست نیست)
 
 ```
 chmod u+x git-credential-osxkeychain
 ```
 
-Now it's time to install the credential helper into the same folder where you install git. To do so, enter this command:
+حالا وقت نصب credential helper داخل همون پوشه ای که git را نصب کردی. برای نصبش این فرمان را وارد کن.
 
 ```
 sudo mv git-credential-osxkeychain `dirname \`which git\``
 ```
 
-You'll be prompted for your administrator password because the above command began with sudo. Sudo is shorthand for "super user do" and is necessary when performing a task that requires root access. The sudo command allows you to become the root user (a user with permission to do pretty much anything) on your operating system for a moment so you can perform this task. You're asked to enter your password to prove you're an administrator on the computer and should be allowed to do this. Once you've entered your password and the credential helper has been moved, finish up the installation with this command:
+تو وادرارش می کنی برای رمز مدیریتت یا  administrator password چرا که فرمان پایین با sudo شروع میشه. Sudo کوتاه شده ی "super user do" هست و وقتی لازم میشه که برای انجام یک کار نیاز دسترسی  به root باشه. فرمان  sudo به تو اجازه می ده برای مدتی کوتاه کاربر root بشی (کاربری که تقریبا هر کاری را می تونه انجام بده) در سیستم عاملت که هر کاری که نیاز داری بتونی انجام بدی. از تو رمز عبور را می خواد تا بتونه تایید که که مدیریت کامپیوترت اینچنین اجازه ای  را به تو بده . وقتی که رمز عبورت را وارد کردی کمک کننده گواهی جا به جا شد٬ نصب را با این فرمان تمام کن : 
 
 ```
 git config --global credential.helper osxkeychain
 ```
 
-Now you're all set and can move on to actually using git and GitHub!
+الان که همه چیز را تنظیم کردی می تونی شروع به استفاده از git و GitHub کنی!‌ 
 
-## Step Four: Create Your First Repository
+##قدم چهارم: ساخت اولین انبارت
 
-Now that you've made it this far, you can actually use GitHub! As a first order of business, we're going to create a repository (or "repo" for short). Head on over to GitHub and click the "New Repository" button on the top right of your account page. (Note: If you're still displaying the GitHub bootcamp section, it'll show up underneath it.)
+ بالاخره الان تونستی انجامش بدی٬ تو الان می تونی از GitHub استفاده کنی!‌ برای عنوان اولین کار٬ ما یک فضا یا repository یا "repo"  درست می کنیم. برگردیم به GitHub به روی کلید  "New Repository" در بالای صفحه حساب کاربریت کلیک کن. (نکته: اگر هنوز قسمت GitHub bootcamp  را نشان می ده٬ در زیر آن نشان داده میشه  ) 
 
-When creating a repository you have a few things to decide including it's name and whether it'll be publicly accessible or not. Choosing a name should be pretty simple because you likely already have a name for your project. If you're just following along for learning purposes, use "Hello-World." Why "Hello-World" and not "Hello World"? Because spaces and special characters will cause problems. Keep it simple and easy to type in the command line. If you want to include a more complex name, you can add it to the optional description field beneath the name field.
+وقتی که داری اون فضا یا repository را درست می کنی چند گزینه داری که باید در موردش تصمیم بگیری٬ از جمله اسم و اینکه این برای عموم قابل دسترسی هست یا نه. انتخاب اسم باید آسان باشه چرا که قبلا اسم را برای پروژه ات انتخاب کردی. اگه فقط دارین تمرین می کنید از این استفاده کنین  "Hello-World." چرا  "Hello-World" نه "Hello World" ؟ چرا که فاصله و کارکترای خاص ممکنه مشکل ایجاد کنن. ساده نگهش دار که بتوانی راحت در خط فرمان بنویسیش. اگر می خوای اسم سختری انتخاب کنی می تونی در بخش توضیحات دلخواهی در پایین می توانی اضافه کنی بهش. 
 
-If you're creating an open-source project, you want a public repository. If you want to code by yourself or share only with specific people, a private repository will do. Make the choice that works best for you and your project.
+اگر داری یک پروژه متن باز درست می کنی٬ یک فضای عمومی می خوای. اگر می خوای خودتون کد نویسی کنین و یا   اینکه فقط  با کسان دیگری به اشتراک بزارید٬ فضای خصوصی این کار را انجام می ده. انتخابی را انجام بده که بهترین را برای پروژه ات به ارمغان میاره. 
 
-When you're all done, you can click the "Create repository" button but you might want to do one other thing first: check the "Initialize this repository with a README" checkbox. Why? All repositories require a README file. Ideally that file would contain a little information about your project, but you might not want to deal with that right now. By initializing the repository with a README, you'll get an empty README file that you can just deal with later. For the purposes of this tutorial, we're going to leave the box unchecked because, in the next section, we're going to create a README file from scratch to practice committing (sending) it to GitHub.
+وقتی تمام شدی٬ می توانی روی دکمه  "Create repository"  کلیک کنی ولی شاید می خواهی یک کار دیگه را هم اول انجام بدی : چک کردن اولیه این repository (فضا) با README" باشه. چرا ؟ تمام repositories به فایل README نیاز دازند. بصورت ایده آل این فایل حامل اطلاعات کمی در مورد پروژه شماست ولی شاید الان نمی خواهی باهاش مواجه بشی. با چک کردن اولیه repository با  README ٬ به شما ین  README خالی می د می توانی بعدا بهش رسیدگی کنی. برای یکی از هدف های این آموزش ما این قسمت را unchecked باقی می زاریم چرا که در بخش بعدی ما از ابتدا یک فایل README برای تمرین ارسالش (committing) به GitHub درست می کنیم.
 
-## Step Five: Make Your First Commit
+## قدم پنجم:  اولین ارسال یا Commit را بساز 
 
-When you send files to GitHub, you *commit* them. To practice, we're going to initialize your local repository and create a README file to commit as practice. Before you start, you need to know where your local code repository is on your computer and how to access it via the command line. In this tutorial, we're going to assume there's a directory called "Hello-World" in your computer's home folder. If you need to create one, just run this command (same for Git Bash on Windows and OS X's terminal):
+وقتی که فایل هات را به GitHub می فرستی٬ اونها را  *commit* می کنی. برای تمرین٬  repository محلیت را  initialize  می کنیم و  فایل README را commit می کنیم. قبل از اینکه شروع کنی٬ باید بدونی که کد های محلی repository در کامپیوترت کجا هستند و چطور به آنها از طریق خط فرمان یا command line  دسترسی پیدا کنی. در این درس ما فرض می کنیم که یک directory  وجود داره به اسم "Hello-World" و در پوشه ی اصلی کامپیوترت هست. اگر نیاز داری یکی بسازی٬‌ این فرمان را اجرا کن (برای Git Bash در Windows وOS X's terminal یکی هست) : 
 
 ```
 mkdir ~/Hello-World
 ```
 
-Now change to that directory using the cd (change directory) command:
+الان directory را عوض کن با استفاده از فرمان cd یا (change directory) :
 
 ```
 cd ~/Hello-World
 ```
 
-In case you were wondering, the ~ represents your home directory in Git Bash and Terminal. It's simply shorthand so you don't have to type it all out (which would look more like /Users/yourusername/). Now that your repository is ready, type this:
+اگر نمی دونستین ~ این چیه٬ ~ این نشان دهنده home directory در Git Bash و Terminal است. این خیلی کوتاهه و نیازی تمام اون را تایپ کنی (که تقریبا این شکلی هست اگر بخوای تایپش کنی /Users/yourusername/). حالا که  repository آماده هست این را تایپ کن : 
 
 ```
 git init
 ```
 
-If you already had a repository ready to go, you'd just need to cd to that directory and then run the `git init` command in there instead. Either way, your local repository is ready to go and you can start committing code. But wait, you don't have anything to commit! Run this command to create a README file:
+اگر از قبل  repository (فضا) اماده هست٬ فقط نیاز داری که دستور cd در directory   را انجام بدی و بعد دستور `git init` شروع به کار کنه.  در هر صورت repository محلی تو آماده است و تو می توانی committing code را شروع کنی. ولی صبر کن٬ تو هیچ چیز برای commit کردن نداری!‌ این فرمان را برای ساختن یک فایل README اجرا کن : 
 
 ```
 touch README
 ```
 
-Let's take a break for a second and see what just happened. Go into the home folder on your computer and look at the Hello-World folder (or look at whatever folder you're using for a local repository). You'll notice a README file inside, thanks to the command you just ran. What you won't see is a .git folder, but that's because it's invisible. Git hides it in there, but because you ran the `git init` command you know it exists. If you're skeptical, just run the `ls` command in Git Bash/Terminal to display a list of everything in the current directory (which, if you're following along, is your local repository).
+بزار یکم استراحت کنیم و ببینیم دقیقا چی شده. برو به پوشه اصلی کامپیوترت و پوشه ی Hello-World (یا هر پوشه ای که برای  local repository استفاده می کنی ) .متوجه می شی که فایل README اونجاست٬ از فرمانی که اجراش کردی باید تشکر کرد. چیزی را که نخواهی دید git folder هست اونم دلیلش اینکه اون پنهانه. Git اینجا پنهان شده٬ ولی بخاطر اینکه فرمان `git init`  را اجرا کردی می دونی که اونجاست. اگر شک داری فرمان Git Bash/Terminal را اجرا کن تا لیست همه چیزهایی که در directory را داری ببینی. 
 
-So how does git know we want to commit this README file we just created? It doesn't, and you have to tell it. This command will do the trick:
+خوب git از کجا می دونه که می خوایم این فایل README را commit کنیم؟ نمیدونه٬‌ و تو باید بهش بگی. این فرمان را برای این ترفند استفاده کن : 
 
 ```
 git add README
 ```
 
-If you want to add other files to commit, you'll use the same command but replace README with the name of a different file. Now, run this command to commit it:
+اگر می خوای فایل دیگری به  commit اضافه کنی٬ باید از همون فرمان استفاده کنی ولی جای README اسم اون فایلیت را بزاری. الان این فرمان را اجر کن برای commit ( ارسالش).
 
 ```
 git commit -m 'first commit'
 ```
 
-While the other commands were pretty straightforward, the commit command has a little more going on so let's break it down. When you type `git`, that's just telling the command line that you want to use the git program. When you type `commit`, you're telling git you want to use the commit command. Everything that follows those two thing count as options. The first, -m, is what's known as a flag. A flag specifies that you want to do something special rather than just run the commit command. In this case, the -m flag means "message" and what follows it is your commit message (in the example, 'first commit'). The message isn't absolutely necessary (although you'll usually need to provide one), but simply a reference to help you differentiate the various versions of a file (or files) you commit to your repository.
+وقتی دستورات دیگر کمی ساده بودند٬‌ فرمان commit یکم مشکلتره پس یکم استراحت کنیم. وقتی که `git` را تایپ می کنی یعنی به خط فرمان می گی می خوای از برنامه git استفاده کنی. وقتی تایپ می کنی  `commit` ٬ یعنی داری میگی می خوای از فرمان  commit استفاده کنی. هر چیزی که این دو تا دنبال کنن به عنوان گزینه های دیگر حساب می شند. اولین چیز -m هست که به عنوان پرچم یا  flag شناخته می شه.  flag مشخص می کنه که تو می خوای یک کار خاص انجام بدی بجای فرمان commit . در این مورد  flag -m  معنی یک پیام یا  "message" را داره و چیزی را که دنبال می کنه پیام commit هست (به عنوان نمونه٬ commit اول). این پیام به خودی خود مورد نیاز نیست( معمولا نیاز به ارائه یکی از اونهاست)٬ ولی این بطور ساده یک رفرنس هست که بهت کمک می کنه برای تفکیک  یک سری فایل  (یا فایل های)  متفاوتی که commit کنی در repository.
 
-Your first commit should go by in a split second because you haven't actually uploaded anything yet. To get this empty README file to GitHub, you need to push it with a couple of commands. Here's the first:
+اولین commit (ارسال) تو باید خیلی سریع بره چرا که تو هیچ چیزی آپلود نکردی. براب فرستادن  README file خالی به GitHub ٬  باید چند تا دستور بدی. این اولینش هست : 
 
 ```
 git remote add origin https://github.com/yourusername/Hello-World.git
 ```
 
-You need to replace "yourusername" with—you guessed it—your GitHub username. For me, it'd look like this:
+تو نیاز به جایگزینی  "yourusername" داری — اونی که حدس زدی  — حساب کاربریت در GitHub. برای من٬‌ این شکلیه باید باشه:
 
 ```
 git remote add origin https://github.com/gittest1040/Hello-World.git
 ```
 
-This command tells git where to send your Hello-World repository. Now all you need to do is send it:
+این دستور به git می گه که Hello-World repository  را کجا بفرسته. الان تنها کاری نیاز به انجام داری٬ ارسال این هست : 
 
 ```
 git push origin master
 ```
 
-Once you run that command, everything (in this case, just your README file) will make it's way over to GitHub. Congratulations on your first commit!
+وقتی که این فرمان را اجرا کردی٬ همه چیز (در این مورد فقط فایل README) به GitHub ارسال می شه. تبریک برای اولین commit!
 
-## Learning More
+## بیشتر بیاموزیم 
 
-Using GitHub requires more than just committing a README file, but these basics should give you a good grasp on how to interact with the git app and the service. Now that you know how GitHub works at its core, you can use the GitHub apps to manage your code instead if you prefer. If you want to learn more about GitHub, there are some great tutorials. For starters, take a look at [how to fork a repository](https://help.github.com/articles/fork-a-repo) and [LockerGnome's GitHub guide](http://www.lockergnome.com/web/2011/12/13/how-to-use-github-to-contribute-to-open-source-projects/).
+GitHub به بیشتر از commit کردن  README file نیاز داره٬ ولی این مسائل ابتدایی بهت یاد می ده که چطور با اپ git کار می کنه. الان می دونی که GitHub چطور کار می کنه و این مهمترینه٬‌ اگر ترجیح می دی الان می تونی کدهات را با GitHub مدیریت کنی. اگر می خوای بیشتر در مورد GitHub یاد بگیری٬ یک سری آموزش های خوب هست . برای شروع یک نگاهی به اینها بینداز. (https://help.github.com/articles/fork-a-repo) and [LockerGnome's GitHub guide](http://www.lockergnome.com/web/2011/12/13/how-to-use-github-to-contribute-to-open-source-projects/).
 
-Have fun managing your code!
+خوش باشی با مدیریت کدهات!‌
 
-Love,
+عشق٬
 Lifehacker
 
 --------
-# Additional resources from GitHub
+# منابع اضافی از GitHub
 
-Good Resource for learning git and github [link](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
+منابع خوب برای یاد گرفتن git و github (https://help.github.com/articles/good-resources-for-learning-git-and-github/)

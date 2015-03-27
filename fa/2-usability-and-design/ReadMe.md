@@ -1,12 +1,12 @@
-# Design and Usability
+# طراحی و کاربردپذیری
 
-## About this section
+## درباره این بخش
 Design and usability are two critical components often overlooked. This short section will provide you a high-level view of how user centered design improves usability.
 
-## Articles
-- Intro to Android design principles
-- Making security boring
-- Can truly great design be done the open source way?
-- Where design thinking and open source community collaboration meet
-- 5 tips: Leverage user-centered design in your open source project
-- Five steps to using design in your open source project
+## مقاله ها 
+- مقدمه ای برای اصول طراحی آندروید
+- امنیت را خسته کننده کنیم
+- آیا واقعا طراحی بطور متن باز (open source) امکان پذیزه ؟ 
+- تفکر طراحی و  همکاران جامعه زبان باز ( open source) کجا می توانند به هم بپیوندن ؟  
+-  5 راه حل برای اعمال نفوذ طراحی کاربر محور(user-centered design) در پروژه متن باز (open source)
+- پنج قدم تا استفاده از طراحی در پروژه متن باز (open source)خودتان
