@@ -1,19 +1,19 @@
-# TRAINERS NOTES: STORY OF SELF
+# نکاتی برای مربیان: داستانی از خودت
 
-Source: [NOI's Story of Self Materials](http://neworganizing.com/toolbox/training/story-of-self/materials)
+منبع : [NOI's Story of Self Materials](http://neworganizing.com/toolbox/training/story-of-self/materials)
 
-**Key Teaching Points:**
-- Stories communicate values through emotions: emotions move us to act
-- Certain emotions inhibit action while others facilitate action: we can use stories to elicit emotions that facilitate action.
-- Good stories have a structure => challenge, choice, outcome
-- Public Narrative is a particular type of story with three parts: Self, Us, Now
-- Story of Self is a practice organizers can use to build community by introducing who they are and why they are called to this work. We can teach through the script of our own lives. 
+**نکات اصلی آموزش **
+داستان های ارتباطات بخاطر هیجانات اهمیت دارند: هیجان ما را به سمت عمل می بره
+یک سری احساسات خاص مانع کرد انجام کار میشه در حالی که یک سری دیگر کمک میکنه به انجام کار. ما می تونیم از داستان هایی استفاده کنیم کخ احساسات باعث آسون تر شدن کار شدن. 
+داستان های خوب ساختار دارند=> چالش، انتخاب، نتیجه
+روایت عمومی یک نوع از داستانه با سه قسمت : خود٬ ما٬ الان 
+داستان شخصی ما یک مجموعه تمرین هست که کمک می کنه به ساخت جامعه با معرفی اینکه اونها کی هستند و چرا از اونها برای همکاری  کردن در این کار خواسته شده. ما می تونیم از طریق داستان های شخصی خودمون آموزش ببینیم.  
 
 
-| **SECTION** | **SLIDE** | **ANNOTATED NOTES** |
+| ** بخش ** | ** اسلاید ** | **  مشروح نکات ** |
 | ----------- | --------- | ------------------- |
-| **Total Session Time:** **80** **min** | 
-| **Introduction: 30 min** |
+| **:** **80** **min مجموع  زمان جلسه ** | 
+| **: 30 min مقدمه ** |
 | **TRAINER STORY** **(2 minutes 30 seconds)** | | Tell your 2 min story of Self, as it relates to this particular training group or campaign. Use the Story of Self worksheet in the participant guide to help develop your story. |
 | **LEADERSHIP** **(30 seconds)** | | Go back to our definition of leadership. How does public narrative fit into this way of practicing leadership? Stories help us learn to make choices in the face of uncertainty. |
 | **WHY DO WE TELL STORIES?** **(1 minute)** | | **_Why do we tell stories?_** We tell stories to motivate others to take action with us. We tell stories to enable others to understand who they are and why to take action. Story telling is a leadership art that “enables others” to understand their individual, community and immediate calling. A good story helps us make choices in our own lives, by illustrating how a particular character overcame a challenge. |
@@ -25,6 +25,6 @@ Source: [NOI's Story of Self Materials](http://neworganizing.com/toolbox/trainin
 | **SAMPLE STORY- BARACK OBAMA** **(15 min total to include 3 min set up, 7 min video and 5 min debrief)** || Show DNC 2004 Convention Speech Trainer Tip: Because your audience may have differing political opinions, make sure to explain that we didn’t choose this video because Obama is a Democrat or the President, we use this video because he is one of the greatest speakers in our country and he moved many people to action. This a craft he learned and we are here to teach you the same craft. |
 | | Video Debrief | Debrief: Audience Engagement: How do you feel after hearing that? What specific stories or examples painted the challenge and choice for you? What did you want to know more of? Would it have had the same impact if he had said “ My name is Barack Obama, I went to Harvard Law school where I learned x and y. Then I was ran for Illinois State Senate, and won. I really support John Kerry because of x,y,z and you should too?” **Where’s the story of self?** **1** Challenge, choice, outcome - focus on choice points (father's journey to US, parents decision to marry, naming "Barack"). **2** Notice that there is nothing about John Kerry in his speech, but rather a story that tells us about his own values. Then the audience trusts him and wants to support who he is supporting. **3.** What’s the transition? (“My story is part of the larger American story”) **Where’s the story of us?** **1.** Founding story, Declaration of Independence (why did he choose this?) **2.** Challenge, choice, outcome, hope. **3.** What’s the transition? “We have more work to do” **Where’s the story of now?** **1.** Challenge, choice, outcome, hope. **2.** Not statistics, but stories, no 10-point plan | 
 | **LEARNING TEAMS EXPLANATION** **(5 minutes)** | | Review the Story of Self worksheets and learning team agenda before the groups break out. Trainer Tip: Remind the participants to_focus on 1 or 2 choice points in your life that teach others about what values move them to be here, and like a good movie their story should be constructed so we can SEE it, HEAR it, FEEL it because of the details. |
-| **ROLEPLAY** |
+| **بازی کردن** |
 | **BREAK INTO TEAMS** **65 min** | All materials are in the participant guide | **1.** Review agenda, Set Norms, assign a time keeper (10 min) **2.** Develop your story (10 min) **3.** Partner pair-and-share (15 min) **4.** Share stories in small group (30 min) | 
 | **DEBRIEF** **20 min** | | Invite 2-3 participants to tell their stories. Have group coach them on making their stories better. Also, define what makes for effective coaching. What coaching questions helped your stories improve? **1.** Did they tell a real Story of Self with a clear moment(s) of choice **2.** Did they avoid the trap of just talking about the campaign? If not how could they?  What in their life are you still curious about? **3.** Was there good detail?  Where could there be more? **4.** Coaching—what types of feedback & questions were helpful? |

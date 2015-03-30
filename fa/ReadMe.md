@@ -1,50 +1,50 @@
-# Welcome to the Developers Corner
+# به Developers Corner خوش آمدید 
 
-This is our guide for teaching you how to join the open-source mobile developer community, and build apps that are better because they are open, transparent, more secure, more safe, well designed and all together awesome!
+این راهنمای ما هست برای چگونگی  پیوستن به جامعه برنامه سازان متن باز٬‌ ساختن اپلیکیشن هایی که بهتر هستند چرا که باز٬ شفاف٬ امن تر٬ خوب طراحی شدند و در کل با حال هستند. 
 
 
 ## منابع مطالب و ترجمه ها
-This content is pulled from many different locations. Also, some of this content will be in languages other than english. If the translation needs to be improved, please perform a pull request.
+این مطلب از جاهای متفاوتی گرفته شده. در ضمن بعضی از این مطالب در زبان هایی بغیر از اینگلیسی هم هستند.  اگر ترجمه نیاز به بهتر شدن داره لطفا درخواست بدید. 
 
 # جدولی از مطلب
-We have broken down content into something easily understandable for anyone new to open source, civic hacking, and mobile development. 
+ما محتوای این مطالب را به زبانی میشه گفت  که شکستیم تا راحت تر فهمیده بشه برای کسانی که در متن باز٬  هک مدنی (civic hacking) و برنامه سازی موبایل٬ جدید هستند.  
 
-* Open Source Foundations
+* مبانی متن باز
   - متن باز چی است
   - راهنمایی مبتدی برای متن باز
-  - Getting started in Civic Hacking
+  - شروع کار با Civic Hacking
   - چطور پروژه متن باز را شروع کنیم
-  - Three key elements that define every open source project
+  - سه المان اصلی که همه پروژ های متن باز را تشریح می کنه
   - شروع کردن استفاده از گیت هاب
   - شروع کردن استفاده از Discourse
   بسمت کد منبع باز در اندروید بوسیله اف دروید (F-Droid)
-  - Things newcomers to open source rarely ask but often wonder
-  - Key Books to Read and Open Source Organizations
+  - چیزهایی که تازه وارد ها  معمولا درباره متن باز می پرسند 
+  کتاب های اصلی برای خواندن و سازمان های متن باز 
 
 * طراحی و کاربردپذیری
-  - Intro to Android design principles
-  - Making security boring
-  - Can truly great design be done the open source way?
-  - Where design thinking and open source community collaboration meet
-  - Leverage user-centered design in your open source project
+  - مقدمه ای برای اصول طراحی آندروید
+  - امنیت را خسته کننده کنیم
+  - آیا واقعا طراحی بطور متن باز (open source) امکان پذیزه ؟ 
+  - تفکر طراحی و  همکاران جامعه زبان باز ( open source) کجا می توانند به هم بپیوندن ؟  
+  -  اعمال نفوذ طراحی کاربر محور در پروژه متن باز
   - پنج قدم تا استفاده از طراحی در پروژه متن باز خودتان
 
 * اصول اپلیکیشن
-  - Building apps for a complex world (*needs more content*)
+  - ساختن اپلیکشن ها برای دنیای پیچیده 
   - توسعه در اندروید را شروع کنیم
 
 * امنیت و حریم خصوصی
-  - Encrypt all the bits introduction to mobile security
+  -رمزگزاری تمام بیت ها٬  آشنایی با امنیت موبایل
   - چطور از اطلاعاتم و اپلیکیشین هام محافظت کنم (*needs more content*)
-  - How do I encrypt a file (Intro to ioCipher virtual encrypted disease)
-  - How do I protect my app's data (Intro to sqlCipher encrypted mobile databases)
+  - چگونه از اطلاعات رمزگزاری شده محافظت کنم (مقدمه ای برای IOCipher دیسک های مجازی کدگزاری شده)
+  چطور اطلاعات برنامه خود را حفاظت کنیم ( پیش مقدمه برایsqlCipher دیتابیس رمزگزاری شده موبایل ) 
   - چطوری می تونم ترافیک اینترنت خودم رو امن کنم ( مقدمه برای NetCipher )
   - گرفتن عکسی حرفه ای
 
 * مدیریت تیم و پروژه
   - ساختن یک جامعه متن باز
   - طریقه استفاده از IRC (Internet Relay Chat)
-  - The story of self and motivating a movement
-  	- TRAINERS NOTES: STORY OF SELF
+  - داستان  یک شخص و ایجاد یک جنبش
+  	نکاتی برای مربیان: داستانی از شخص 
   - پنج ابزار برتر برای مدیریت پروژه های متن باز
   - پنج راه برای تعامل بیشتر در گروه

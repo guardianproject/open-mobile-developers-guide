@@ -35,7 +35,7 @@ We say it a lot around here that the open source way applies to much more than j
 
 Go here to learn to [program the open source way](http://opensource.com/life/13/6/learning-program-open-source-way)?
 
-### Take your pick
+### انتخابت را بردار
 
 With so many different options for participating, anyone can join the open source community. How are you going to make 2014 your year of open source? Pick your role, and feel free to pick more than one! Need more guidance and inspiration? Opensource.com has these resources to help you get started.
 

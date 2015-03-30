@@ -7,7 +7,7 @@ IOCipher یک دیسک مجازی رمزگزاری برای برنامه های 
 IOCipher را میشه گفت فامیل SQLCiphe برای اندرویده  و همچنین این بر اساس SQLCipher و استفاده اش و کاربردش برای همونطور مثل repurposing  API می مونه که برنامه نویسان از قبل می دونن.  این در بالای libsqlfs ساخته شده٬ که یک  اجرای filesystem   را در SQL که FUSE API نشان می ده. 
 
 ## ویژگی ها 
-- Secure transparent app-level virtual encrypted disk
+-  سطح برنامه شفاف و امن دیسک مجازی رمزگزاری شده
 - نیاز نداره به جایی وصل باشه 
 * سه را جدید برای یاد گرفتن :  `VirtualFileSystem.get(), VirtualFileSystem.mount(dbFile, password), and VirtualFileSystem.unmount()`
 - از نسخه  2.1 و یا پایین تر اندروید پشتیبانی می کنه
@@ -36,7 +36,7 @@ import java.nio.channels.ReadableByteChannel;
 
 برای اطلاعات بیشتر این ها ببینید  [IOCipherExample](https://github.com/guardianproject/IOCipherExample), [IOCipherThreadTest](https://github.com/guardianproject/IOCipherThreadTest), and [IOCipherTests](https://github.com/guardianproject/IOCipherTests). To start from scratch, follow [the instructions on starting with SQLCipher-for-Android](https://www.zetetic.net/sqlcipher/sqlcipher-for-android/), then download IOCipher and add it to the libs/ folder of that new project.
 
-## دانلود 
+## دانلودها
 اینجا می توانی IOCipher jar و فایل های مادری کتابخانه ای  را دریافت کنی ٬‌آماده انداختن در پروژه ات ( برای MIPS نیاز داری  که از منبعش بسازی ): 
 
 * [IOCipher-v0.2.zip](https://guardianproject.info/releases/IOCipher-v0.3.zip)
@@ -44,7 +44,7 @@ import java.nio.channels.ReadableByteChannel;
 * MD5: d4fdec3ecfaee96277eaa0372db092ce
 * SHA1: f89509b802f2982e62b3e5b31cb90266e95262a0
 
-If you are interested in experimenting with the underlying FUSE library, you can download the optional libsqlfs source tarball:
+اگر به تجربه اساسی کتابخانه FUSE علاقه دارید٬ می توانید   libsqlfs source tarball اختیاری را دانلود کنید : 
 
 * [libsqlfs-1.3.tar.bz2](https://guardianproject.info/releases/libsqlfs-1.3.1.tar.bz2)
 * [detached GPG signature](https://guardianproject.info/releases/libsqlfs-1.3.1.tar.bz2.sig)
@@ -63,8 +63,8 @@ If you are interested in experimenting with the underlying FUSE library, you can
 
 ## استفاده از نوشته ها
 * فقط از یک mount فعال برای هر برنامه پشتیبانی می شه. 
-* single thread/sequential access is the preferred way of using IOCipher
-* multi-threaded access possible (potentially unstable under extremely high write load)
+* دسترسی  single thread/sequential  استفاده از IOCipher را ترجیح می ده.
+* امکان دسترسی چند موضوعی (multi-threaded)
 *  الان VFS برای بهینه سازی عملکرد  دارای beginTransaction و completeTransaction هست 
 قسمتی از  java.io هنوز ساپورت نمی شه : vectored I/O, memory-mapped files 
 

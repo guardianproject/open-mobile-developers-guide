@@ -1,6 +1,6 @@
-# Where design thinking and open source community collaboration meet
+# تفکر طراحی و همکاران جامعه زبان باز ( open source) کجا می توانند به هم بپیوندن ؟
 
-Source: [OpenSource.com](http://opensource.com/business/09/10/where-design-thinking-and-open-source-community-collaboration-meet)
+منبع : [OpenSource.com] (http://opensource.com/business/09/10/where-design-thinking-and-open-source-community-collaboration-meet)
 
 In comparing traits associated with design thinking collaboration and collaboration in the open source community, there are many parallels: open exchange, broad participation, rapid prototyping.
 

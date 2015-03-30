@@ -28,7 +28,7 @@
 
 HTTP Proxy: localhost:8118 SOCKS 4/5 Proxy: localhost:9050
 
-The sample project shows the basics of how to use this library to open sockets and make HTTP requests via the SOCKS and HTTP proxies available from Orbot The standard Apache HTTPClient libraries provide calls to setup proxying. This sample code demonstrates that. All applications using the SOCKS proxy should not resolve their DNS locally, and instead should pass the hostnames through the SOCKS proxy.
+ان نمونه پروژه  اصول  استفاده از این کتابخانه را  برای باز کردن سوکت ها و ساختن درخواست HTTP  از طریق ساکس  (SOCKS)  نشان می ده و  HTTP پروکسی های که موجود را از Orbot.  کتابخانه های استاندارد Apache HTTPClient فراخوان هایی  ارائه می ده برای ساختن پروکسی. این نمونه کد این را نشان میده. تمام اپلیکیشن هایی که از SOCKS proxy استفاده می کنند نباید  DNS را  محلی بر طرف کنند٬‌ و بجای اون باید  hostnames را از طریق SOCKS proxy عبور بدهند. 
 
 ## کمک رسان Orbot
 بهتون یک کمک رسان ساده ارائه می ده اگر Orbot (یا تور برای آندروید) نصب کردید و به چه در حاضر اجرا باشه یا نه. به اپلیکیشنت اجازه درخواست شروع Orbot را می ده (چه کاربر اون را فعال کرده باشه یا نه). در آخر این می تونه خیلی سریع به  Orbot را نصب کنید٬ چه از طریق Google Play, چه بطور مستقیم از APK . دانلود کنید از این سایت ها: torproject.org یا the guardianproject.info 

@@ -6,11 +6,11 @@
 ## مقدمه
 تعاد کاربران موبایل و استفاده از  موبایل در حال افزایش هست. با کاربران بیشتر که در کارهای بیشتری با موبایل انجام می دهند. (http://www.businessinsider.com/the-future-of-mobile-deck-2012-3?op=1), کانون توجه به این هست که چگونه المان متفاوت را بهتر کنیم تا با هم یک کاربر موبایل را بسازیم.
 
-The mobile user experience encompasses the user’s perceptions and feelings before, during and after their interaction with your mobile presence — be it through a browser or an app — using a mobile device that could lie anywhere on the continuum from low-end feature phone to high-definition tablet.
+تجربه کاربری موبایل شامل برداشت و احساس کاربران می شه در قبل٬ درحال و بعد از تعامل با موبایل. - از طریق مرورگر و یا یک اپلیکیشن - این شامل  ذنجیره ای از استفاده کنندگان  موبایل های خیلی معمولی با قابلیت های خیلی کم میشه تا تبلت های با قابلیت های بسیار عالی. 
 
-Creating mobile user experiences that delight users forces us to rethink a lot of what we have taken for granted so far with desktop design. It is complicated in part by mobile-specific considerations that go hand in hand with small screens, wide variations in device features, constraints in usage and connectivity, and the hard-to-identify-but-ever-changing mobile context.
+ساختن تجربه های کاربری موبایل که کاربران احساس خوبی بکنند با تحت فشار قرار دادن ما برای برای فکر کردن به اینکه  تا کنون ما چه چیزی را از طراحی کامپیوتر بدست آوردیم. این 
 
-Dissecting the mobile user experience into its key components gives us a conceptual framework for building and evaluating good mobile experiences, within the [context of a user-centered approach to designing for mobile](http://www.smashingmagazine.com/2011/05/02/a-user-centered-approach-to-mobile-design/). These components shape the mobile user experience — including functionality, context, user input, content and marketing, among others.
+تشریح کردن تجربه کاربری موبایل به مولفه های کلیدی به ما یک چارچوب مفهومی ارائه می ده که برای ساخت و ارزیابی تجربه های خوب موبایل٬ در چارچوب  رویکرد کاربرمحور و طراحی برای موبایل. http://www.smashingmagazine.com/2011/05/02/a-user-centered-approach-to-mobile-design/). این مولفه ها تجربه کاربری موبایل را شکل می دهند از جمله قابلیت٬ چارچوب٬ ورودی کاربر٬ محتوا و بازاریابی٬ به همراه چیزهای دیگر. 
 
 ### المان های تجربه کاربران موبایل
 * کارکرد 
@@ -18,7 +18,7 @@ Dissecting the mobile user experience into its key components gives us a concept
 * محتوا 
 * طراحی 
 * ورودی کاربر
-* Mobile Context
+*  چارچوب موبایل
 * کاربردپذیری
 * قابلیت اعتماد
 * انتقادات و پیشنهادات
@@ -27,28 +27,28 @@ Dissecting the mobile user experience into its key components gives us a concept
 *بازار یابی 
 
 
-The relevance of these elements will change depending on the type of device (feature phone versus smartphone versus tablet) and the presentation interface (app versus Web). This article briefly describes each of these elements and elaborates on each with selected guidelines.
+متناسب بودن این المان ها بسته به نوع دستگاه تغییر خواهد کرد(تلفن های مقابل تلفن هوشنمد مقابل تبلت) و رابطه ارائه (اپ ها در مقابل وب). این مقاله هر کدام از این المان ها را توضیح می ده و هر کدام را شرح می ده با راهنماهای انتخاب شده. 
 
 * کارکرد
-This has to do with tools and features that enable users to complete tasks and achieve their goals.
+این امر را ابزارها و امکانات را انجام  می دهند که به کاربران این اجازه را تسک را تمام کنند و به هدف هاشون برسند.
 
 ###دستورالعمل
-- Prioritize and present core features from other channels that have especial relevance in a mobile environment. For an airline, this includes flight statuses and flight check-ins. For cosmetic chain Sephora, it includes supporting in-store shopping via easy access to product reviews on mobile devices.
-- Offer relevant mobile-only functionality (like barcode scanning and image recognition), and enhance functionality using the capabilities of mobile devices where possible to engage and delight users. Old Navy’s app serves up surprise games or savings when users snap the logo in a store.
-- Ensure that fundamental features and content are optimized for mobile. For example, make sure the store locator shows the nearest stores based on the device’s location, and make the phone numbers click-to-call.
-- Include features that are relevant to the business category. For retail websites and apps, this would include product search, order status and shopping cart.
-- Offer key capabilities across all channels. Users who sign in should see their personalized settings, irrespective of the device or channel being used. If certain functionality is not offered on mobile, then direct users to the appropriate channel, as TripIt does to set up a personal network. TripIt directs users to the website for setting up a network
+- امکانات اصلی را از کانال های دیگر مربوط به حوزه موبایل در اولویت وارائه قرار بده . برای یک خط هوایی٬ این شامل وضعیت پرواز و چک این پرواز می شه. برای فروشگاه زنجیره ای لوازم بهداشتی سفورا٬  این شامل پشتیبانی در فروشگاه از طریق خرید آسان تا بررسی محصولات در موبایل می شه.
+- ارائه قابلیت های مخصوص موبایل (مثل اسکن کردن بارکد یا شناسایی چهره) ٬ و افزایش قابلیت با استفاده از ظرفیت های دستگاه های موبایل اونجا که امکان تعامل و لذت کاربران وجود داره. اپلیکشن  Old Navy’s  یک بازی تعجب آور  ارائه می ده. 
+- اطمینان حاصل کن که امکانات اساسی و محتوا  برای موبایل بهینه شده. برای مثال٬ مطمئن شو که پیدا کننده فروشگاه نزدیکترین فروشگاه را بر اساس دستگاه مکان یاب نشون می ده و شماره های تماست می تونند تماس بگیرند.
+- امکاناتی را اضافه کن به کسب و کار مربوط باشه. برای وب سایت خورده فروشی و اپلیکیشن ها٬‌ این شامل جستجوی محصول٬ وضعیت سفارش و کارت خرید می شه. 
+- ارائه امکانات کلیدی از تمام کانال ها. کاربرانی که به سیستم وارد می شوند باید بتونن تنظیمات شخصی٬ صرف نظر از دستگاه یا کانالی که استفاده می شه. اگر یک سری امکانات در موبایل نیست٬ سپس کاربران مستقیم به کانالی مثل TripIt که یک شبکه شخصی راه اندازی می کنند وصل بشند. TripIt کاربران را بصورت مستقیم به وب سایتی هدایت می کنه برای راه اندازی یک شبکه.
 
 ### خواندنی های اضافی 
-“[Sharing App Bump 3.0 Slashes Most Features, Proves Less Really Can Be More](http://www.fastcompany.com/1816610/why-entrepreneurs-must-focus-on-saying-no-bump-slashes-features),” Fast Company
+“[اپلیکشن به اشتراک گذای Bump 3.0 Slashes ٬ کمتر ثابت میشه بیشتر می تونه باشه] (http://www.fastcompany.com/1816610/why-entrepreneurs-must-focus-on-saying-no-bump-slashes-features),” Fast Company
 
 * معماری اطلاعات
-This has to do with arranging the functionality and content into a logical structure to help users find information and complete tasks. This includes navigation, search and labeling.
+این امر به انجام  تنظیمات قابلیت ها و ارسال مطالب به یک ساختار منطقی تا  کاربران را برای پیدا کردن اطلاعات  و تمام کردن تسک ها کمک کند. این شامل٬‌ مکان یابی٬ جستجو و برچسب گذاری می شود
 
 ###دستورالعمل
 - Present links to the main features and content on the landing page, prioritized according to the user’s needs. [Mobile Design Pattern Gallery](http://mobiledesignpatterngallery.com/mobile-patterns.php?colid=65438029-72157627607680275) has examples of primary and secondary navigation patterns for mobile, many of which are vertical instead of horizontal as on desktop websites.
-- Enable mobile users to navigate to the most important content and functionality in as few taps or key presses as possible. Navigation optimized for small screens is usually broad and shallow instead of deep. While [three clicks (or taps) is not the magic number](http://www.uie.com/articles/three_click_rule/), users need to be able to recognize that each tap is helping them complete their task. Every additional level also means more taps, more waiting for a page to load and more bandwidth consumed.
-- Address the navigation needs of both touchscreen and non-touchscreen users. When designing for touch, make sure the tap size of the navigation item is at least 30 pixels wide or tall. Provide keypad shortcuts for feature phones, so that users can enter, say, a number (0 to 9) to quickly access a link:
+- به کاربرانت اجازه بده تا بتونن محتوایت اصلی و قابلیت ها را با چند حرکت و یا  فشار دادن چند کلید جا به جا کنند. بهینه کردن نویگیشن برای صفحه های کوچک معمولا گسترده و سطحی هست به جای ژرف.  در صورتیکه  سه تا کلیک یک شماره جادویی نیست. (http://www.uie.com/articles/three_click_rule/) کاربران نیاز دارند که هر  تب بشناسند تا بتونند تسک را تمام بکنند. هر لایه اضافی به  معنی تب های اضافه و انتظار بیشتر برای باز کردن صفحه ها و پهنای بان  بیشتر مصرف شده است.
+آدرس نویگیشن نیاز هر دو  هم صفحه های لمسی و هم غیر لمسی  است. وقتی که برای صفحه های لمسی طراحی می شه مطمن بشید که سایز نویگیشن ایتم حتما  30 پیکسل هست. یک کلید میانبر ارائه کن ٬‌ که کاربر بتونه با گفتنش یا وارد کردن عددی از  ( 0 تا  9 ) سریع به لینک دسترسی داشته باشند:
 - Cater to feature phone users, as CNN does with access keys, not as Delta does by making the first action to be nine key presses downs.
 - Provide navigational cues to let users know where they are, how to get back and how to jump back to the start. Mobile breadcrumbs are often implemented by replacing the “Back” button with a label showing users the section or category that they came from. For mobile websites, use standard conventions, such as a home icon that links back to the start screen, especially when navigation is not repeated on every screen.
 - Use concise, clear, consistent and descriptive labels for navigation items and links. While always a good practice, it becomes even more important on tiny mobile devices.
@@ -116,7 +116,7 @@ A mobile device can be used at anytime, anywhere. The mobile context is about th
 Don’t miss the links to resources on the mobile context near the end.
 - “[When and Where Are People Using Mobile Devices?](http://www.lukew.com/ff/entry.asp?1263),” Luke Wroblewski
 
-## Usability
+## کاربردپذیری
 This is the overall measure of how well the information architecture, design, content and other elements work together to enable users to accomplish their goals.
 
 ###دستورالعمل
@@ -131,7 +131,7 @@ This is the overall measure of how well the information architecture, design, co
 - “[UI Guidelines for Mobile and Tablet Web App Design](http://www.mobilexweb.com/blog/ui-guidelines-mobile-tablet-design),” Max Firtman
 - “[Mobile Usability Update](http://www.useit.com/alertbox/mobile-usability.html),” Jakob Nielsen, Alertbox
 
-## Trustworthiness
+## قابلیت اعتماد
 This relates to the level of confidence, trust and comfort that users feel when using a mobile website or app. According to a [2011 study by Truste and Harris Interactive](http://www.truste.com/why_TRUSTe_privacy_services/harris-mobile-survey/), privacy and security are the top two concerns among smartphone users:
  - **Privacy and security are the top two concerns among smartphone users**.
 

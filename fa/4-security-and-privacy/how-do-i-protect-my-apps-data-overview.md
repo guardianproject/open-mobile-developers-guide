@@ -1,23 +1,23 @@
-# How Do I Protect My App's Data?
+# چگونه از اپ هام محافظت کنم 
 
-intro foo
+مقدمه  foo
 
-## Protecting App Databases
+##  محافظت کردن از دیتابیس اپلیکیشن ها
 
-## Securing and Hiding Multimedia files and Documents
+محافظت و مخفی کردن فایل های چند رسانه ای و اسناد
 
-## Defending Against Network Attacks
+##  مقابله در برابر حمله ها علیه شبکه 
 
 
-CipherKit: We have 3 tools designed for Android app developers to make apps that are able to ensure better encryption and anonymity:
+CipherKit: ما 3 برنامه برای  برنامه سازان آندروید طراحی کردیم  تا از رمزگزاری بهتر و ناشناس ماندن مطمئن بشوند.
 
-SQLCipher: Encrypted Database
-SQLCipher is an SQLite extension that provides transparent 256-bit AES encryption of database files. It mirrors the standard android.database API. Pages are encrypted before being written to disk and are decrypted when read back.
-SQLCipher GitHub Code
+SQLCipher: رمزگزاری پایگاه داده ها
+SQLCipher یک SQLite خارجی هست که وظیفش شفاف سازی 256-bit AES برای فایل ها در بانک های اطلاعاتی رمگزاری شده است. صفحه ها رمزگزاری می شند قبل از اینکه چیزی نوشته بشه در دیسک ها و بعدتر رمزگشایی می شند وقتی که خونده می شن.
+کد SQLCipher GitHub
 
-IOCipher: Encrypted Virtual Disk
-IOCipher is a virtual encrypted disk for apps without requiring the device to be rooted. It uses a clone of the standard java.io API for working with files. Just password handling & opening the virtual disk are what stand between developers and fully encrypted file storage. It is based on libsqlfs and SQLCipher.
-IOCipher Source Code
+ IOCipher: رمزگزاری دیسک های مجازی
+IOCipher یک دیسک رمزگزاری شده هست برای برنامه ها بدون اینکه دستگاه نیاز به روت داشته باشه. این از یک کلون معمولی java.io API برای کار کردن با فایل ها استفاده می کنه. فقط دسترسی به رمز عبور و باز کردن صفحه های مجازی چیزیه که بین برنامه نویسان هست و تمام فایل ها بصورت رمزگزاری می مونه. این بر پایه libsqlfs و SQLCipher هست.
+منبع کد IOCipher  
 
-NetCipher: Encrypted Network Data & Tor Integration
-NetCipher is improving network security. It provides a strong TLS/SSL verifier to help mitigate weaknesses in the certificate authority system. It eases the implementation of supporting SOCKS and HTTP proxies into applications and also supports onion routing for anonymity and traffic surveillance circumvention.
+ NetCipher: رمزگزاری ها شبکه ی اطلاعات و یک پارچه سازی تور
+NetCipher یک ارتقاء دهنده امنیت شبکه است. اون یک تایید کننده TLS/SSL برای کمک به گواهینامه های ضعیف در سیستم هست. اون از  اجرای پشتبانی SOCKS و HTTP proxies به داخل برنامه های حمایت می کنه و  همچنین از ریشه های پیاز گونه برای ناشناس ماندن و دور زدن ترافیک پشتیبانی می کنه. 

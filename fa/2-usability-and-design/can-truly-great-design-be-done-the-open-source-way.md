@@ -12,7 +12,7 @@ From a design perspective, Apple has figured out how to make lightning strike in
 
 امروز می خواهم سوالی بپرسم که مدتی بود داشتم بهش فکر می کردم:
 
-Can truly great design be done the open source way?
+- آیا واقعا طراحی بطور متن باز (open source) امکان پذیزه ؟
 
 Meaning, can a group of people designing collaboratively, out in the open, ever do the kind of consistently beautiful design work that Apple does? Or is Greg right, that "no community could build something as gorgeous as the iPhone"?
 

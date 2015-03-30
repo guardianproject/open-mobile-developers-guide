@@ -1,7 +1,7 @@
 # طراحی و کاربردپذیری
 
 ## درباره این بخش
-Design and usability are two critical components often overlooked. This short section will provide you a high-level view of how user centered design improves usability.
+طراحی و کاربردپذیری دو مولفه اصلی هستند که نادیده گرفته می شوند. در قسمت کوتاه ما به شما یک دیدگاه از بالا ارائه می دیم که چطور طراحی کاربر محور کارایی را بهتر کرده
 
 ## مقاله ها 
 - مقدمه ای برای اصول طراحی آندروید

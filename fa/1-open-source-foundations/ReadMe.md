@@ -1,16 +1,16 @@
-# Open-Source Foundations
+# مبانی متن باز 
 
-## About this section
-This collection of articles is designed to introduce you to general concepts within open source and civic hacking.
+## درباره این بخش
+این مجموعه از مقاله های برای معرفی مفاهیم کلی با متن باز و هک کردن طراحی شده. 
 
-## Articles
-  - What is Open Source
-  - Beginners Guide to Open Source
-  - Getting started in Civic Hacking
-  - How to get started in Open Source
-  - Three key elements that define every open source project
-  - Getting started with GitHub
-  - Getting started with Discourse
-  - Going open source on Android with F-Droid
-  - Things newcomers to open source rarely ask but often wonder
-  - Key Books to Read and Open Source Organizations
+## مقاله ها
+  - متن باز چیست 
+  - راهنمایی  مقدماتی برای متن باز
+    - شروع کار با Civic Hacking 
+  - چطورکار با  پروژه متن باز را شروع کنیم
+  - سه المان اصلی که همه پروژ های متن باز را تشریح می کنه
+  - شروع کردن استفاده از گیت هاب
+  - شروع کار با Discourse
+  بسمت کد منبع باز در اندروید بوسیله اف دروید (F-Droid)
+  چیزهایی که تازه وارد ها  معمولا درباره متن باز می پرسند 
+  کتاب های اصلی برای خواندن و سازمان های متن باز 

@@ -1,16 +1,16 @@
 #رمزگزاری تمام بیت ها - آشنایی با امنیت موبایل 
 
-این یک توضیح از رمزگزاری برای تمام بیت هاست(https://docs.google.com/presentation/d/1Jgg405aEvDwkm_f65Z7x3qin_vGqzDNsk_p3cPB4VZc/edit#slide=id.g181a3a731_0335) presentation.
+این یک توضیح از رمزگزاری برای تمام بیت هاست (https://docs.google.com/presentation/d/1Jgg405aEvDwkm_f65Z7x3qin_vGqzDNsk_p3cPB4VZc/edit#slide=id.g181a3a731_0335) presentation.
 
-## قصد برای اجرا 
+## قصد در مقابل اجرا 
 
 ## قسمت (جلسه) بررسی کلی 
-  نگاه اجمالی بر برنامه ها و کتابخانه توسعه دهندگان  پروژه گاردین (30m)
+  نگاه اجمالی بر برنامه ها و کتابخانه برنامه سازان  پروژه گاردین (30m)
   مدل های تهدید کننده و داستان های  جنگی : گفتگوی آزاد در مورد ریسک٬ بیم و نیاز های امنیتی (30m)
-  - رمزگزاری بانک های اطلاعاتی:  امن سازی داده های ساخته شده در فعالیت ها٬ خدمات و ارائه دهندگان محتوا (1hr)
+  - رمزگزاری بانک های اطلاعاتی:  امن سازی ساختار داده ها در فعالیت ها٬ خدمات و ارائه دهندگان محتوا (1hr)
   - رمزگزاری فایل ها: امن سازی فایل های کوچک تا بزرگ به دلخواه  (30m)
-  - شبکه امن:‌ دفاع کردن  در مقابل مرد میانی- خنثی کردن SSL, فیلتر و چیزهای دیگر (30m)
-  - Hands-On Implementation time for sample work or debugging your own apps with new security features (1.5hr)
+  - شبکه های امن:‌ دفاع کردن در مقابل مرد میانی- خنثی کردن SSL, فیلتر و چیزهای دیگر (30m)
+  دست ها در پیاده سازی زمان برای نمونه کار و اشکال زدایی اپلیکشن های خودتون با امکانات جدید امینتی (1.5hr)
 
 ## رمزگزاری
 مقدمه ای کوتاه - معرفی خیلی سریع 
@@ -90,10 +90,10 @@ http://www.cellebrite.com/mobile-forensics
 | شناسه | اسم | توضیحات |
 | ---- | ---- | ---- |
 | 1 | صاحب موبایل باشید | اپراتور اول موبایل. مطمن باشید از اینکه به دستگاهتون دسترسی کامل دارید ٫‌ همچنین امنه و رمز یا کد  دارید برای وارد شدن بهش  
-| 2 | Detainer / criminal / bad actor | An authority figure or criminal who has or will be detaining the Owner[1]; has access to mobile phone. may have only manual/brute force access, or could have more sophisticated forensic extraction tools. | 
+| 2 | توقیف شده / کیفری/ خلافکار |‌ یک شخص تحت نظر قانون یا گناهکار  که بازداشت یا بازداشت میشه [1]; به تلفن دسترسی دارند. شاید فقط بصورت دستی با زور دسترسی داشته باشند یا  با ابزار پیچیده دیگری برای باز کردن تلفن دسترسی داشته باشند. | 
 | 3 | اپراتور شبکه موبایل | دسترسی به تماس ها و پیام ها (فرستنده / دریافت کننده/ محتویات پیام) و برج های مخابراتی که با اطلاعات سر و کار دارند (مکان های سخت)|
-| 4 | Employer, family or support organization; | May know the Owner[1]'s PIN/password, but otherwise has no access to data or network information; On the receiving end of an emergency message |
-| 5 | Malicious App / Backdoor / Malware / Forensics App | Access to some or all of the the Owner[1]'s data depending upon app data permissions and encryption, as well as how full the backdoor is. Authorization is often required by the user to allow apps to access data. |
+| 4 | کارفرما٬ خانواده یا سازمان های حمایتی; | کد/ رمز عبور صاحب تلفن را بدانند [1]' ولی به داده ها و اطلاعات شبکه دسترسی نداشته باشند; ولی امکان دریافت پیام را دارند  |
+| 5 | برنامه های مخرب/ تروجان / اپلیکشن های کالبد شکافی | به یک سری از اطلاعات صاحب تلفن دسترسی دارند[1]' بستگی به میزان اجازه دسترسی و رمزگزاری همون قدر که ضریب امنیتی مهم هست. معمولا اپلیکیشن ها  برای دسترسی اطلاعات  به اجازه کاربر نیاز دارند. |
 
 ## ویژگی مثبت 
 
@@ -110,17 +110,17 @@ http://www.cellebrite.com/mobile-forensics
 |کلک زدن| - کسی که توسط قانون ازش نگهداری میشه[2]برنامه های مخرب (بجای برنامه های تایید شده) [5] ممکنه تلاش کنن کنترل موبایل را به دست بگیریند یا خودشون را بجای صاحب موبایل معرفی کنند [1] 
 |دستکاری کردن | برنامه های مخرب [5] می تون ساختار اطلاعات را بر روی دستگاه عوض کنند.  
 | رد کردن | | برنامه های مخرب [5] یا تروجان ها برنامه را از کار بندازن   اپراتور[3]  حتی شاید بصورت دایم پیام ها را کنترل کنند و اطلاعات را به اشخاص مخرب بدن [2] |
-| Information Disclosure | Detainer[2] could have full access to Assets stored on the mobile device; - Detainer[2] may have physical and logical forensic data extraction tools that can override password controls on device and read from "wiped" storage; - Operator[3] may learn identity of Support Org[4] |
+| افشا سازی اطلاعات | توقیف شده [2] می تونه به تمام اطلاعات ذخیره شده روی موبایل دسترسی داشته باشند. توقیف شده [2] شاید از طریق فیزیکی یا با بصورت مخفی با ابزار های تخلیه اطلاعات بتوانند رمز عبور را کشف کنند. اپراتور [3] ممکن است هویت  سازمان پشتیان کننده را بداند. [4] |
 | عدم دریافت سرویس | - شاید  ارسال و دریافت ارتباطات   قطع بشه از طرف اپراتور [3]; - شاید موبایل از طرف اپراتور از کار بیفته [3] یا برنامه های مخرب [5]  
-| Elevation of Privilege | - Malicious App [5] launches insecured intents or exploits known bug; - Detainer[2] or Operator[3] may be able to impersonate the Owner[1] |
+| بالا بردن امتیاز  | - اپلیکیشن های مخرب [5] راه اندازی اهداف نا امن یا  مشکلات; - توقیف کننده [2] یا اپراتوار[3] شاید  قابلیت جعل هویت صاحب تلفن را داشته باشند[1] |
 
 ## کنترل های امنیتی / کاهش خطر 
 | تایپ | تاکتیک ها |
 | ---- | ---- | 
-| Authentication (vs. Spoofing) | - Create a a non obvious passphrase for use in app - Lock screen of your mobile phone using passphrase or PIN |
-| Authorization & Auditing (vs Tampering, Repudiation, Elevation of Priv) | - Do not install any unnecessary, third-party mobile apps with network access; - Scan your mobile device using available malware tools; - Install a firewall or network connection monitoring utility; - Use a non-real name registered SIM card and mobile phone |
-| Cryptography and Identity Protection (vs Information Disclosure) | - For extra sensitive data, use an app that supports an and password authentication and encrypted database; - Use a mobile OS with disk and memory card encryption; - Use only browser-based HTTPS services that do not store data locally;- Do not store or save web service passwords on your mobile phone |
-| Alternate Communications (vs Denial of Service) | - Use VPNs or Tor proxying software to hide source IP and traffic; - Use apps/services that work in WIFI only mode if data service disabled; - Use apps that allow device-to-device data sharing | 
+|تایید هویت ( در مقابل . حقه بازی) | - ساخت یک رمز عبوز سخت و غیر معمول برای استفاده از برنامه ها - داشتن رمز عبور  یا  PIN  برای استفاده از موبایل |
+| اجازه نامه و حسابرسی | ( در مقابل. دستکاری٬ انکار) | -  برنامه های غیر ضروری ناشناس که به شبکه دسترسی دارند را نصب نکن;  موبایلت را با استفاده از ابزار کشف بدافزار ها اسکن کن; - فایروال یا ابزارهای نظارت به ارتباطات شبکه را نصب کن; - از سیم کارتی استفاده کن که با اسم حقیقی ثبت نشده باشند استفاده نکرده باشند. 
+| رمزنگاری و حفاظت هویت (در تقابل با افشای هویت)| - برای اطلاعات حساس از برنامه هایی استفاده کن که برای ورود به رمز ورود نیاز دارند و از پایگاه داده های رمزگزاری شده استفاده کن; - از موبایل های OS با کارت حافظه رمزگزاری شده استفاده کن; - از مرورگرهای  HTTPS استفاده کن که اطلاعات را بطور محلی ذخیره نمی کنند;- از ذخیره کردن رمزهای عبور در مرورگر موبایل خودداری کن |
+| ارتباطات جایگزین( در تقابل با محرومیت از خدمات) | - از  VPNs یا  برنامه ی تور پروکسی برای پنهان کردن منبع IP و ترافیکت استفاده کن; - از برنامه ها و سرویس هایی استفاده کن که فقط با WIFI کار می کنند و اگر سرویس دیتا قطع بود کار نکنند; - از برنامه هایی استفاده کن که اجازه می ده از موبایلی به موبایل دیگر اطلاعات را بفرستی  | 
 
 ## SQLCipher 
 رمزگزاری بانک داده ها 
@@ -128,11 +128,11 @@ http://www.cellebrite.com/mobile-forensics
 SQLCipher یک SQLite خارجی هست که وظیفش شفاف سازی  256-bit AES برای فایل ها در بانک های اطلاعاتی  رمگزاری شده است. صفحه ها رمزگزاری می شند قبل از اینکه چیزی نوشته بشه  در دیسک ها و بعدتر رمزگشایی می شند وقتی که خونده می شن. 
 
 - SQLCipher ردپای خیلی کمی داره و خیلی خوب عمل می کنه برای محافظت کردن از برنامه های بانک اطلاعاتی و همچنین خیلی خوبه برای پیشرفت موبایل 
-- Blazing fast performance with as little as 5-15% overhead for encryption
+- افزایش سریع کارایی به کمی 5-15% در بالا برای رمزگزاری
 -  100 درصد اطلاعات در بانک اطلاعات رمزگزاری شده
 با استفاده از شیوه هاب خوب امنیتی (CBC mode, key derivation) 
-- Zero-configuration and application level cryptography
-- Algorithms provided by the peer reviewed OpenSSL crypto library.
+زیروکانف (شبکهٔ رایانه‌ای بدون تنظیمات)  و رمزنویسی سطح کاربر 
+ارائه الگوریتم  از طریق مرور  OpenSSL crypto library.
 
 ###  پلتفرم CipherKit 
 IMAGE
@@ -193,8 +193,8 @@ SQLiteDatabase db = eventsData.getWritableDatabase(“my password”);
 ما یک بسته   SDK ساده را برای برنامه نویسان اندروید درست کردیم تا SQLCipher  را  در سه مرحله به برنامه هاشون اضافه کنن : 
 
 * اضافه کردن یک  sqlcipher.ja و چندتا دیگه. تا  فهرست libs برنامه ها
-* Update the import path from android.database.sqlite.* to info.guardianproject.database.sqlite.* in any source files that reference it. The original android.database.Cursor can still be used unchanged.
-* Init the database in onCreate() and pass a variable argument to the open database method with a password*:
+* به روزرسانی مسیر ورود از android.database.sqlite.* به info.guardianproject.database.sqlite.* برای هر منبع فایلی این مرجع است.  از android.database.Cursor  اصلی بدون تغییر هم می شه استفاده کرد.
+* وارد کردن پایگاه داده در onCreate و فرستادن آرگومان متغیر به پایگاه داده باز با رمزعبور*:
   - SQLiteDatabase.loadLibs(this); //first init the db libraries with the context
   - SQLiteOpenHelper.getWritableDatabase(“thisismysecret”):
 
@@ -228,13 +228,13 @@ SSL باز
 
 IOCipher یک دیسک مجازی رمزگزاری برای برنامه های اندروید ارایه می ده بدون نیاز دستگاه به وصل بودن جایی. این از یک کپی برابر اصل استاندارد  java.io API  برای کار کردن با فایل ها استفاده می کنه٬ پس برنامه نویسان از قبل می دونن چجوری باهاش کار کنن. فقط تحویل رمز عبور و باز کردن دیسک های مجازی چیزیه که بین برنامه نویسان و فایل های رمزگزاری ذخیره شده هست. این بر اساس و SQLCipher است.
 
-IOCipher is a cousin to SQLCipher-for-Android since it is also based on SQLCipher and uses the same approach of repurposing an API that developers already know well. It is built on top of libsqlfs, a filesystem implemented in SQL that exposes a FUSE API.
+IOCipher  از فامیل  SQLCipher برای آندروید محسوب میشه از اونجا که  براساس SQLCipher و از همون روش repurposing یک API استفاده می کنه که برنامه نویسان می دونند. اون در بالای libsqlfs ساخته شده٬ یک فایل سیستمی  اجرا شده در SQL که FUSE API را به نمایش می زاره. 
 
 ###  پلتفرم CipherKit 
 *image* 
 
 ### IOCipher: ویژیگی های اصلی 
-* Secure transparent app-level virtual encrypted disk
+  * سطح برنامه شفاف و امن  دیسک مجازی رمزگزاری شده 
 *نیاز نداره به جایی وصل باشه 
 * سه را جدید برای یاد گرفتن : new VirtualFileSystem(dbFile), VirtualFileSystem.mount(password), and VirtualFileSystem.unmount()
 * پشتیبانی کردن از اندروید نسخه 2.1 و پایینتر
@@ -244,7 +244,7 @@ IOCipher is a cousin to SQLCipher-for-Android since it is also based on SQLCiphe
 info.guardianproject.iocipher
    - Java/JNI wrapper API
 * LibSQLFS / FUSE
-   - Virtual Filesystem that maps to SQL schema / structured database
+   - فایل سیستم مجازی که مسیر می ده به  SQL schema/  structured database
 * SQLCipher
    لایه های رمزگزاری شده برای SQLite
 * SQLite
@@ -289,7 +289,7 @@ File[] files = file.listFiles();
 ## CacheWord
 مدیریت کلمه رمز امن  
 
-CacheWord is an Android library project for passphrase caching and management. It helps app developers securely generate, store, and access secrets derived from a user's passphrase.
+CacheWord یک پروژه کتابخانه آندروید برای ذخیره رمزهای عبور و مدیریت. این به اپ سازان کمک می کنه تا با امنیت٬‌ تولید٬ نگه داری کنن و به اسرار به دست آمده  دسترسی داشته باشند از طریق رمز عبوری کاربری . 
 1. مدیریت کردن رازها:  
 1. ذخیره سازی عبارات عبور: نگه داشتن رمزهای عبور در حافظه برای جلوگیری از وارد کردن اون بطور مکرر توسط کاربر 
 
@@ -345,8 +345,8 @@ public class CacheWordSampleActivity extends Activity implements ICacheWordSubsc
 
 ###  دلیل NetCipher :  3
 1. *سوکت های قوی تر * : از طریق حمایت برای مجموعه های صحیح رمز٬‌ پین کردن و چیزهای دیگر٬ ما مطمنتون می کنیم که ارتباطات رمزگزاری شده شما به بهترین شکل ممکن قوی هستند. 
-1. *Proxied Connection Support*: HTTP and SOCKS proxy connection support for HTTP and HTTP/S traffic through specific configuration of the Apache HTTPClient library
-1. *OrbotHelper*: a utility class to support application integration with Orbot: Tor for Android. Check if its installed, running, etc.
+1. *پشتیبانی از اتصال پروکسی*: HTTP  و ارتباط پروکسی SOCKS پشتیبانی ارائه می ده برای  HTTP  و  HTTP/S traffic از طریق تنظیمات خاص Apache HTTPClient library
+1. *OrbotHelper*: یک کلاس سودمند برای حمایت از ادغام اپلیکیشن با Orbot:  تور برای آندروید. چک کنید اگر نصب شده٫ کار می کنه و غیره. 
 
 ### خطرات شبکه 
 پرکسی تور 

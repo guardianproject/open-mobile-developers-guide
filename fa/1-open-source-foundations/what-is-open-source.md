@@ -1,17 +1,17 @@
-# What is Open-Source?
-Source: [OpenSource.com](http://opensource.com/resources/what-open-source)
+منبع باز چیست
+منبع: (http://opensource.com/resources/what-open-source)
 
-The term "open source" refers to something that can be modified because its design is publicly accessible.
+اصطلاح " منبع باز" به چیزی گفته میشود که بنا به طبیعت ساختش قابل ویرایش است.
 
-While it originated in the context of computer software development, today the term "open source" designates a set of values—what we call *[the open source way](https://opensource.com/open-source-way)*. Open source projects, products, or initiatives are those that embrace and celebrate open exchange, collaborative participation, rapid prototyping, transparency, meritocracy, and community development.
+در حالی که اصطلاح منبع باز در مورد ساخت و طراحی نرم افزار های رایانه ای کاربرد دارد، امروزه اصطلاح "منبع باز" اشاره به مجموعه ارزشهایی دارد که ما به آن *طریقه منبع باز* میگوییم (https://opensource.com/open-source-way). پروژه ها، محصولات، و یا طرح هایی منبع بازهستند که مبادله باز، همکاری مشترک، تعدد مدلهای آزمایشی، شفافیت، شایسته سالاری، و ساخت انجمن را ارزش می نهد.     
 
-## What is open source software?
+برنامه با کد منبع باز چیست؟
 
-Open source software is software whose source code is available for modification or enhancement by anyone.
+برنامه با کد منبع باز به برنامه ای گفته میشود که کد منبع آن برای ویرایش و بهبود سازی در اختیار عموم باشد.
 
-"Source code" is the part of software that most computer users don't ever see; it's the code computer programmers can manipulate to change how a piece of software—a "program" or "application"—works. Programmers who have access to a computer program's source code can improve that program by adding features to it or fixing parts that don't always work correctly.
+"کد منبع"در حقیقت قسمتی از برنامه است که کاربران آن را نمی بینند؛ قسمتی که برنامه نویسان میتوانند دستکاری کنند تا کارکرد قسمتی از برنامه عوض شود. برنامه نویسانی که به کد منبع برنامه ها یا نرم افزارها دسترسی دارند می توانند با اضافه کردن خصوصیتهای مختلف برنامه را بهتر کنند و یا قسمتهایی از برنامه که همیشه بدرستی کار نمیکند را تصحیح کنند.
 
-## What's the difference between open source software and other types of software?
+فرق برنامه های با کد منبع باز با بقیه انواع نرم افزار ها چیست؟
 
 Some software has source code that cannot be modified by anyone but the person, team, or organization who created it and maintains exclusive control over it. This kind of software is frequently called "proprietary software" or "closed source" software, because its source code is the property of its original authors, who are the only ones legally allowed to copy or modify it. Microsoft Word and Adobe Photoshop are examples of proprietary software. In order to use proprietary software, computer users must agree (usually by signing a license displayed the first time they run this software) that they will not do anything with the software that the software's authors have not expressly permitted.
 

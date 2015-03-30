@@ -3,6 +3,6 @@
   -رمزگزاری تمام بیت ها٬  آشنایی با امنیت موبایل
   - چطور از اطلاعاتم و اپلیکیشین هام محافظت کنم 
   - چگونه از اطلاعات رمزگزاری شده محافظت کنم (مقدمه ای برای IOCipher دیسک های مجازی کدگزاری شده)
-  - How do I protect my app's data (Intro to sqlCipher encrypted mobile databases)
-  - How to I secure my internet traffic (Intro to NetCipher)
-  - Taking smart photos
+  - چطور از  اطلاعات برنامه خود را حفاظت کنیم( مقدمه برای sqlCipher دیتابیس رمزگزاری شده موبایل ) 
+  - چطوری می تونم ترافیک اینترنت خودم رو امن کنم ( مقدمه برای NetCipher )
+  - گرفتن عکس های زیرک

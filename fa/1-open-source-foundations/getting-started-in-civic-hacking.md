@@ -1,16 +1,16 @@
-# How to get started in civic hacking
+ # شروع کار با Civic Hacking 
 
-Source: [OpenSource.com](http://opensource.com/government/14/2/how-get-started-civic-hacking)
+منبع : [OpenSource.com](http://opensource.com/government/14/2/how-get-started-civic-hacking)
 
 civic hacking چیست؟
 
-Seventy people gathered together one sunny Oakland afternoon to volunteer and improve their city. There were no rakes or yard tools normally seen at volunteer-day events though. No paint brushes, no trash bags, no canned soup bins. These seventy people were laden with laptops and were volunteering to improve the city’s website.
+ هفتاد تن از مردم در یک روز آفتابی در اکالند با هم جمع شدند تا داوطلبانه شهر را بهتر بکنند. اونجا از چنگک یا  ابزار باغچه خبری نبود. نه برس رنگی٬ نه سطل زباله ای٬ نه کیسه ی پر از قوطی. این هفتاد نفر با کلی لپ تاپ بودند تا بصورت داوطلبانه وب سایت شهرشون را بهتر کنند. 
 
-This group of engaged citizens were building [Oakland Answers](http://answers.oaklandnet.com/), a new easy way to get answers for the most common questions asked on the Oakland City website. From finding out how to pay parking tickets, to checking what jobs the City is hiring for, the new website is citizen-focused and community built.
+تعامل این گروه با هم وب سایت ( پاسخ های اکالند) را ساختند. (http://answers.oaklandnet.com/), راهی بسیار ساده برای پاسخ گویی برای سوالات متدوال در وب سایت شهر اکالند. از نحوه پرداخت تیکت های پارکینگ گرفته تا کاریابی در شهر٬‌ وب سایت جدید به شهروندان توجه داره و توسط جامعه ساخته شده.
 
-The day long event was called a "writeathon" and the majority of the folks in the room were not web developers but long time Oakland residents who came to write answers. Technologists were there too though, setting up servers and forking the open source code for the site. These web developers, answer writers, and City staff were all taking part in the growing new movement of civic hacking.
+این برنامه یک روزه "writeathon" نام داشت و اکثریت کسانی که شرکت داشتند برنامه نویس وب نبودند ولی کسانی بودند که آمده بودند به سوالات شهروندان اکالند پاسخ بدند. قطعا تکنولوژی هم اونجا بود٬ راه اندازی یک سرور و انشعاب کدهای متن باز به وب سایت. این برنامه نویسان وب٬ پاسخ دهندنگان و کارکنان شهر هر کدام  بخشی از رشد یک حرکت civic hacking بودند. 
 
->Civic hacking is people working together quickly and creatively to help improve government.—[Jake Levitas](http://www.codeforamerica.org/2013/06/07/defining-civic-hacking/)
+> Civic hacking کسانی هستند که باهم سریع  و خلاقانه برای بهبود دولت کار می کنند.—[Jake Levitas](http://www.codeforamerica.org/2013/06/07/defining-civic-hacking/) 
 
 در اینجا می توانید چند پروژه معروف متن باز civic hacking را مشاهده کنید:
 
@@ -23,19 +23,19 @@ The day long event was called a "writeathon" and the majority of the folks in th
 
 ###  متن باز در civic hacking
 
-Open source software is fundamental to civic hacking. Passionate volunteers write code and invent services that improve their own neighborhoods, but do so in a way that can be repeated in other communities around the world. Being able to easily share code without restriction is what allows for civic technology to scale.
+برنامه های متن باز اساسا سیویک هکنیگ هستند. داوطلبان با انگیزه ٬کدهایی را می نویسند و چیزی را اختراع می کنند که محله خودشون را بهبود  کنه. ولی اینکار را طوری انجام می دهند که برای جوامع دیگر مفید باشه.  این امکان را میده که کد ها را با هر جای دیگر به اشتراک بزارند بدون هیچ م
 
-For example, a few years ago in Boston there were severe snow storms that buried the fire hydrants. The same snow was downing powerlines and sparking fires. Some civic hackers saw this problem and created [Adopt-a-hydrant](http://adoptahydrant.org/) (on [GitHub](https://github.com/codeforamerica/adopt-a-hydrant)), a way for neighbors to volunteer to shovel out the hydrants on their block. The following summer, the same code was forked and redeployed in Honolulu, not for snow but for [tsunami sirens](http://sirens.honolulu.gov/). Adopta has since been redeployed dozens of times and is being constantly improved by coders across the country.
+به عنوان نمونه٬ چند سال پیش بوستون شاهد یک ریزش شدید برف بود تا حادی که شیرهای آتش نشانی هم پوشیده شده بودند. همون برف باعث قطع شدن خطوط برق و آتش سوزی شد. یک سری از هکرهای مدنی (civic hackers) این مساله را دیدند و این را درست کردند. [Adopt-a-hydrant](http://adoptahydrant.org/)  در [GitHub] (https://github.com/codeforamerica/adopt-a-hydrant) یک راحل برای اینکه هماسیه ها شیر های آتش نشانی  در محل زندگیشون را از برف پاک کنند. در تابستان بعدش همون کد ها به هونولولو منتقل شد٬ این بار نه برای برف بلکه برای طوفان و سیل. (http://sirens.honolulu.gov/). از اون موقع Adopta بارها به جایی دیگری در کشور منتقل شده و با بهبود کدها دوباره از آن استفاده شده. 
 
 ### شروع کنیم
 
-A great first project is to include your city in an existing service. Take [Click that 'hood](http://click-that-hood.com/) (on [GitHub](https://github.com/codeforamerica/click_that_hood)) for example. It’s a fun game that helps teach about a city’s neighborhoods. What's great about it is that it has [clear instructions](https://github.com/codeforamerica/click_that_hood/wiki/How-to-add-a-city-to-Click-That-%E2%80%99Hood) for adding your own city to the game. These instructions include using open source tools, collaborating on GitHub, and finding open data—all necessary skills for getting started in civic hacking.
+ پروژه ای  خوب برای اضافه کردن یک سرویس به شهرتون. [Click that 'hood](http://click-that-hood.com/) (on [GitHub](https://github.com/codeforamerica/click_that_hood)  به عنوان نمونه این یک بازی خوب برای دونستن در مورد جایی که درش زندگی می کنید. خوب بودنش اینکه یک راهنمای خیلی خوب داره (https://github.com/codeforamerica/click_that_hood/wiki/How-to-add-a-city-to-Click-That-%E2%80%99Hood برای اضافه کردن شهر خودتون به این بازی. این راهنما شامل نحوه استفاده از ابزار زبان باز٬ همکاری در GitHub و پیدا کردن اطلاعات آزاد و همه مهارت ها برای شروع کا در سیویک  هکنیگ هست. 
 
 ### پیدا کردن اطلاعات باز
 
-The civic hacking movement is dependent on being able to easily find data about governments and the places they govern. If transit data, like bus schedules and train station locations, aren’t available than we couldn’t make any useful apps about transit. Luckily, many cities understand the importance of making their data available and have open data portals now. Data.gov has a list of many of the government data portals around the country and world. These portals gather all the available datasets that a city has and puts them all online in one place. The best data portals have that data in a machine readable format, so that it can be easily included in apps. Check your city’s website to find if a data portal exists. If not, then working with your city to get one setup is a great civic hacking project to start with.
+جنبش civic hacking وابستگی  به این داره که امکان  آسان برای پیدا کردن اطلاعات درباره دولت ها و مکان های  حکومت می کنند وجود داشته باشه. به عنوان مثال اگر دیتا های حمل و نقل  در دسترس نباشند ما نمی تونیم  اپلیکیشنی برای زمانبدی حرکت قطارها و اتوبوس ها بسازیم. خوشبختانه خیلی از شهرها به این نتیجه رسیدند که اطلاعات مهم را برای استفاده باز بگذارند.  Data.gov  لیست بسیاری از پورتال های دولت ها ر در کشورهای متفاوت دارند. این پورتال همه اطلاعات در دسترس در مورد شهر را در یک جا قرار داده. بهترین دیتا پورتال ها طوری هستند آماده خواندن و استفاده در اپلیکشن ها هستند. وب سایت های  شهرت را چک کن و ببین اگر این چنین پورتالی وجود داره یا نه. اگر نه٬  با شهرت کار کن برای راه اندازیش که بتونه  با پروژه های خوب سیویک هکینگ کار کنه. 
 
-Open source data portals:
+پورتال اطلاعات متن باز: 
 
 - [CKAN](http://ckan.org/)
 - [DKAN](https://drupal.org/project/dkan)
@@ -44,6 +44,6 @@ Open source data portals:
 
 ### جامعه
 
-It’s important to remember that civic hacking includes both community and technology. All aspiring civic hackers need to join with others to solve our civic problems together. Check out the Code for America [Brigade](http://brigade.codeforamerica.org/) to find a local volunteer group or start your own. The best part of joining up with other civic hackers is finding out how they’ve achieved successes in their own cities. The Brigade is one of the best resources for discovering the latest open source tools and projects to work on. Also, working with city staff and civic leaders who are part of the Brigade is vital so that the civic technology apps created by civic hackers solve real societal problems. Many different skills and many different perspectives are needed to work on problems that effect many different people. Finally, to get really immersed in the civic hacking movement, consider applying for the [Code for America Fellowship program](http://www.codeforamerica.org/about/fellowship/).
+این خیلی مهمه به یاد داشته باشی که سیویک هکینگ شامل جامعه و تکنولوژی میشه. تمام سیویک هکرهای نخبه باید باهم باشند تا بتونند مشکلات جامعه ما را رفع کنند. این کد را برای آمریکا چک کنید برای پیدا کردن داوطلبان محلی تا بتونید گروه خودتون را شروع کنید [Brigade](http://brigade.codeforamerica.org/) بهترین مساله برای یکی شدن با هکرهای دیگه این هست که می تونید بفهمید که اونها در چه چیزی به موفقیت رسیدن که شما هم می تونید در شهرتون انجام بدید. Brigade یکی از بهترین منابه هست برای پیدا کردن ابزارهای متن باز و پروژه ای که بشه درش کار کرد. همچنین کار کردن با کارکنان شهر و مسولان سیویک که بخشی از Brigade هستند حیاته  چرا  که ساخت اپلیکیشن های تکنولوژی سیویک توسط هکرهای سیویک مشکلات اجتماعی را حل می کنه. توانایی های متفاوت و دیدگاه های مختلف برای حل مشکلاتی که بر مردم اثر می زاره٬ مورد نیاز هست.  و در آخر٬‌  برای هیجان زده شدن در مورد جنبش سیویک هک در آمریکا (http://www.codeforamerica.org/about/fellowship/).
 
-از هکینگ لذت ببرید!
+هک کردن به خوشحالی!
