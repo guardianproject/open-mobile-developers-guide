@@ -46,112 +46,112 @@
 این امر به انجام  تنظیمات قابلیت ها و ارسال مطالب به یک ساختار منطقی تا  کاربران را برای پیدا کردن اطلاعات  و تمام کردن تسک ها کمک کند. این شامل٬‌ مکان یابی٬ جستجو و برچسب گذاری می شود
 
 ###دستورالعمل
-- Present links to the main features and content on the landing page, prioritized according to the user’s needs. [Mobile Design Pattern Gallery](http://mobiledesignpatterngallery.com/mobile-patterns.php?colid=65438029-72157627607680275) has examples of primary and secondary navigation patterns for mobile, many of which are vertical instead of horizontal as on desktop websites.
+- به کاربران لینک هایی به ویژگی های اصلی  و محتوا در صفحه اصلی ارائه کن٬ اولویت بندی کن بر اسای نیاز های کاربران. [گالری الگوی طراحی موبایل] (http://mobiledesignpatterngallery.com/mobile-patterns.php?colid=65438029-72157627607680275) نمونه های از الگوهای ناوبری اولیه و ثانویه برای موبایل٬ خیلی هاشون عمودی  هستند به جای افقی مثل وب سایت های  کامپیوتر.
 - به کاربرانت اجازه بده تا بتونن محتوایت اصلی و قابلیت ها را با چند حرکت و یا  فشار دادن چند کلید جا به جا کنند. بهینه کردن نویگیشن برای صفحه های کوچک معمولا گسترده و سطحی هست به جای ژرف.  در صورتیکه  سه تا کلیک یک شماره جادویی نیست. (http://www.uie.com/articles/three_click_rule/) کاربران نیاز دارند که هر  تب بشناسند تا بتونند تسک را تمام بکنند. هر لایه اضافی به  معنی تب های اضافه و انتظار بیشتر برای باز کردن صفحه ها و پهنای بان  بیشتر مصرف شده است.
 آدرس نویگیشن نیاز هر دو  هم صفحه های لمسی و هم غیر لمسی  است. وقتی که برای صفحه های لمسی طراحی می شه مطمن بشید که سایز نویگیشن ایتم حتما  30 پیکسل هست. یک کلید میانبر ارائه کن ٬‌ که کاربر بتونه با گفتنش یا وارد کردن عددی از  ( 0 تا  9 ) سریع به لینک دسترسی داشته باشند:
-- Cater to feature phone users, as CNN does with access keys, not as Delta does by making the first action to be nine key presses downs.
-- Provide navigational cues to let users know where they are, how to get back and how to jump back to the start. Mobile breadcrumbs are often implemented by replacing the “Back” button with a label showing users the section or category that they came from. For mobile websites, use standard conventions, such as a home icon that links back to the start screen, especially when navigation is not repeated on every screen.
-- Use concise, clear, consistent and descriptive labels for navigation items and links. While always a good practice, it becomes even more important on tiny mobile devices.
+- برای کاربران موبایل  یک قابلیت اضافه کن ٬‌ همنطور که CNN  با کلید های دسترسی می کنه٬‌  نه مثل Delta که باید نه تا دکمه فشار بدی.
+به کاربرانت  یک اشارت جهت نمایی ارائه کن که بدونن کجا هستند و چطور می تونن به عقب برگردند. آدرس پیمایش های موبایل معمولا با این کار را با جایگزین کردن  کلید برگشت با برچسبی که به کاربران بگن کجا هستند نشان می دهند.  برای وب سایت های موبایل٬ از کنوانسیون های استاندارد استفاده کن٬ مثل ایکون خانه که به صفحه اصلی بر می گرده٬‌ مخصوصا وقتی نویگیشن تو همه صفحه نیست. 
+- استفاده مختصر٬ واضح٬ سازگار و توصیفی از لیبل ها برای ایتم های نویگیشن و لینک ها. در حالی که همواره یک عمل خوبه ٬ این به یک مساله مهم در دستگاه های کوچک موبایل تبدیل شده.
 
 ### خواندنی های اضافی 
  - “[فصل 1: مکان یابی] (http://mobiledesignpatterngallery.com/mobile-patterns.php?colid=65438029-72157627607680275),” Mobile Design Pattern Gallery, Theresa Neil
 
 * محتوا
-Otherwise known as “the stuff on your website” (as Lou Rosenfeld and Peter Morville refer to it in *Information Architecture for the World Wide Web*), content is the various types of material in different formats, such as text, images and video, that provide information to the user.
+به طور دیگر این به مواد در وب سایت شما شناخته می شه ( همانطور که  Lou Rosenfeld و Peter Morville  آن را در * معماری اطلاعات برای شبکه جهانی وب اشاره کردند * ) محتوا (content) انواع مختلف از مواد در شکل های متفاوت است. مثل متن٬ عکس و ویدئو که به کاربران اطلاعات ارائه می کنه.
 
 ###دستورالعمل
-- Present an appropriate and balanced mix of content to users (product information, social content, instructional and support content, marketing content).
-- Use multimedia when it supports the user’s tasks in a mobile context, adds value to the content or supports the goals of the website. Most of the time, multimedia content is best provided when the user is looking for distraction or entertainment (such as news or funny clips) or when it has instructional value (for example, how to use an app or new feature).
-- Always give the user control over multimedia content by not auto-starting video or sound, by allowing the user to skip or stop multimedia content and by being mindful of the bandwidth it takes up.
-- Ensure that content is mobile appropriate. Just as we had chunking guidelines when going from print to Web, copy should be written for shorter attention spans on mobile devices. Optimize images and media for the device; this means scaling down for smaller devices and making sure images are [sharp enough for the new iPad](http://bradfrostweb.com/blog/mobile/hi-res-optimization/).
-- Ensure that primary content is presented in a format supported on the target device. Even now, websites such as Volkswagen’s ask iOS users to download Flash.
-- VW asks iPad users to download an unsupported Flash plugin
+- یک ترکیب مناسب و متعادل از محتوا را به کاربران ارائه کن (اطلاعات محصولات٬ محتواهای اجتماعی٬‌ محتوای آموزشی و پشتیبانی٬ محتوای بازازیابی).
+- از چند رسانه ای وقتی استفاده کن که به کاربران پشتبانی ارائه می در چارچوب موبایل٬ اضافه کردن اعتبار به محتوا و پشتیبانی برای رسیدن به اهداف وب سایت. بیشتر وقت ها محتوای چند رسانه ای بهترین ارائه است وقتی کاربر دنبال یک چیزی برای پرت کردن حواس یا سرگرمی می گرده ( مثل خبر یا یک کلیپ های خنده دار) یا وقتی دنبال چیز با ارزش هست ( مثل٬ چگونگی استفاده از اپلیکیشن یا یک ویژگی جدید)
+-همیشه به کاربرانت اجازه کنترل بر محتواهای چند رسانه را بده با شروع نشدن خودکار ویدئو یا صدا٬   با اجازه دادن بهشون برای رد کردن  یا متوقف کردن محتوای چند رسانه با اینکه آگاهشون کنی  که محتوا چقدر از پحنای باند را استفاده می کنه. 
+- مطمئن شو که محتوات برای  موبایل مناسب است.  همانطور که ما راهنمای قطعه بندب داشتیم وقتی که از چاپی به وب رفتیم٬ نوشته ها باید کوتاه تر نوشته بشه برای موبایل ها. عکس ها و مدیاها را برای دستگاه ها بهینه کن; این به این معنی می مونه سایز کوچکتر برای دستگاه های کوچکتر و مطمئن شو که عکس ها به اندازه کافی شارپ هستند برای آی پد های جدید. (http://bradfrostweb.com/blog/mobile/hi-res-optimization/).
+- مطمئن شو که محتوای اصلیت با فرمتی هست که با دستگاه های مورد نظرت کار می کنه. حتی الان٬ وب سایتی مثل Volkswagen’s از کاربران  iOS می خواد که فلش را دانلود کنند.
+Volkswagen’s از کاربرای آی پد می خواد که فلاش پلاگین های پشتیانی نشده را نصب کنند.
 
 ### خواندنی های اضافی 
-- “[Mobile Content: If in Doubt, Leave It Out](http://www.useit.com/alertbox/mobile-writing.html),” Jakob Nielsen, Alertbox
+- “[چارچوب موبایل: اگر بهش شک دارین ٬‌ آن را ترک کنید] (http://www.useit.com/alertbox/mobile-writing.html),” Jakob Nielsen, Alertbox
 - “[Mobile Content Strategy Link-o-Rama 2011](http://karenmcgrane.com/2011/12/14/mobile-content-strategy/),” Karen McGrane
 
 ## طراحی
-This has to do with the visual presentation and interactive experience of mobile, including graphic design, branding and layout.
+این با نحوه ارئه بصری و تجربه های تعاملی برای موبایل کار می کنه٬ شامل طراحی گرافیکی٬‌ برند و طرح بندی.
 
 ###دستورالعمل
-- Remember the sayings “Mobilize, don’t miniaturize” (popularized by Barbara Ballard) and “Don’t shrink, rethink” (of Nokia). Both make the point that mobile design should not just rehash the desktop design.
-- Design for glance ability and quick scanning. Glance ability refers to how quickly and easily the visual design conveys information.
-- Maintain visual consistency with other touchpoints and experiences (mobile, app, Web, print and real world) through the use of color, typography and personality. Identifying Amazon in the stack below is easy even though the brand name is not visible.
-- Guide users from the initial and most prominent element of the design to other elements to help them complete their tasks. This is known as visual flow. A good design brings together visual elements as well as information architecture, content and functionality to convey the brand’s identity and guide the user.
-- Consider both portrait and landscape orientations in the design process. Devices increasingly support multiple orientations and automatically adjust to match their physical orientation. Maintain the user’s location on the page when they change orientation. Indicate additional or different functionality in the new orientation if applicable. For example, the ING app informs users about additional features in the landscape mode
+به یاد داری اینو “ تجهیز کن٬ میناتوریش نکن” از (محبوبیت اثر Barbara Ballard) و “ کوچکش نکن٬ دوباره فکر کن“ از نوکیا. هر دو نکته اینو را می گه که طراحی موبایل نباید طراحی تکراری کامپیوترها باشه.
+-  برای قابلت نگاه اجمالی و اسکن سریع طراحی کن . قابلت نگاه اجمالی به این اشاره داره که چقدر کوتاه و ساده میشه اطلاعات  طراحی بصری را انتقال داد. 
+-  انسجام بصریت را با نکات و تجربه های دیگه حفظ کن ( موبایل٬ اپلیکیشن٬ وب٬ پرینت٬ و دنیای واقعی) از طریق استفاده از رنگ٬ تایپوگرافی و هویت دادن. شناسایی کردن آمازون در جای شلوغ هم آسونه حتی اگر اسمش قابل خواندن نباشه.  
+- به کاربران  با ابتدایی ترین و برجسته ترین المان های طراحی تا المان های دیگر  کمک کن تا بتونن تسک خودنشون را تمام کنند. این به گردش بصری شناخته می شه. طراحی خوب با خودش المان های بصری٬ اطلاعات معماری٬ محتوا و کارایی را به برند انتقال می ده و کاربران را راهنمایی می کنه. 
+- در پروسه طراحی هر دو جهات افقی و عمودی را در نظر بگیر. دستگاه ها به سرعت دارند از چند جهتی شدن و تنظیم شدن خودکار برای جهت گیری های فیزیکی ساپورت می کنند. محل کاربر را  در صفحه حفظ کن  وقتی که اونها جهت را عوض می کنند. نشان اضافی یا قابلیت متفاوت  را اضافه کن در حالت جدید اگر قابل اجراست. برای مثال اپ ING به کاربران در حالت عمودی یک سری ویژیگی های اضافی را اطلاع می ده. 
 
 ### خواندنی های اضافی 
-- “[Designing Glanceable Peripheral Displays](http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-113.pdf)” (6 MB, PDF), Matthews, Forlizzi and Rohrbach, UC Berkeley
-- [Universal Principles of Design, Revised and Updated](http://www.amazon.com/gp/product/1592535879/ref=as_li_ss_tl?ie=UTF8&tag=strategistnet): 125 Ways to Enhance Usability, Influence Perception, Increase Appeal, Make Better Design Decisions, and Teach through Design, William Lidwell, Kritina Holden, Jill Butler
+- “[نمایش محیطی قابلت نگاه اجمالی ] (http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-113.pdf)” (6 MB, PDF), Matthews, Forlizzi and Rohrbach, UC Berkeley
+- [اصول جهانی برای طراحی ٬ اصلاح و به روزرسانی] (http://www.amazon.com/gp/product/1592535879/ref=as_li_ss_tl?ie=UTF8&tag=strategistnet):  125 راه  برای افزایش قابلیت استفاده٬‌ درک تاثیرپذیری٬ افزایش تجدید نظرها٬ تصمیم گیری های بهتر برای طراحی و آموزش از طریق طراحی William Lidwell, Kritina Holden, Jill Butler
 
-## User Input
-This has to do with the effort required to enter data, which should be minimized on mobile devices and not require the use of both hands.
+## ورودی کاربر
+این در مورد تلاش برای وارد کردن اطلاعات می گه٬ چرا که این باید به حداقل برسه برای دستگاه های موبایل  و استفاده از دو دست نیاز نباشه. 
 
 ###دستورالعمل
-- Limit input to essential fields. Or, as Luke Wroblewski says in his book *Mobile First*, “When it comes to mobile forms, be brutally efficient and trim, trim, trim.” Limit registration forms to the minimum fields required, and use shorter alternatives where possible, such as a ZIP code instead of city and state. My favorite offender of this guideline is Volkswagen’s form to schedule a test drive; the mobile form has more required fields than the desktop version.
-- Display default values wherever possible. This could be the last item selected by the user (such as an airport or train station) or the most frequently selected item (such as today’s date when checking a flight’s status).
-- Offer alternate input mechanisms based on the device’s capabilities where possible. Apps take advantage of quite a few input mechanisms built into devices, including motion, camera, gyroscope and voice, but mobile websites are just starting to use some of these features, particularly geolocation.
-- Use the appropriate input mechanism and display the appropriate touch keyboard to save users from having to navigate their keyboard screens to enter data. Keep in mind that inputting data is more tedious on feature phones that have only a numeric keypad. For non-sensitive applications, allow users to stay signed in on their mobile device; and save information such as email address and user name because mobile phones tend to be personal devices, unlike tablets, which tend to be shared between multiple people.
-- Consider offering auto-completion, spellcheck suggestions and prediction technology to reduce the effort required to input data and to reduce errors — with the ability to revert as needed. Disable features such as CAPTCHA where not appropriate.
+- ورودی ها را محدود کن تا مفاد ضروری باشند. یا همنطور که  Luke Wroblewski  در کتابش *موبایل اول* گفته٬ وقتی که به فرم های موبایل  می رسیم می بایست٬ به طرز شدیدی کارآمدش کنیم و تر و تمیز٬ تر و تمیز٬ تر و تمیز.  فرم های ثبت نام را حداقل کن و از راه حل های دیگه استفاده کن برای پر کردن فرمت٬ مثل کد پستی بجای شهر و استان. نمونه ای که واقعا منو همیشه ناراحت می کنه باز بر می گرده به شرکت Volkswagen’s ٬‌ فرم ثبت نام برای امتحان رانندگیش در نسخه موبایل  از نسخه وب طولانی تره. 
+- چیز های پر ارزش را هر جا که ممکنه به نمایش بزار. این می تونه شامل آخرین آیتمی که کاربر انتخاب کرده (مثل فرودگاه یا ایستگاه قطار) یا ایتمی که بیشتر از همه انتخاب شده ( مثل تاریخ امروز برای چک کردن وضعیت پرواز).
+- مکانزیم متفاوتی برای وارد کردن ارائه کن بر اساس قابلیت های ممکن دستگاهت. اپ ها از مکانزیم های متفاوت در دستگاه استفاده می کنند٫‌ از جمله حرکت٬ دوربین٬ گردش نما و صدا٬ ولی وب سایت های مبایل تازه شروع به استفاده  بعضی از امکانات کردند٬ مخصوصا مکان جغرافیایی (geolocation) 
+- از مکانیزم  ورودی های مناسب استفاده کن . کیبرود لمسی مناسب را نشان بده تا به کاربران از جهت نمایی با کیبورد  برای وارد کردن اطلاعات کمک کرده باشی. این را بیاد داشته باش که وارد کردن اطلاعات در یک سری از تلفن  که فقط کیبورد های شماره ای دارند خسته کننده تره. برای اپلیکیشن های غیر حساس این امکان را به کاربران بده تا بتونن اطلاعات خودشون را ذخیره کنند و در اپ  بمانند٬  از جمله ایمیل٬ اسم٬ برای اینکه موبایل وسایلات شخصی هستند و با تبلت ها فرق دارند که بین چندین نفر استفاده می شن. 
+- سعی کن  تکمیل کردن خودکار٬ پیشنهادات چک کردن غلط املایی و فن آوری پیش بینی  ارائه کنی تا زحمت وارد کردن اطلاعات و رخ دادن اشتباه کمتر بشه - با امکان اینکه بتونن خودشون هم اطلاعات را وارد کنن. 
 
 ### خواندنی های اضافی 
-“[Forms on Mobile Devices: Modern Solutions](http://www.smashingmagazine.com/2010/03/11/forms-on-mobile-devices-modern-solutions/),” Luke Wroblewski
+“[اشکال در دستگاه های موبایل: راه حل های مدرن] (http://www.smashingmagazine.com/2010/03/11/forms-on-mobile-devices-modern-solutions/),” Luke Wroblewski
 
-## Mobile Context
-A mobile device can be used at anytime, anywhere. The mobile context is about the environment and circumstances of usage — anything that affects the interaction between the user and the interface, which is especially important for mobile because the context can change constantly and rapidly. While we often focus on distractions, multitasking, motion, low lighting conditions and poor connectivity, it also includes the other extreme — think using a tablet in a relaxed setting over a fast Wi-Fi connection.
+## چارچوب موبایل
+دستگاه موبایل می تونه هر زمانی ٬ هر جایی استفاده بشه. چارچوب موبایل در مورد محیط و موقعیت استفاده هست - هر چیزی که می تونه تاثیر بزاره به تعامل بین کاربر و رابط کاربری٬ چرا که برای موبایل بخاطر چارچوب این می تونه دائما و سریع تغییر کنه. در حینی که ما بر روی سرگرمی ها٬ مولتی تسکینگ٬ حرکت٬ شرایط کم نوری و اتصال ضعیف تمرکز می کنیم٬‌ چیزهای فوق العاده دیگری هم هست - فکر کردن به استفاده از تبلت در یک محیط آرام با یک اینترنت پرسرعت.
 
-“[The Context of Mobile Interaction](http://www.giantant.com/antenna/2007/06/design-sketch-the-context-of-m.html),” Nadav Savio
+“[چارچوب تعامل با موبایل ] http://www.giantant.com/antenna/2007/06/design-sketch-the-context-of-m.html),” Nadav Savio
 
 ###دستورالعمل
-- Use device features and capabilities to anticipate and support the user’s context of use. The iCookbook app allows users to walk through a recipe using voice commands — a nice feature when your hands are covered in batter!
-- Accommodate for changes in context based on the time of day and when the user is using the app. The Navfree GPS app automatically switches from day to night mode, showing low-glare maps for safer nighttime driving.
-- Use location to identify where the user is and to display relevant nearby content and offers. A Google search for “movies” on a mobile device brings up movies playing nearby and that day’s showtimes, with links to buy tickets online if available.
-- Leverage information that the user has provided, and respect their preferences and settings. After the first leg of a multi-leg flight, TripIt showed me the flight and gate information for my next flight, as well as how much time I had to kill. United’s app did no such thing, even though it knew much more about me. It could have shown me how to get from my current plane to the connecting flight and highlighted the location of the United Club along the way, where I could comfortably spend my two-hour wait, since it knew I was a member.
-- Default to the user experience most appropriate for the device (i.e. a mobile experience for small screens, and perhaps a desktop-like experience for tablets), but give users the option to have enhanced features. A big discussion on how to present this to the user recently took place, with [Jakob Nielsen recommending a separate mobile website](http://www.useit.com/alertbox/mobile-vs-full-sites.html) and [Josh Clark arguing instead for a responsive design](http://www.netmagazine.com/opinions/nielsen-wrong-mobile); yet others [believe that Nielsen and Clark are both wrong](http://www.netmagazine.com/opinions/nielsen-vs-clark-theyre-both-wrong).
+- از امکانات و ظرفیت های دستگاه استفاده کن برای پیشبینی و پشتیبانی کاربرانت در چارجوب استفاده از دستگاه. اپلیکیشن کتاب آشپزی دیجیتال به کاربران اجازه می ده که در هنگام کار از دستور پخت غذا از صدا برای  شنیدن دستورات استفاده کنند - امکانی خیلی خوب برای وقتی که دستانت آغشته به کره هستند!‌ 
+- تطبیق سازی را چارچوبت بر اساس ساعتی که کاربرانت از اپ استفاده می کنند تغییر بده. مثلا  اگر در اپ Navfree GPS  بصورت خودکار از روز به شب تعویض می کنه٬ و نقشه ای را نشان می ده که برای رانندگی در شب مطمئن تر هست.
+- از مکان یاب برای شناسایی کاربرانت استفاده کن و بهشون محتویات مناسب نزدیک  و تخفیف ها را نشان بده. مثلا موتور جستجوی گوگل برای پیدا کردن یک فیلم نزدیک ترین سینما را به همراه لینک برای خرید بلیط نشون میده.
+- قدرت نفوذ داشته باش به اطلاعاتی که ارائه کردند و به ترجیحات و تنظیمات آنها احترام بزار. بعد از انجام یک پرواز از چند پروازی که باید انجام می دادم٬ TripIt به من اینها را نشون داد٬ از جمله پرواز٬‌ گیت برای پرواز بعدیم و همچنین مقدار زمانی که تا پرواز بعدی دارم. اپ United این کار را برای من انجام نداد با توجه به این اون بیشتر از من می دونست. می تونست به من پروازم و پروازهای ارتباطیم و اینکه در دو ساعت مانده به پرواز بعدیم  کجا راحت از وقتم استفاده کنم٬ با توجه به اینکه من عضو کلب United  بودم.
+- بهترین حالت  پیش فرض تجربه کاربری را برای دستگاه در نظر بگیر تجربه موبایل بری در صفحه های کوچک و یک چیزی مثل کامپیوتر برای تبلت ها) ولی این امکان را به کاربرانت برای داشتن امکانات پیشرفته بده. یک بحث گسترده در مورد اینکه چطور ما این را به کاربران ارائه بدیک به تازگی اتفاق افتاد با Jakob Nielsen که میگه یک وب سایت جدا برای موبایل (http://www.useit.com/alertbox/mobile-vs-full-sites.html) و Josh Clark  بحث میکنه برای طراحی پاسخگو یا responsive design (http://www.netmagazine.com/opinions/nielsen-wrong-mobile); و بقیه معتقد هستند که هر دو اینها اشتباه می کنند. (http://www.netmagazine.com/opinions/nielsen-vs-clark-theyre-both-wrong)
 
 ### خواندنی های اضافی 
-- “[The Context of Mobile Interaction](http://www.giantant.com/output/mobile_context_model.pdf)” (0.2 MB, PDF), Nadav Savio and Jared Braiterman
-- “[On Mobile Context](http://blog.cloudfour.com/on-mobile-context/),” Jason Grigsby
-Don’t miss the links to resources on the mobile context near the end.
-- “[When and Where Are People Using Mobile Devices?](http://www.lukew.com/ff/entry.asp?1263),” Luke Wroblewski
+- “[چهار چوب تعامل موبایل] (http://www.giantant.com/output/mobile_context_model.pdf)” (0.2 MB, PDF), Nadav Savio and Jared Braiterman
+- “[ در چارچوب موبایل] (http://blog.cloudfour.com/on-mobile-context/),” Jason Grigsby
+لینک های منابع در مورد چارچوب موبایل نزدیک به پایان از دست نده.
+- “[مردم کی و کجا از دستگاه های موبایل استفاده می کنند ؟] (http://www.lukew.com/ff/entry.asp?1263),” Luke Wroblewski
 
 ## کاربردپذیری
-This is the overall measure of how well the information architecture, design, content and other elements work together to enable users to accomplish their goals.
+این یک اندازه گیری کلی هست برای اینکه چقدر خوب  معماری اطلاعات٬ طراحی٬ محتوا و دیگر المان ها با هم کار می کنند تا کاربران تونایی به انجام رساندن اهدافشون را داشته باشند. 
 
 ###دستورالعمل
-- Make it clear to the user what can be selected, tapped or swiped (this is known as affordance), especially on touchscreen devices. One of the big findings of [Nielsen Norman Group’s usability studies of the iPad](http://www.nngroup.com/reports/mobile/ipad/) was that users didn’t know what was touchable or tappable. Another issue was swipe ambiguity: when the same swipe gesture means different things in different areas of a screen. Ensure that touchability is clear and that items such as links, icons and buttons are visibly tappable.
-- For touchscreen devices, ensure that touch targets are appropriately sized and well spaced to avoid selection errors. Also, place touch targets in the appropriate screen zones; for example, put destructive actions such as those for deletion in the “Reach” zone, as shown by Luke Wroblewski in his book *Mobile First*.
-- Follow conventions and patterns to reduce the learning curve for users and to make the mobile experience more intuitive. Dedicated apps should follow platform-specific standards and guidelines. A comprehensive collection of links to official UI and UX guidelines is available in the article “[UI Guidelines for Mobile and Tablet Web App Design](http://www.mobilexweb.com/blog/ui-guidelines-mobile-tablet-design)” on Breaking the Mobile Web.
-- Ensure usability in variable conditions, including for daylight glare and changed angle of viewing and orientation, by paying attention to design elements like contrast, color, typography and font size.
-- Do not rely on technology that is not universally supported by your audience’s devices, including Java, JavaScript, cookies, Flash, frames, pop-ups and auto-refreshing. When opening new windows or transitioning from an app to the browser, warn users to avoid overwriting already open tabs.
+-برای کاربرانت مشخص کن که چه چیزی را می تونن انتخاب کنن٬‌ بهش ضربه بزنند یا جا با جا کنن٬ مخصوصا در دستگاه دارای قابلیت لمسی. یکی از یافته های بزرگ  [Nielsen Norman Group’s تحقیقات برای قابلیت های استفاده آیپد ](http://www.nngroup.com/reports/mobile/ipad/) این بود که کاربران نمی داستند چی قابل دست  و ضربه زدن است. مشکل دیگه ابهام برای کشیدن بود:‌ وقتی که ژست کشیدن می تونه همونی باشه که برای کار دیگری در جای دیگه استفاده میشه. اطمینان حاصل کن که امکان تاچ کردن بر روی ایتم براحتی اتفاق می افته مثل لینک ها٬ ایکن ها و دکمه ها حتما مشخص هستند 
+- برای دستگاه های لمسی٬ اطمینان حاصل کن که اندازه درسته٬ به خوبی فضا داره تا از خطا هنگام انتخاب کردن جلوگیری کنی. همچنین قسمت انتخابی را به در صفحه قرار بده; 
+- از معاهدات و پترن های پیروی کن تا از پیچیدگی های یادگیری برای  کاربران کم کنی و تجربه موبایل را بیشتر ساده بکنی. اپ های اختصاصی باید یک پلتفرم و  استانداردها و راهنماهای خاص را دنبال کنند. مجموعه جامعی از لینک هایی رسمی برای  UI  و راهنماهای UX در این مقاله موجود هست.  “[UI Guidelines for Mobile and Tablet Web App Design](http://www.mobilexweb.com/blog/ui-guidelines-mobile-tablet-design)” on Breaking the Mobile Web.
+-  اطمینان پیدا کن از  قابلیت استفاده در شرایط متغیر٬ شامل تابش شدید نور به دستگاه٬ تغییر زاویه دید و جهت٬ با توجه کردن به المان های طراحی٬‌کنتراست٬ رنگ٬ تایپوگرافی و سایز.
+- به تکنولوژی هایی که به صورت جهانی توسط مخاطبان دستگاه ها ازشون ساپورت نمیشه اتکا نکن٬ از جمله   Java, JavaScript, cookies, Flash, frames, pop-ups  و  auto-refreshing. وقتی که یک پنجره جدید یا جابجایی از اپ به مرورگر باز میشه به کاربران اطلاع بده تا از overwriting بر روی تب های که باز هست جلوگیری کنه. 
 
 ### خواندنی های اضافی 
-- “[Usability of iPad Apps and Websites](http://www.nngroup.com/reports/mobile/ipad/),” Nielsen Norman Group
-- “[UI Guidelines for Mobile and Tablet Web App Design](http://www.mobilexweb.com/blog/ui-guidelines-mobile-tablet-design),” Max Firtman
-- “[Mobile Usability Update](http://www.useit.com/alertbox/mobile-usability.html),” Jakob Nielsen, Alertbox
+- “[قابلیت های اپلیکیشن های آی پد و وب سایت ها] (http://www.nngroup.com/reports/mobile/ipad/),” Nielsen Norman Group
+ “[UI راهنمای طراحی اپ های وب برای موبایل و تبلت ](http://www.mobilexweb.com/blog/ui-guidelines-mobile-tablet-design),” Max Firtman
+- “[به روز رسانی قابلیت های موبایل] (http://www.useit.com/alertbox/mobile-usability.html),” Jakob Nielsen, Alertbox
 
 ## قابلیت اعتماد
-This relates to the level of confidence, trust and comfort that users feel when using a mobile website or app. According to a [2011 study by Truste and Harris Interactive](http://www.truste.com/why_TRUSTe_privacy_services/harris-mobile-survey/), privacy and security are the top two concerns among smartphone users:
- - **Privacy and security are the top two concerns among smartphone users**.
+این به میزان اعتماد ٬ اطمینان و راحتی کاربران هنگام کار کردن با وب های موبایل یا اپلیکیشن ها داره.  [2011 study by Truste and Harris Interactive](http://www.truste.com/why_TRUSTe_privacy_services/harris-mobile-survey/), حریم خصوصی و امنیت تو نگرانی اصلی کاربران کاربران تلفن های هوشمند است.
+ - **حریم شخصی و امنیت دو نگرانی اصلی کاربران تلفن های هوشمند است **.
 
 ###دستورالعمل
-- Do not collect or use personal information (such as location and contact list) from mobile devices without the explicit permission of the user. The first few months of this year have seen numerous reports of apps secretly copying smartphone address books, [with watchdogs up in arms](http://venturebeat.com/2012/02/22/privacy-policy-apps/) and [users retaliating](http://venturebeat.com/2012/03/17/apple-address-book-lawsuit/).
-- Make it easy for users to control how their personal information is shared in a mobile app by asking before collecting their location data and by allowing them to opt out of targeted advertising.
-- Clearly state your business practices (including for privacy, security and returns), and present them contextually (such as by displaying links to your privacy and security policies on the registration screen). The policies themselves should be accessible in a secondary section of the mobile user experience (such as the footer or a “More” tab). Reinforce credibility by displaying trusted badges, especially when users need to trust you with their personal or financial information.
-- Present policies appropriately on mobile devices by offering a concise summary and an option to email the entire policy. Privacy and security policies tend to be notoriously long and full of boring legalese that users often blindly click through to continue what they really want to do, so make it easy for users who are interested in the fine print.
-- Don’t break the user’s workflow when displaying legalese. [Take them back to where](http://www.useit.com/alertbox/disrupting-users.html) they were before being interrupted, instead of making them start all over.
+- اطلاعات شخصی کاربران را جمع آوری  و استفاده نکن ( مثل مکان٬ لیست تماس) از دستگاه های  موبایل بدون اجازه کاربران. طی چند ماه اول امسال گزارش هایی داشتیم که یک سری اپلیکیشن ها بصورت مخفی اطلاعات کاربران را کپی می کردند. (http://venturebeat.com/2012/02/22/privacy-policy-apps/) and [users retaliating](http://venturebeat.com/2012/03/17/apple-address-book-lawsuit/).
+- برای کاربران  کنترل اطلاعاتی را که با برنامه های موبایل به اشتراک گذاشتن  را آسان کن با سوال کردن قبل از اینکه اطلاعاتشون را بگیریم. 
+- شیوه ی کسب و کار خودت را واضح کن (از جمله حریم خصوصی٬ امنیت و برگرداندن) و  محتوای آنها را ارائه کن (از طریق نشان دادن  لینک هایی به حریم خصوصی و سیاست های امنیتی در صفحه ثبت نام) سیاست ها خودش باید قابل دسترسی باشه  در قسمت دوم تجربه کاربری موبایل (مثل پایین صفحه یا تب “ بیشتر“) . اعتبارت را تقویت کن با نمایش نشانه های  قابل اعتماد٬ مخصوصا وقتی کاربران نیاز به اعتماد دارند با اطلاعات شخصیشون یا اطلاعات مالی .
+- سیاست هات را به درستی با  خلاصه اون یا گزینه ای که امکان میده تمام سیاست ها را از طریق ایمیل دریافت کرد   ارائه کن. سیاست های حریم خصوصی و امنیت معمولا خیلی طولانی٬ خسته کننده و قانونی هستند در نتیجه کاربرها چشم بسته بهش نگاه می کنند٬ ولی تو  امکان پرینت را برای کسانی که علاقه مند هستند بزار. 
+- کار کاربرها را خراب نکن با نشان دادن نوشته های قانونی. به جایی ببرشون که قبل از  مزاحمت تو بودند. (http://www.useit.com/alertbox/disrupting-users.html)
 
 ### خواندنی های اضافی 
 - “[لایه های خط و مشی طراحی](http://www.truste.com/blog/2011/05/20/layered-policy-and-short-notice-design/)“, TRUSTe Blog
 
 ## انتقادات و پیشنهادات (فیدبک)
-This has to do with the methods for attracting the user’s attention and displaying important information.
+این مربوط به متدهایی برای جلب توجه کاربران و نشان دادن اطلاعات مهم میشه. 
 
 ###دستورالعمل
 - Minimize the number of alerts the app displays, and ensure that each alert offers critical information and useful choices. For a smile, look at Chris Crutchfield’s [video on notification and alert overload](http://vimeo.com/35873217).
 - Keep alerts brief and clear, explaining what caused the alert and what the user can do, along with clearly labeled buttons.
-- Notifications should be brief and informative, not interfere with anything the user is doing, and be easy to act on or dismiss.
+- تذکر باید خیلی کوتاه و حاوی اطلاعات مفید باشه٬ نه اینکه مزاحم کاربر بشه با هر کاری که انجام می ده و براحتی بشه آن را رد کرد. 
 - فیدبک ها و تاییده ها را طوری در صفحه نشان بده که مزاحم کاربرها نشی. 
 - If your app displays badges and status bar notifications, keep the badges updated and clear them only when the user has attended to the new information. Chase clears the notifications badge for its mobile app the moment the user visits the notification section, even before the user has seen which of their multiple accounts triggered the badge, forcing them to hunt through each account to see what triggered it.
 
@@ -161,10 +161,10 @@ This has to do with the methods for attracting the user’s attention and displa
 - “[فصل هشتم: فیدبک و بهره وری ](http://mobiledesignpatterngallery.com/mobile-patterns.php?colid=65438029-72157627731646558),” Mobile Design Pattern Gallery, Theresa Neil
 
 ## کمک
-This relates to the options, products and services that are available to assist the user in using the website or app.
+این مربوط به گزینه ها٬ محصولات و خدماتی  موجودی هست که به کاربران کمک می کنه هنگامی که از وب سایت یا اپلیکیشن استفاده می کنند. 
 
 ###دستورالعمل
-- Make it easy for users to access help and support options. Users commonly look for help in the footer of a mobile website and in the toolbar or tab bar of an app.
+- برای کاربران دسترسی به کمک و گزینه های پشتیبانی را آسان کن. معمولا کاربران در پایین صفحه وب سایت ورژن موبایل و نوار ابزار یا  نوار زبانه اپلیکیشن  به دنبال کمک هستند 
 - Offer multiple ways to get support, including options relevant in a mobile context, such as self-serve FAQs, live support via click-to-call, and near-real-time Direct Message tweets. Two financial service companies that actively offer support via Twitter are American Express and Citibank.
 - Present a quick introduction and short tutorial on using the app when it first launches, with options for the user to skip and view later.
 - When introducing new or unique functionality (such as when check depositing via mobile apps was first introduced), offer contextual help and tips to guide users the first time, and as a refresher for infrequently used functionality.
@@ -182,14 +182,14 @@ This relates to content and features that create a sense of social participation
 - Incorporate your social presence and activity into your website’s mobile experience by showing your recent activity and offering an easy way to follow or like you on these networks.
 - Integrate social networking features into your website’s mobile experience to make it easy for users to connect with their own social networks. This could be as simple as [using APIs](http://www.verious.com/marketplace/social-networking.php) to enable social sharing, bookmarking, tagging, liking and commenting.
 - Invite users to generate content featuring your brand, product or service from their mobile device, offering some incentive in return. For example, the burger chain Red Robin could invite the user to share a picture of their child reading a school book at one of its locations to get a free milkshake.
-- Provide mobile offers that can be shared and go viral. American Express currently offers savings and discounts to users who [sync their profiles](https://sync.americanexpress.com/) on networks such as Facebook, Twitter and Foursquare to their credit card.
+- تخفیف های را عرضه کن که می تونه به اشتراک و گذاشته بشه و همه جا پخش بشه.  مثلا American Express به تازگی برای کاربرانی  که حسابشون کارتوشون  با شبکه های اجتماعی با وب سایت سینک (وصل شده) ا تخفیف ویژه گذاشته.(https://sync.americanexpress.com/) 
 - Apps that rely on social contributions from users should look at ways to seed content in a way that is useful and, eventually, self-sustaining. For example, the My TSA app has a user-contributed feature that shows the wait times at security checkpoints, but it often shows outdated information, even though airport staff post physical signs of wait times at some airports.
 
 ### خواندنی های اضافی 
 “[راهنمایی صریح برای اضافه کردن ویژگی های اجتماعی به  اپلیکیشن موبایلت] (http://www.verious.com/marketplace/social-networking.php)“,
 
 ## بازار یابی
-This has to do with the methods by which a user finds a website or app and the factors that encourage repeated usage.
+این درباره متدهایی  است که کاربران آن کشف کردند برای  تشویق استفاده مکرر از وب سایت٬ یا اپلیکیشن.
 
 ###دستورالعمل
 - Ensure findability by optimizing for mobile search and discovery, such as by keeping URLs short. If you have a separate mobile website, follow URL naming conventions (```m.site.com``` or ```mobile.site.com```). In mobile search results, provide quick access to location-based content (e.g. directions from one’s current location) and device-formatted options (e.g. click to call).
