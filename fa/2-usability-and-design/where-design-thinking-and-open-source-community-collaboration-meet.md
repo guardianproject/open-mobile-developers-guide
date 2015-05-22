@@ -6,7 +6,7 @@ In comparing traits associated with design thinking collaboration and collaborat
 
 There's also one really interesting contrast: The mindset you tend to see when generating and choosing ideas. But what I'll suggest here is that when you apply the best elements of these two mindsets at just the right time in their respective processes, the results can be pretty amazing.
 
-**I'll start with design thinking**.
+** من با فکر کردن به طراحی شروع می کنم**.
 
 The brainstorming phase of design thinking is probably the most recognizable part of the process. These brainstorming sessions are designed to be open. Lots of ideas are generated, ideas are built on ideas--there are no bad ones. To do that, we have to establish ground rules. [Stanford's d.school posts their list](https://dschool.stanford.edu/blog/2009/10/12/rules-for-brainstorming/), and our rules at Red Hat have many similarities. Rather than criticizing someone's ideas, you have to build on them and suggest your own. No devil's advocates allowed. In this environment, a good collaborator is one who generates and encourages the most ideas from others.
 

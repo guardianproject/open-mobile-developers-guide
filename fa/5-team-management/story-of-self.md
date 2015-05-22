@@ -1,8 +1,8 @@
-# STORY OF SELF
+#  داستانی از خودت
 
-Source: [NOI's Story of Self](http://neworganizing.com/toolbox/training/story-of-self/materials)
+منبع : [NOI's Story of Self Materials](http://neworganizing.com/toolbox/training/story-of-self/materials)
 
-## The story of self and motivating a team
+## داستان  یک شخص و ایجاد یک جنبش
 
 How can you lead others if they don't know who you are, where you come from, and what your values are? Mastering the art of public narrative allows you to establish firm ground with your constituency in which to collaborate, lead and find common purpose. Each of us has a story to tell that can move others to action. Story of Self is the first part to public narrative where you will learn to convey why you are called to leadership in your movement.
 
